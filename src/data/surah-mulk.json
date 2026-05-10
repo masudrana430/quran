@@ -1,0 +1,2945 @@
+{
+  "surah": {
+    "number": 67,
+    "nameEnglish": "Al-Mulk",
+    "nameBangla": "আল-মুলক",
+    "nameArabic": "الملك",
+    "versesCount": 30
+  },
+  "ayahs": [
+    {
+      "ayahNumber": 1,
+      "verseKey": "67:1",
+      "arabic": "تَبَـٰرَكَ ٱلَّذِى بِيَدِهِ ٱلْمُلْكُ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "banglaTranslation": "বরকতময় তিনি যার হাতে সর্বময় কর্তৃত্ব। আর তিনি সব কিছুর উপর সর্বশক্তিমান।",
+      "audio": "/audio/surah-mulk/67-1.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "تَبَـٰرَكَ",
+          "transliteration": "tabāraka",
+          "banglaMeaning": "বরকতময়",
+          "memoryTrick": "এটি 'বারাকাহ' (Barakah) থেকে এসেছে। আমরা বাংলায় বলি অনেক বরকত হয়েছে।",
+          "root": "ب ر ك"
+        },
+        {
+          "position": 2,
+          "arabic": "ٱلَّذِى",
+          "transliteration": "alladhī",
+          "banglaMeaning": "সেই (সত্তা) / যিনি",
+          "memoryTrick": "এটি একটি রিলেটিভ প্রোনাউন, যা 'যিনি' বা 'যাকে' বোঝাতে বারবার ব্যবহৃত হয়।",
+          "root": "الذ"
+        },
+        {
+          "position": 3,
+          "arabic": "بِيَدِهِ",
+          "transliteration": "biyadihi",
+          "banglaMeaning": "যার হাতে",
+          "memoryTrick": "আরবী 'ইয়াদ' (Yad) মানে হাত। 'বি' (সাথে/দ্বারা) + 'ইয়াদ' (হাত) + 'হি' (তার)।",
+          "root": "ي د ي"
+        },
+        {
+          "position": 4,
+          "arabic": "ٱلْمُلْكُ",
+          "transliteration": "l-mul'ku",
+          "banglaMeaning": "কর্তৃত্ব / রাজত্ব",
+          "memoryTrick": "আমরা বলি 'নিজ মুলুকে রাজা'। মুলুক মানে দেশ বা রাজত্ব।",
+          "root": "ম ল ক"
+        },
+        {
+          "position": 5,
+          "arabic": "وَهُوَ",
+          "transliteration": "wahuwa",
+          "banglaMeaning": "এবং তিনিই",
+          "memoryTrick": "'ওয়া' মানে এবং, 'হুয়া' মানে তিনি (He)।",
+          "root": "و ه و"
+        },
+        {
+          "position": 6,
+          "arabic": "عَلَىٰ",
+          "transliteration": "ʿalā",
+          "banglaMeaning": "উপর",
+          "memoryTrick": "এটি কোনো কিছুর 'উপরে' (On/Upon) অবস্থান বোঝাতে বসে।",
+          "root": "ع ل و"
+        },
+        {
+          "position": 7,
+          "arabic": "كُلِّ",
+          "transliteration": "kulli",
+          "banglaMeaning": "সব / প্রত্যেক",
+          "memoryTrick": "বাংলায় 'কুল' মানে সব, যেমন: 'কুল-মাখলুকাত' (সব সৃষ্টি)।",
+          "root": "ك ل ل"
+        },
+        {
+          "position": 8,
+          "arabic": "شَىْءٍ",
+          "transliteration": "shayin",
+          "banglaMeaning": "কিছু / বস্তু",
+          "memoryTrick": "যেকোনো বস্তু বা বিষয়কে আরদীতে 'শাই' (Shay) বলা হয়।",
+          "root": "ش ي ا"
+        },
+        {
+          "position": 9,
+          "arabic": "قَدِيرٌ",
+          "transliteration": "qadīrun",
+          "banglaMeaning": "ক্ষমতাবান",
+          "memoryTrick": "এটি আল্লাহর নাম 'আল-কাদির' এবং 'কুদরত' (ক্ষমতা) শব্দটির সাথে যুক্ত।",
+          "root": "ق د ر"
+        }
+      ]
+    },
+    {
+      "ayahNumber": 2,
+      "verseKey": "67:2",
+      "arabic": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُৱَ ٱلْعَزِيزُ ٱلْغَفُورُ",
+      "banglaTranslation": "যিনি সৃষ্টি করেছেন মৃত্যু ও জীবন যাতে তিনি তোমাদের পরীক্ষা করতে পারেন যে, আমলের দিক থেকে তোমাদের মধ্যে কে উত্তম; আর তিনি মহাপরাক্রমশালী, পরম ক্ষমাশীল।",
+      "audio": "/audio/surah-mulk/67-2.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "ٱلَّذِى",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যিনি",
+          "memoryTrick": "এটি একটি লিঙ্ক করার শব্দ (যিনি/যাকে)।",
+          "root": "الذ"
+        },
+        {
+          "position": 2,
+          "arabic": "خَلَقَ",
+          "transliteration": "khalaqa",
+          "banglaMeaning": "সৃষ্টি করেছেন",
+          "memoryTrick": "বাংলা শব্দ 'মাখলুক' মানে সৃষ্টি। খলক মানেও সৃষ্টি করা।",
+          "root": "خ ل ق"
+        },
+        {
+          "position": 3,
+          "arabic": "ٱلْمَوْتَ",
+          "transliteration": "l-mawta",
+          "banglaMeaning": "মৃত্যু",
+          "memoryTrick": "বাংলা শব্দ 'মউত' (মৃত্যু) এর সাথে সরাসরি মিল।",
+          "root": "م و ت"
+        },
+        {
+          "position": 4,
+          "arabic": "وَٱلْحَيَوٰةَ",
+          "transliteration": "wal-ḥayata",
+          "banglaMeaning": "এবং জীবন",
+          "memoryTrick": "বাংলা শব্দ 'হায়াত' মানে জীবন। 'ওয়া' মানে এবং।",
+          "root": "ح ي ي"
+        },
+        {
+          "position": 5,
+          "arabic": "لِيَبْلُوَكُمْ",
+          "transliteration": "liyabluwakum",
+          "banglaMeaning": "তোমাদের পরীক্ষা করার জন্য",
+          "memoryTrick": "পরীক্ষা বা 'বালা' (বিপদ/পরীক্ষা) থেকে এসেছে।",
+          "root": "ب ل و"
+        },
+        {
+          "position": 6,
+          "arabic": "أَيُّكُمْ",
+          "transliteration": "ayyukum",
+          "banglaMeaning": "তোমাদের মধ্যে কে",
+          "memoryTrick": "'আইয়ু' মানে কে, 'কুম' মানে তোমাদের।",
+          "root": "أي"
+        },
+        {
+          "position": 7,
+          "arabic": "أَحْسَنُ",
+          "transliteration": "aḥsanu",
+          "banglaMeaning": "সর্বোত্তম",
+          "memoryTrick": "'হাসান' মানে সুন্দর বা ভালো। আহসান মানে সবচাইতে ভালো।",
+          "root": "ح س ن"
+        },
+        {
+          "position": 8,
+          "arabic": "عَمَلًا",
+          "transliteration": "ʿamalan",
+          "banglaMeaning": "আমলে",
+          "memoryTrick": "বাংলায় আমরা বলি 'নেক আমল' বা কাজ।",
+          "root": "ع م ل"
+        },
+        {
+          "position": 9,
+          "arabic": "وَهُوَ",
+          "transliteration": "wahuwa",
+          "banglaMeaning": "এবং তিনিই",
+          "memoryTrick": "'ওয়া' (এবং) + 'হুয়া' (তিনি)।",
+          "root": "و ه و"
+        },
+        {
+          "position": 10,
+          "arabic": "ٱلْعَزِيزُ",
+          "transliteration": "l-ʿazīzu",
+          "banglaMeaning": "পরাক্রমশালী",
+          "memoryTrick": "আল্লাহর নাম 'আল-আজিজ' বা শক্তিশালী।",
+          "root": "ع ز ز"
+        },
+        {
+          "position": 11,
+          "arabic": "ٱلْغَفُورُ",
+          "transliteration": "l-ghafūru",
+          "banglaMeaning": "ক্ষমাশীল",
+          "memoryTrick": "বাংলা শব্দ 'মাগফিরাত' বা ক্ষমা থেকে মনে রাখুন।",
+          "root": "غ ف ر"
+        }
+      ]
+    },
+    {
+      "ayahNumber": 3,
+      "verseKey": "67:3",
+      "arabic": "ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَـٰنِ مِن تَفَـٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "banglaTranslation": "যিনি সাত আসমান স্তরে স্তরে সৃষ্টি করেছেন। পরম করুণাময়ের সৃষ্টিতে তুমি কোন অসামঞ্জস্য দেখতে পাবে না। তুমি আবার দৃষ্টি ফেরাও; কোন ত্রুটি দেখতে পাচ্ছ কি?",
+      "audio": "/audio/surah-mulk/67-3.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "ٱلَّذِى",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যিনি",
+          "memoryTrick": "পুনরাবৃত্তি (আগের আয়াতের মতো)।",
+          "root": "الذ"
+        },
+        {
+          "position": 2,
+          "arabic": "خَلَقَ",
+          "transliteration": "khalaqa",
+          "banglaMeaning": "সৃষ্টি করেছেন",
+          "memoryTrick": "'খালিক' (সৃষ্টিকর্তা) শব্দটির সাথে মিল।",
+          "root": "خ ل ق"
+        },
+        {
+          "position": 3,
+          "arabic": "سَبْعَ",
+          "transliteration": "sabʿa",
+          "banglaMeaning": "সাত",
+          "memoryTrick": "সাত সংখ্যার আরবী নাম।",
+          "root": "س ب ع"
+        },
+        {
+          "position": 4,
+          "arabic": "سَمَـٰوَٰتٍ",
+          "transliteration": "samāwātin",
+          "banglaMeaning": "আকাশ",
+          "memoryTrick": "বাংলায় আমরা 'আসমান' বলি।",
+          "root": "س م و"
+        },
+        {
+          "position": 5,
+          "arabic": "طِبَاقًا",
+          "transliteration": "ṭibāqan",
+          "banglaMeaning": "স্তরে স্তরে",
+          "memoryTrick": "একটির ওপর আর একটি স্তর বা 'তবক'।",
+          "root": "ط ب ق"
+        },
+        {
+          "position": 6,
+          "arabic": "مَّا",
+          "transliteration": "mā",
+          "banglaMeaning": "না",
+          "memoryTrick": "আরবীতে না-বোধক শব্দ।",
+          "root": "ما"
+        },
+        {
+          "position": 7,
+          "arabic": "تَرَىٰ",
+          "transliteration": "tarā",
+          "banglaMeaning": "দেখতে পাবে",
+          "memoryTrick": "'রুইয়াত' বা দর্শন করা।",
+          "root": "ر أ ي"
+        },
+        {
+          "position": 8,
+          "arabic": "فِى",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "ভেতরে বা ইন (In) বোঝাতে বসে।",
+          "root": "في"
+        },
+        {
+          "position": 9,
+          "arabic": "خَلْقِ",
+          "transliteration": "khalqi",
+          "banglaMeaning": "সৃষ্টির",
+          "memoryTrick": "'খলক' থেকে।",
+          "root": "خ ل ق"
+        },
+        {
+          "position": 10,
+          "arabic": "ٱلرَّحْمَـٰنِ",
+          "transliteration": "l-raḥmāni",
+          "banglaMeaning": "দয়াবানের",
+          "memoryTrick": "আল্লাহর নাম 'রহমান' বা দয়ালু।",
+          "root": "ر ح م"
+        },
+        {
+          "position": 11,
+          "arabic": "مِن",
+          "transliteration": "min",
+          "banglaMeaning": "কোন / থেকে",
+          "memoryTrick": "ফ্রম (From) অর্থে ব্যবহৃত।",
+          "root": "من"
+        },
+        {
+          "position": 12,
+          "arabic": "تَفَـٰوُتٍ",
+          "transliteration": "tafāwutin",
+          "banglaMeaning": "অসঙ্গতি",
+          "memoryTrick": "ফারাক বা অমিল।",
+          "root": "ف و ت"
+        },
+        {
+          "position": 13,
+          "arabic": "فَٱرْجِعِ",
+          "transliteration": "fa-ir'jiʿi",
+          "banglaMeaning": "অতএব ফিরাও",
+          "memoryTrick": "'রুজু' করা বা ফিরে আসা।",
+          "root": "ر ج ع"
+        },
+        {
+          "position": 14,
+          "arabic": "ٱلْبَصَرَ",
+          "transliteration": "l-baṣara",
+          "banglaMeaning": "দৃষ্টিশক্তি",
+          "memoryTrick": "আল্লাহর গুণ 'বাসির' (সব দেখেন)।",
+          "root": "ب ص ر"
+        },
+        {
+          "position": 15,
+          "arabic": "هَلْ",
+          "transliteration": "hal",
+          "banglaMeaning": "কি?",
+          "memoryTrick": "প্রশ্ন করার জন্য শুরুতে বসে।",
+          "root": "هل"
+        },
+        {
+          "position": 16,
+          "arabic": "تَرَىٰ",
+          "transliteration": "tarā",
+          "banglaMeaning": "দেখতে পাও",
+          "memoryTrick": "রুইয়াত বা দেখা।",
+          "root": "ر أ ي"
+        },
+        {
+          "position": 17,
+          "arabic": "مِن",
+          "transliteration": "min",
+          "banglaMeaning": "কোন",
+          "memoryTrick": "ফ্রম বা অফ।",
+          "root": "من"
+        },
+        {
+          "position": 18,
+          "arabic": "فُطُورٍ",
+          "transliteration": "fuṭūrin",
+          "banglaMeaning": "ত্রুটি / ফাটল",
+          "memoryTrick": "ফাটল বা ছিদ্র। রোজা ভাঙার শব্দ 'ইফতার' এর সাথে মিল (যা রোজা ভেঙে দেয়)।",
+          "root": "ف ط ر"
+        }
+      ]
+    },
+    {
+      "ayahNumber": 4,
+      "verseKey": "67:4",
+      "arabic": "ثُمَّ ٱرْجِعِ ٱلْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ ٱلْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-4.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "thumma",
+          "banglaMeaning": "আবার",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "ir'jiʿi",
+          "banglaMeaning": "ফিরাও",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "l-baṣara",
+          "banglaMeaning": "দৃষ্টি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "karratayni",
+          "banglaMeaning": "বার বার",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "yanqalib",
+          "banglaMeaning": "ফিরে আসবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "ilayka",
+          "banglaMeaning": "তোমার দিকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "l-baṣaru",
+          "banglaMeaning": "দৃষ্টি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "khāsi-an",
+          "banglaMeaning": "ব্যর্থ হয়ে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "wahuwa",
+          "banglaMeaning": "এবং তা (হবে)",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "ḥasīrun",
+          "banglaMeaning": "ক্লান্তশ্রান্ত",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 5,
+      "verseKey": "67:5",
+      "arabic": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَـٰبِيحَ وَجَعَلْنَـٰهَا رُجُومًا لِّلشَّيَـٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-5.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "walaqad",
+          "banglaMeaning": "এবং নিশ্চয়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "zayyannā",
+          "banglaMeaning": "আমরা সাজিয়েছি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "l-samāa",
+          "banglaMeaning": "আকাশকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "l-dun'yā",
+          "banglaMeaning": "নিকটবর্তী",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "bimaṣābīḥa",
+          "banglaMeaning": "প্রদীপরাশি দিয়ে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "wajaʿalnāhā",
+          "banglaMeaning": "এবং তা আমরা বানিয়েছি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "rujūman",
+          "banglaMeaning": "নিক্ষেপ উপকরণ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "lilshayāṭīni",
+          "banglaMeaning": "শয়তানদের জন্য",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "wa-aʿtadnā",
+          "banglaMeaning": "এবং আমরা প্রস্তুত করে রেখেছি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "lahum",
+          "banglaMeaning": "তাদের জন্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "ʿadhāba",
+          "banglaMeaning": "শাস্তি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "l-saʿīri",
+          "banglaMeaning": "প্রজ্জ্বলিত আগুনের",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 6,
+      "verseKey": "67:6",
+      "arabic": "وَلِلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ عَذَابُ جَهَنَّمَ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-6.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "walilladhīna",
+          "banglaMeaning": "এবং যারা জন্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "kafarū",
+          "banglaMeaning": "অস্বীকার করেছে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "birabbihim",
+          "banglaMeaning": "তাদের রবকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "ʿadhābu",
+          "banglaMeaning": "শাস্তি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "jahannama",
+          "banglaMeaning": "জাহান্নামের",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "wabi'sa",
+          "banglaMeaning": "এবং অত্যন্ত খারাপ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "l-maṣīru",
+          "banglaMeaning": "প্রত্যাবর্তন স্থল",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 7,
+      "verseKey": "67:7",
+      "arabic": "إِذَآ أُلْقُوا۟ فِيهَا سَمِعُوا۟ لَهَا شَهِيقًا وَهِىَ تَفُورُ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-7.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "idhā",
+          "banglaMeaning": "যখন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "ul'qū",
+          "banglaMeaning": "নিক্ষিপ্ত হবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "fīhā",
+          "banglaMeaning": "তার মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "samiʿū",
+          "banglaMeaning": "তারা শুনবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "lahā",
+          "banglaMeaning": "তার জন্য",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "shahīqan",
+          "banglaMeaning": "বিকট শব্দ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "wahiya",
+          "banglaMeaning": "এবং তা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "tafūru",
+          "banglaMeaning": "উদ্বেলিত হবে",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 8,
+      "verseKey": "67:8",
+      "arabic": "تَكَادُ تَمَيَّزُ مِنَ ٱلْغَيْظِ ۖ كُلَّمَآ أُلْقِىَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ نَذِيرٌ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-8.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "takādu",
+          "banglaMeaning": "উপক্রম হবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "tamayyazu",
+          "banglaMeaning": "ফেটে পড়ার",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "mina",
+          "banglaMeaning": "মধ্য হতে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "l-ghayẓi",
+          "banglaMeaning": "রোষে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "kullamā",
+          "banglaMeaning": "যখনই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "ul'qiya",
+          "banglaMeaning": "নিক্ষিপ্ত হবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "fīhā",
+          "banglaMeaning": "তার মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "fawjun",
+          "banglaMeaning": "কোন দল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "sa-alahum",
+          "banglaMeaning": "জিজ্ঞেস তাদের করবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "khazanatuhā",
+          "banglaMeaning": "তার রক্ষীরা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "alam",
+          "banglaMeaning": "\"নাই কি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "yatikum",
+          "banglaMeaning": "তোমাদের কাছে আসে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "nadhīrun",
+          "banglaMeaning": "সতর্ককারী\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 9,
+      "verseKey": "67:9",
+      "arabic": "قَالُوا۟ بَلَىٰ قَدْ جَآءَنَا نَذِيرٌ فَكَذَّبْنَا وَقُلْنَا مَا نَزَّلَ ٱللَّهُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ كَبِيرٍ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-9.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qālū",
+          "banglaMeaning": "তারা বলবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "balā",
+          "banglaMeaning": "\"হ্যাঁ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "qad",
+          "banglaMeaning": "অবশ্যই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "jāanā",
+          "banglaMeaning": "এসেছিল আমাদের (কাছে)",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "nadhīrun",
+          "banglaMeaning": "সতর্ককারী",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "fakadhabnā",
+          "banglaMeaning": "তবে আমরা মিথ্যারোপ করেছিলাম",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "waqul'nā",
+          "banglaMeaning": "এবং আমরা বলে ছিলাম",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "mā",
+          "banglaMeaning": "\"নাই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "nazzala",
+          "banglaMeaning": "নাযিল করেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "l-lahu",
+          "banglaMeaning": "আল্লাহ্‌",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "min",
+          "banglaMeaning": "কোন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "shayin",
+          "banglaMeaning": "কিছু",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "in",
+          "banglaMeaning": "নও",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 14,
+          "arabic": "",
+          "transliteration": "antum",
+          "banglaMeaning": "তোমরা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 15,
+          "arabic": "",
+          "transliteration": "illā",
+          "banglaMeaning": "এছাড়া",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 16,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 17,
+          "arabic": "",
+          "transliteration": "ḍalālin",
+          "banglaMeaning": "গুমরাহীর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 18,
+          "arabic": "",
+          "transliteration": "kabīrin",
+          "banglaMeaning": "বড়\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 10,
+      "verseKey": "67:10",
+      "arabic": "وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَـٰبِ ٱلسَّعِيرِ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-10.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "waqālū",
+          "banglaMeaning": "এবং তারা বলবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "law",
+          "banglaMeaning": "\"'যদি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "kunnā",
+          "banglaMeaning": "আমরা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "nasmaʿu",
+          "banglaMeaning": "শুনতাম",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "aw",
+          "banglaMeaning": "অথবা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "naʿqilu",
+          "banglaMeaning": "আমরা বিবেচনা করতাম",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "mā",
+          "banglaMeaning": "না",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "kunnā",
+          "banglaMeaning": "আমরা হতাম",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "aṣḥābi",
+          "banglaMeaning": "অধিবাসীদের",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "l-saʿīri",
+          "banglaMeaning": "প্রজ্বলিত আগুনের\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 11,
+      "verseKey": "67:11",
+      "arabic": "فَٱعْتَرَفُوا۟ بِذَنۢبِهِمْ فَسُحْقًا لِّأَصْحَـٰبِ ٱلسَّعِيرِ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-11.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "fa-iʿ'tarafū",
+          "banglaMeaning": "এভাবে তারা স্বীকার করবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "bidhanbihim",
+          "banglaMeaning": "তাদের অপরাধকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "fasuḥ'qan",
+          "banglaMeaning": "অভিশাপ অতএব",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "li-aṣḥābi",
+          "banglaMeaning": "অধিবাসীদের জন্য",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "l-saʿīri",
+          "banglaMeaning": "প্রজ্বলিত আগুনের",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 12,
+      "verseKey": "67:12",
+      "arabic": "إِنَّ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-12.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "inna",
+          "banglaMeaning": "নিশ্চয়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "alladhīna",
+          "banglaMeaning": "যারা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "yakhshawna",
+          "banglaMeaning": "ভয় করে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "rabbahum",
+          "banglaMeaning": "তাদের রবকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "bil-ghaybi",
+          "banglaMeaning": "অদেখা অবস্থায়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "lahum",
+          "banglaMeaning": "তাদের জন্য",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "maghfiratun",
+          "banglaMeaning": "ক্ষমা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "wa-ajrun",
+          "banglaMeaning": "এবং প্রতিদান",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "kabīrun",
+          "banglaMeaning": "বড়",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 13,
+      "verseKey": "67:13",
+      "arabic": "وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-13.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "wa-asirrū",
+          "banglaMeaning": "এবং তোমরা গোপন কর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "qawlakum",
+          "banglaMeaning": "তোমাদের কথা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "awi",
+          "banglaMeaning": "অথবা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "ij'harū",
+          "banglaMeaning": "প্রকাশ কর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "bihi",
+          "banglaMeaning": "তাকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "innahu",
+          "banglaMeaning": "তিনি নিশ্চয়ই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "ʿalīmun",
+          "banglaMeaning": "খুব জ্ঞাত",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "bidhāti",
+          "banglaMeaning": "অবস্থা সম্পর্কে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "l-ṣudūri",
+          "banglaMeaning": "অন্তরগুলোর",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 14,
+      "verseKey": "67:14",
+      "arabic": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-14.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "alā",
+          "banglaMeaning": "না কি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "yaʿlamu",
+          "banglaMeaning": "তিনি জানেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "man",
+          "banglaMeaning": "যিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "khalaqa",
+          "banglaMeaning": "সৃষ্টি করেছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "wahuwa",
+          "banglaMeaning": "অথচ তিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "l-laṭīfu",
+          "banglaMeaning": "সূক্ষ্মদর্শী",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "l-khabīru",
+          "banglaMeaning": "খুব অবগত",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 15,
+      "verseKey": "67:15",
+      "arabic": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-15.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "huwa",
+          "banglaMeaning": "তিনিই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "jaʿala",
+          "banglaMeaning": "বানিয়েছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "lakumu",
+          "banglaMeaning": "তোমাদের জন্য",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "l-arḍa",
+          "banglaMeaning": "ভূতলকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "dhalūlan",
+          "banglaMeaning": "অধীন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "fa-im'shū",
+          "banglaMeaning": "তোমরা অতঃপর চল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "manākibihā",
+          "banglaMeaning": "তার বক্ষের",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "wakulū",
+          "banglaMeaning": "এবং তোমরা খাও",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "min",
+          "banglaMeaning": "হতে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "riz'qihi",
+          "banglaMeaning": "তার রিযক",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "wa-ilayhi",
+          "banglaMeaning": "এবং তাঁরই দিকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 14,
+          "arabic": "",
+          "transliteration": "l-nushūru",
+          "banglaMeaning": "পুনরুত্থান",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 16,
+      "verseKey": "67:16",
+      "arabic": "ءَأَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يَخْسِفَ بِكُمُ ٱلْأَرْضَ فَإِذَا هِىَ تَمُورُ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-16.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "a-amintum",
+          "banglaMeaning": "তোমরা নিরাপদ কি হয়েছ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "man",
+          "banglaMeaning": "(তাঁর থেকে) যিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "আছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "l-samāi",
+          "banglaMeaning": "আসমানে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "an",
+          "banglaMeaning": "যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "yakhsifa",
+          "banglaMeaning": "ধসিয়ে দেবেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "bikumu",
+          "banglaMeaning": "তোমাদের সহ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "l-arḍa",
+          "banglaMeaning": "মাটিকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "fa-idhā",
+          "banglaMeaning": "অতঃপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "hiya",
+          "banglaMeaning": "তা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "tamūru",
+          "banglaMeaning": "কাঁপবে",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 17,
+      "verseKey": "67:17",
+      "arabic": "أَمْ أَمِنتُم مَّن فِى ٱلسَّمَآءِ أَن يُرْسِلَ عَلَيْكُمْ حَاصِبًا ۖ فَسَتَعْلَمُونَ كَيْفَ نَذِيرِ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-17.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "am",
+          "banglaMeaning": "অথবা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "amintum",
+          "banglaMeaning": "তোমরা নির্ভয় হয়েছ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "man",
+          "banglaMeaning": "(তাঁর থেকে) যিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "আছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "l-samāi",
+          "banglaMeaning": "আসমানে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "an",
+          "banglaMeaning": "যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "yur'sila",
+          "banglaMeaning": "পাঠাবেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "ʿalaykum",
+          "banglaMeaning": "তোমাদের উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "ḥāṣiban",
+          "banglaMeaning": "কঙ্করবর্ষী ঝঞ্ঝা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "fasataʿlamūna",
+          "banglaMeaning": "তোমরা জানবে তখন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "kayfa",
+          "banglaMeaning": "কেমন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "nadhīri",
+          "banglaMeaning": "আমার সতর্কীকরণ",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 18,
+      "verseKey": "67:18",
+      "arabic": "وَلَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-18.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "walaqad",
+          "banglaMeaning": "এবং করে ছিল নিশ্চয়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "kadhaba",
+          "banglaMeaning": "মিথ্যারোপ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "alladhīna",
+          "banglaMeaning": "যারা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "min",
+          "banglaMeaning": "(ছিল)",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "qablihim",
+          "banglaMeaning": "তাদের পূর্বে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "fakayfa",
+          "banglaMeaning": "কেমন ফলে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "kāna",
+          "banglaMeaning": "ছিল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "nakīri",
+          "banglaMeaning": "আমার পাক্‌ড়াও",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 19,
+      "verseKey": "67:19",
+      "arabic": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَـٰٓفَّـٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَـٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-19.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "awalam",
+          "banglaMeaning": "কি নাই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "yaraw",
+          "banglaMeaning": "তারা দেখে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "ilā",
+          "banglaMeaning": "প্রতি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "l-ṭayri",
+          "banglaMeaning": "পাখিগুলির",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "fawqahum",
+          "banglaMeaning": "তাদের উপরে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "ṣāffātin",
+          "banglaMeaning": "পাখা বিস্তার করে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "wayaqbiḍ'na",
+          "banglaMeaning": "ও গুটিয়ে নেয়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "mā",
+          "banglaMeaning": "না",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "yum'sikuhunna",
+          "banglaMeaning": "তাদের ধরে ধরে (অন্য কেউ)",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "illā",
+          "banglaMeaning": "ছাড়া",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "l-raḥmānu",
+          "banglaMeaning": "দয়াবান",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "innahu",
+          "banglaMeaning": "তিনি নিশ্চয়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "bikulli",
+          "banglaMeaning": "সব উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 14,
+          "arabic": "",
+          "transliteration": "shayin",
+          "banglaMeaning": "কিছুর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 15,
+          "arabic": "",
+          "transliteration": "baṣīrun",
+          "banglaMeaning": "দৃষ্টিবান",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 20,
+      "verseKey": "67:20",
+      "arabic": "أَمَّنْ هَـٰذَا ٱلَّذِى هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَـٰنِ ۚ إِنِ ٱلْكَـٰفِرُونَ إِلَّا فِى غُرُورٍ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-20.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "amman",
+          "banglaMeaning": "অথবা কোন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "hādhā",
+          "banglaMeaning": "এমন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "huwa",
+          "banglaMeaning": "সেই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "jundun",
+          "banglaMeaning": "সৈন্যবাহিনী",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "lakum",
+          "banglaMeaning": "তোমাদের জন্য আছে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "yanṣurukum",
+          "banglaMeaning": "তোমাদের সাহায্য করবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "min",
+          "banglaMeaning": "থেকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "dūni",
+          "banglaMeaning": "ছাড়া",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "l-raḥmāni",
+          "banglaMeaning": "রহমান",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "ini",
+          "banglaMeaning": "নয়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "l-kāfirūna",
+          "banglaMeaning": "আমান্যকারীরা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "illā",
+          "banglaMeaning": "এ ছাড়া",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 14,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 15,
+          "arabic": "",
+          "transliteration": "ghurūrin",
+          "banglaMeaning": "ধোঁকার",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 21,
+      "verseKey": "67:21",
+      "arabic": "أَمَّنْ هَـٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى عُتُوٍّ وَنُفُورٍ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-21.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "amman",
+          "banglaMeaning": "কে অথবা আছে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "hādhā",
+          "banglaMeaning": "এমন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "yarzuqukum",
+          "banglaMeaning": "তোমাদের রিযক দেবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "in",
+          "banglaMeaning": "যদি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "amsaka",
+          "banglaMeaning": "তিনি বন্ধ করেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "riz'qahu",
+          "banglaMeaning": "তার রিযক",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "bal",
+          "banglaMeaning": "বরং",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "lajjū",
+          "banglaMeaning": "তারা অবিচল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "ʿutuwwin",
+          "banglaMeaning": "খোদাদ্রোহিতার",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "wanufūrin",
+          "banglaMeaning": "এবং সত্য পরিহারে",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 22,
+      "verseKey": "67:22",
+      "arabic": "أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-22.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "afaman",
+          "banglaMeaning": "যে অতএব কি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "yamshī",
+          "banglaMeaning": "চলে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "mukibban",
+          "banglaMeaning": "অধঃগতি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "ʿalā",
+          "banglaMeaning": "উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "wajhihi",
+          "banglaMeaning": "তার মুখের",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "ahdā",
+          "banglaMeaning": "অধিক সত্য পথপ্রাপ্ত",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "amman",
+          "banglaMeaning": "যে অথবা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "yamshī",
+          "banglaMeaning": "চলে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "sawiyyan",
+          "banglaMeaning": "সোজাসুজি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "ʿalā",
+          "banglaMeaning": "উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "ṣirāṭin",
+          "banglaMeaning": "পথের",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "mus'taqīmin",
+          "banglaMeaning": "সরল",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 23,
+      "verseKey": "67:23",
+      "arabic": "قُلْ هُوَ ٱلَّذِىٓ أَنشَأَكُمْ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَـٰرَ وَٱلْأَفْـِٔدَةَ ۖ قَلِيلًا مَّا تَشْكُرُونَ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-23.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qul",
+          "banglaMeaning": "বল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "huwa",
+          "banglaMeaning": "\"তিনিই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "ansha-akum",
+          "banglaMeaning": "তোমাদের সৃষ্টি করেছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "wajaʿala",
+          "banglaMeaning": "এবং দিয়েছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "lakumu",
+          "banglaMeaning": "তোমাদের জন্য",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "l-samʿa",
+          "banglaMeaning": "শ্রবণশক্তি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "wal-abṣāra",
+          "banglaMeaning": "ও দৃষ্টিশক্তি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "wal-afidata",
+          "banglaMeaning": "এবং অন্তঃকরণ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "qalīlan",
+          "banglaMeaning": "কমই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "mā",
+          "banglaMeaning": "যা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "tashkurūna",
+          "banglaMeaning": "তোমরা শোকর কর\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 24,
+      "verseKey": "67:24",
+      "arabic": "قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-24.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qul",
+          "banglaMeaning": "বল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "huwa",
+          "banglaMeaning": "\"তিনিই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যিনি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "dhara-akum",
+          "banglaMeaning": "তোমাদের ছড়িয়ে দিয়েছেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "l-arḍi",
+          "banglaMeaning": "পৃথিবীর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "wa-ilayhi",
+          "banglaMeaning": "এবং তাঁরই দিকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "tuḥ'sharūna",
+          "banglaMeaning": "তোমাদের একত্রিত করা হবে\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 25,
+      "verseKey": "67:25",
+      "arabic": "وَيَقُولُونَ مَتَىٰ هَـٰذَا ٱلْوَعْدُ إِن كُنتُمْ صَـٰدِقِينَ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-25.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "wayaqūlūna",
+          "banglaMeaning": "এবং তারা বলে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "matā",
+          "banglaMeaning": "\"কখন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "hādhā",
+          "banglaMeaning": "এই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "l-waʿdu",
+          "banglaMeaning": "প্রতিশ্রুতি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "in",
+          "banglaMeaning": "যদি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "kuntum",
+          "banglaMeaning": "তোমরা হও",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "ṣādiqīna",
+          "banglaMeaning": "সত্যবাদী\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 26,
+      "verseKey": "67:26",
+      "arabic": "قُلْ إِنَّمَا ٱلْعِلْمُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-26.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qul",
+          "banglaMeaning": "তুমি বল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "innamā",
+          "banglaMeaning": "\"শুধুমাত্র",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "l-ʿil'mu",
+          "banglaMeaning": "(তার) জ্ঞান",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "ʿinda",
+          "banglaMeaning": "কাছে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "l-lahi",
+          "banglaMeaning": "আল্লাহর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "wa-innamā",
+          "banglaMeaning": "এবং শুধুমাত্র",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "anā",
+          "banglaMeaning": "আমি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "nadhīrun",
+          "banglaMeaning": "সাবধানকারী",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "mubīnun",
+          "banglaMeaning": "স্পষ্ট\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 27,
+      "verseKey": "67:27",
+      "arabic": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا۟ وَقِيلَ هَـٰذَا ٱلَّذِى كُنتُم بِهِۦ تَدَّعُونَ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-27.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "falammā",
+          "banglaMeaning": "যখন পরে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "ra-awhu",
+          "banglaMeaning": "তা দেখবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "zul'fatan",
+          "banglaMeaning": "নিকটে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "sīat",
+          "banglaMeaning": "মলিন হবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "wujūhu",
+          "banglaMeaning": "মুখগুলো",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "alladhīna",
+          "banglaMeaning": "যারা (তাদের)",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "kafarū",
+          "banglaMeaning": "অস্বীকার করেছে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "waqīla",
+          "banglaMeaning": "এবং বলা হবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "hādhā",
+          "banglaMeaning": "\"এই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "alladhī",
+          "banglaMeaning": "যা (সেই)",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "kuntum",
+          "banglaMeaning": "তোমরা ছিলে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "bihi",
+          "banglaMeaning": "তা সম্পর্কে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "taddaʿūna",
+          "banglaMeaning": "দাবি করতে\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 28,
+      "verseKey": "67:28",
+      "arabic": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَـٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-28.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qul",
+          "banglaMeaning": "বল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "ara-aytum",
+          "banglaMeaning": "\"তোমরা চিন্তা কি করেছ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "in",
+          "banglaMeaning": "যদি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "ahlakaniya",
+          "banglaMeaning": "আমাকে ধ্বংস করেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "l-lahu",
+          "banglaMeaning": "আল্লাহ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "waman",
+          "banglaMeaning": "এবং যারা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "maʿiya",
+          "banglaMeaning": "আমার সাথে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "aw",
+          "banglaMeaning": "অথবা",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "raḥimanā",
+          "banglaMeaning": "আমাদের প্রতি দয়া করেন",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "faman",
+          "banglaMeaning": "কে কিন্তু",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "yujīru",
+          "banglaMeaning": "আশ্রয় দেবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "l-kāfirīna",
+          "banglaMeaning": "অস্বীকার কারীদের",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "min",
+          "banglaMeaning": "থেকে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 14,
+          "arabic": "",
+          "transliteration": "ʿadhābin",
+          "banglaMeaning": "আযাব",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 15,
+          "arabic": "",
+          "transliteration": "alīmin",
+          "banglaMeaning": "অত্যন্ত পীড়াদায়ক\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 29,
+      "verseKey": "67:29",
+      "arabic": "قُلْ هُوَ ٱلرَّحْمَـٰنُ ءَامَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَـٰلٍ مُّبِينٍ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-29.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qul",
+          "banglaMeaning": "বল",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "huwa",
+          "banglaMeaning": "\"তিনিই",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "l-raḥmānu",
+          "banglaMeaning": "পরম করুণাময়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "āmannā",
+          "banglaMeaning": "আমরা ঈমান এনেছি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "bihi",
+          "banglaMeaning": "তার উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "waʿalayhi",
+          "banglaMeaning": "এবং তার উপর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "tawakkalnā",
+          "banglaMeaning": "আমরা নির্ভর করেছি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "fasataʿlamūna",
+          "banglaMeaning": "অতএব শীঘ্রই তোমরা জানতে পারবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "man",
+          "banglaMeaning": "কে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "huwa",
+          "banglaMeaning": "সে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 11,
+          "arabic": "",
+          "transliteration": "fī",
+          "banglaMeaning": "মধ্যে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 12,
+          "arabic": "",
+          "transliteration": "ḍalālin",
+          "banglaMeaning": "গুমরাহীর",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 13,
+          "arabic": "",
+          "transliteration": "mubīnin",
+          "banglaMeaning": "সুস্পষ্ট\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    },
+    {
+      "ayahNumber": 30,
+      "verseKey": "67:30",
+      "arabic": "قُلْ أَرَءَيْتُمْ إِنْ أَصْبَحَ مَآؤُكُمْ غَوْرًا فَمَن يَأْتِيكُم بِمَآءٍ مَّعِينٍۭ",
+      "banglaTranslation": "",
+      "audio": "/audio/surah-mulk/67-30.mp3",
+      "words": [
+        {
+          "position": 1,
+          "arabic": "",
+          "transliteration": "qul",
+          "banglaMeaning": "বলো",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 2,
+          "arabic": "",
+          "transliteration": "ara-aytum",
+          "banglaMeaning": "\"তোমরা ভেবে কি দেখেছ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 3,
+          "arabic": "",
+          "transliteration": "in",
+          "banglaMeaning": "যদি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 4,
+          "arabic": "",
+          "transliteration": "aṣbaḥa",
+          "banglaMeaning": "হয়ে যায়",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 5,
+          "arabic": "",
+          "transliteration": "māukum",
+          "banglaMeaning": "তোমাদের পানি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 6,
+          "arabic": "",
+          "transliteration": "ghawran",
+          "banglaMeaning": "ভূগর্ভস্থ",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 7,
+          "arabic": "",
+          "transliteration": "faman",
+          "banglaMeaning": "কে তবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 8,
+          "arabic": "",
+          "transliteration": "yatīkum",
+          "banglaMeaning": "তোমাদের কাছে আনবে",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 9,
+          "arabic": "",
+          "transliteration": "bimāin",
+          "banglaMeaning": "পানি",
+          "memoryTrick": "",
+          "root": ""
+        },
+        {
+          "position": 10,
+          "arabic": "",
+          "transliteration": "maʿīnin",
+          "banglaMeaning": "প্রবহমান\"",
+          "memoryTrick": "",
+          "root": ""
+        }
+      ]
+    }
+  ]
+}
