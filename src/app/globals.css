@@ -1,26 +1,40 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #0f172a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top left, rgba(16, 185, 129, 0.12), transparent 32rem),
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 28rem),
+    var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.arabic-text {
+  font-family: "Times New Roman", "Amiri", "Scheherazade New", serif;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+}
+
+.soft-shadow {
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+}
+
+::selection {
+  background: #a7f3d0;
+  color: #064e3b;
 }

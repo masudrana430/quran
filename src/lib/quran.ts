@@ -7,6 +7,8 @@ const surahs: Record<number, SurahData> = {
   67: surahMulk,
 };
 
-export function getSurahByNumber(surahNumber: string | number): SurahData | null {
+export function getSurahByNumber(
+  surahNumber: string | number
+): SurahData | null {
   return surahs[Number(surahNumber)] ?? null;
 }
