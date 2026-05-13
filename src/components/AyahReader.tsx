@@ -18,7 +18,9 @@ export default function AyahReader({ ayah }: AyahReaderProps) {
       meaning: selectedWord.banglaMeaning || "বাংলা অর্থ যোগ করুন",
       transliteration:
         selectedWord.transliteration || "Transliteration যোগ করা হয়নি",
-      trick: selectedWord.memoryTrick || "এই শব্দের memory trick এখনো যোগ করা হয়নি।",
+      trick:
+        selectedWord.memoryTrick ||
+        "এই শব্দের memory trick এখনো যোগ করা হয়নি।",
       root: selectedWord.root?.trim() || "",
     };
   }, [selectedWord]);
@@ -103,8 +105,9 @@ export default function AyahReader({ ayah }: AyahReaderProps) {
             </div>
           ) : null}
 
+          {/* Arabic words: fixed correct RTL order */}
           <div
-            className="font-arabic-ayah flex flex-row-reverse flex-wrap justify-start gap-x-3 gap-y-4 text-right text-4xl leading-[2.2] text-slate-950 sm:text-5xl lg:text-[3.4rem]"
+            className="font-arabic-ayah flex flex-wrap justify-end gap-x-3 gap-y-4 text-right text-4xl leading-[2.2] text-slate-950 sm:text-5xl lg:text-[3.4rem]"
             dir="rtl"
             lang="ar"
           >
@@ -120,6 +123,8 @@ export default function AyahReader({ ayah }: AyahReaderProps) {
                     active ? "word-token-active" : ""
                   }`}
                   title={word.banglaMeaning}
+                  dir="rtl"
+                  lang="ar"
                 >
                   {word.arabic}
                 </button>
@@ -137,7 +142,9 @@ export default function AyahReader({ ayah }: AyahReaderProps) {
           </p>
 
           <div className="font-bangla mt-8 flex flex-wrap items-center gap-x-7 gap-y-3 text-base font-semibold text-slate-400">
-            <button className="transition hover:text-[#2ca4ab]">▭ তাফসীর</button>
+            <button className="transition hover:text-[#2ca4ab]">
+              ▭ তাফসীর
+            </button>
             <span className="h-5 w-px bg-slate-200" />
             <button className="transition hover:text-[#2ca4ab]">
               ▱ ধাপ বা পর্যায়সমূহ
