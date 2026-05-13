@@ -33,10 +33,10 @@ export default function AudioButton({ src }: AudioButtonProps) {
     <button
       type="button"
       onClick={handlePlay}
-      className="inline-flex items-center justify-center gap-2 rounded-full bg-emerald-600 px-5 py-3 text-sm font-black text-white shadow-lg shadow-emerald-600/20 transition hover:-translate-y-0.5 hover:bg-emerald-700"
+      className="inline-flex h-10 w-10 items-center justify-center rounded-full text-xl text-slate-400 transition hover:bg-[#e9f8f9] hover:text-[#2ca4ab]"
+      aria-label={isPlaying ? "Pause audio" : "Play audio"}
     >
-      <span>{isPlaying ? "Pause" : "Play"}</span>
-      <span>{isPlaying ? "Ⅱ" : "▶"}</span>
+      {isPlaying ? "Ⅱ" : "▷"}
     </button>
   );
 }

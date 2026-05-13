@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f8fafc;
-  --foreground: #0f172a;
+  --background: #ffffff;
+  --foreground: #1f2937;
+  --muted: #6b7280;
+  --line: #e5e7eb;
+  --brand: #2ca4ab;
+  --brand-soft: #e9f8f9;
 }
 
 * {
@@ -14,10 +18,8 @@ html {
 }
 
 body {
-  background:
-    radial-gradient(circle at top left, rgba(16, 185, 129, 0.12), transparent 32rem),
-    radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 28rem),
-    var(--background);
+  min-height: 100vh;
+  background: var(--background);
   color: var(--foreground);
   font-family:
     var(--font-inter),
@@ -48,7 +50,28 @@ body {
     serif;
 }
 
+.quran-container {
+  width: min(100%, 1080px);
+  margin-inline: auto;
+}
+
+.word-token {
+  transition:
+    color 160ms ease,
+    background-color 160ms ease,
+    transform 160ms ease;
+}
+
+.word-token:hover {
+  color: var(--brand);
+}
+
+.word-token-active {
+  color: var(--brand);
+  background: rgba(44, 164, 171, 0.08);
+}
+
 ::selection {
-  background: #a7f3d0;
-  color: #064e3b;
+  background: #bdeff2;
+  color: #07575c;
 }

@@ -32,7 +32,7 @@ const notoNaskhArabic = Noto_Naskh_Arabic({
 
 export const metadata: Metadata = {
   title: "Quran Word by Word Bangla",
-  description: "Learn Quran words with Bangla meaning and memory tricks.",
+  description: "Learn Quran words with Bangla meaning and memorization tricks.",
 };
 
 export default function RootLayout({
