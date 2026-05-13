@@ -19,19 +19,33 @@ body {
     radial-gradient(circle at top right, rgba(245, 158, 11, 0.12), transparent 28rem),
     var(--background);
   color: var(--foreground);
+  font-family:
+    var(--font-inter),
+    var(--font-hind-siliguri),
+    system-ui,
+    sans-serif;
 }
 
-.arabic-text {
-  font-family: "Times New Roman", "Amiri", "Scheherazade New", serif;
+.font-english {
+  font-family: var(--font-inter), system-ui, sans-serif;
 }
 
-.glass-card {
-  background: rgba(255, 255, 255, 0.82);
-  backdrop-filter: blur(20px);
+.font-bangla {
+  font-family: var(--font-hind-siliguri), system-ui, sans-serif;
 }
 
-.soft-shadow {
-  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+.font-arabic-ayah {
+  font-family:
+    var(--font-amiri-quran),
+    var(--font-noto-naskh-arabic),
+    serif;
+}
+
+.font-arabic-word {
+  font-family:
+    var(--font-noto-naskh-arabic),
+    var(--font-amiri-quran),
+    serif;
 }
 
 ::selection {
