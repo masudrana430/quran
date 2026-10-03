@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch-mulk": "tsx scripts/fetch-surah-mulk.ts"
+    "fetch-mulk": "tsx scripts/fetch-surah-mulk.ts",
+    "import:batch": "node --import tsx scripts/import-batch.ts",
+    "validate:data": "node --import tsx scripts/validate-data.ts",
+    "test": "node --import tsx --test scripts/data.test.ts"
   },
   "dependencies": {
     "next": "16.2.6",
