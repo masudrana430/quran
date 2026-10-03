@@ -103,8 +103,12 @@ async function main() {
   const limit = Number(
     process.argv.find((a) => a.startsWith("--limit="))?.split("=")[1] ?? 300,
   );
-  if (!Number.isInteger(limit) || limit < 1 || limit > 300)
-    throw new Error("Batch limit must be 1–300");
+  const oneOff = process.argv.includes("--one-off");
+  const maxLimit = oneOff ? 500 : 300;
+  if (!Number.isInteger(limit) || limit < 1 || limit > maxLimit)
+    throw new Error(
+      `Batch limit must be 1–${maxLimit}; use --one-off for an explicitly requested larger batch`,
+    );
   const repair = process.argv.includes("--repair-mulk");
   const [{ chapters }, library] = await Promise.all([
     get<{ chapters: ApiChapter[] }>("/chapters?language=bn"),
@@ -199,13 +203,19 @@ async function main() {
     totalAyahs: 6236,
     completedCount: keys.length,
     completedVerseKeys: keys,
-    lastBatch: { added, repaired },
+    lastBatch: {
+      added,
+      repaired,
+      requestedLimit: limit,
+      mode: oneOff ? "one-off" : "daily",
+    },
     mnemonicCoverage,
     sources: {
       provider: "Quran.com / Quran Foundation",
       api: API,
       translation: EDITION,
-      morphology: "Quranic Arabic Corpus v0.4 · Kais Dukes · https://corpus.quran.com",
+      morphology:
+        "Quranic Arabic Corpus v0.4 · Kais Dukes · https://corpus.quran.com",
       wordTranslation: "Quran.com Bengali word translations (API language=bn)",
       reciter: "Mishary Rashid Alafasy (Quran.com recitation 7)",
     },
