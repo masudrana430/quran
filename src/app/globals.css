@@ -919,3 +919,11 @@ small {
     animation: none !important;
   }
 }
+
+.mnemonic-source {
+  display: inline-block;
+  font-size: 11px;
+  color: #537a53;
+  margin: 8px 0 12px;
+  text-decoration: underline;
+}

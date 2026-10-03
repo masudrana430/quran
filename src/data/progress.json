@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T14:29:40.367Z",
+  "updatedAt": "2026-10-03T15:26:46.647Z",
   "totalAyahs": 6236,
   "completedCount": 330,
   "completedVerseKeys": [
@@ -673,10 +673,16 @@
   "sources": {
     "provider": "Quran.com / Quran Foundation",
     "api": "https://api.quran.com/api/v4",
-    "translation": "Taisirul Quran · Tawheed Publication (Quran.com resource 161)",
+    "translation": "Dr. Abu Bakr Muhammad Zakaria (Quran.com resource 213)",
     "wordTranslation": "Quran.com Bengali word translations (API language=bn)",
-    "reciter": "Mishary Rashid Alafasy (Quran.com recitation 7)"
+    "reciter": "Mishary Rashid Alafasy (Quran.com recitation 7)",
+    "morphology": "Quranic Arabic Corpus v0.4 · Kais Dukes · https://corpus.quran.com"
   },
-  "learningAids": "Generated text-linked retrieval practice and chunking. Learning aids, not translation, tafsir, tajwid instruction or verified etymology.",
-  "originalDraft": "src/data/surah-mulk.json retained unchanged. Unsourced roots are not published in the new reader."
+  "learningAids": "Relational word mnemonics: familiar Bangla/Urdu/Hindi words where dependable; sourced Arabic form families or verse-local word associations otherwise. No verse-level chunking panel.",
+  "originalDraft": "src/data/surah-mulk.json retained unchanged. Unsourced roots are not published in the new reader.",
+  "mnemonicCoverage": {
+    "familiar": 4709,
+    "context": 772,
+    "family": 1104
+  }
 }

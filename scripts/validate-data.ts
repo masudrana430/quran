@@ -31,12 +31,18 @@ export function validate(
         !a.arabic.trim() ||
         !a.banglaTranslation.trim() ||
         !a.translationSource?.trim() ||
-        !a.memoryAid?.trim() ||
         !a.words.length
       )
         errors.push(`Incomplete verse ${a.verseKey}`);
       if (!a.audio?.startsWith("https://verses.quran.com/"))
         errors.push(`Invalid audio ${a.verseKey}`);
+      if (
+        a.translationSource !==
+        "Dr. Abu Bakr Muhammad Zakaria (Quran.com resource 213)"
+      )
+        errors.push(`Wrong translation edition ${a.verseKey}`);
+      if (a.memoryAid)
+        errors.push(`Removed verse-level aid returned ${a.verseKey}`);
       const normalize = (text: string) => text.replace(/[\p{M}\p{Z}\sـ]/gu, "");
       if (
         normalize(a.arabic) !== normalize(a.words.map((w) => w.arabic).join(""))
@@ -51,7 +57,9 @@ export function validate(
           !w.arabic.trim() ||
           !w.banglaMeaning.trim() ||
           !w.transliteration.trim() ||
-          !w.memoryTrick.trim()
+          !w.memoryTrick.trim() ||
+          !w.memoryTrickType ||
+          !w.memoryTrickSource
         )
           errors.push(`Incomplete word ${a.verseKey}:${w.position}`);
         if (w.root?.trim() && !w.rootSource?.trim())

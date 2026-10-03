@@ -1,8 +1,10 @@
 import { readFile, writeFile, rename } from "node:fs/promises";
 import type { Ayah, SurahData, SurahInfo } from "../src/types/quran";
 import { validate } from "./validate-data";
+import { rewriteTricks } from "./refresh-word-tricks";
+import { prepareMorphology, saveMorphology } from "./sync-morphology";
 const API = "https://api.quran.com/api/v4";
-const EDITION = "Taisirul Quran · Tawheed Publication (Quran.com resource 161)";
+const EDITION = "Dr. Abu Bakr Muhammad Zakaria (Quran.com resource 213)";
 type ApiWord = {
   position: number;
   char_type_name: string;
@@ -58,7 +60,7 @@ async function atomic(path: string, data: unknown) {
   await rename(`${path}.tmp`, path);
 }
 function mapVerse(v: ApiVerse, audio?: string): Ayah {
-  const translation = v.translations.find((t) => t.resource_id === 161)?.text;
+  const translation = v.translations.find((t) => t.resource_id === 213)?.text;
   if (!translation?.trim() || !v.text_uthmani?.trim())
     throw new Error(`Missing verse text ${v.verse_key}`);
   const words = v.words
@@ -78,19 +80,13 @@ function mapVerse(v: ApiVerse, audio?: string): Ayah {
         arabic: w.text_uthmani,
         banglaMeaning: w.translation.text,
         transliteration: w.transliteration.text,
-        memoryTrick: `“${w.text_uthmani}” শব্দটি দেখে “${w.translation.text}” অর্থটি বলুন। এরপর অর্থ ঢেকে আবার মনে করুন; আয়াতের আগের ও পরের শব্দের সঙ্গে মিলিয়ে পড়ুন।`,
+        memoryTrick: "",
         ...(w.audio_url
           ? { audio: `https://audio.qurancdn.com/${w.audio_url}` }
           : {}),
       };
     });
   if (!words.length) throw new Error(`No words ${v.verse_key}`);
-  const chunks = Array.from({ length: Math.ceil(words.length / 3) }, (_, i) =>
-    words
-      .slice(i * 3, i * 3 + 3)
-      .map((w) => w.arabic)
-      .join(" "),
-  );
   return {
     ayahNumber: v.verse_number,
     verseKey: v.verse_key,
@@ -101,7 +97,6 @@ function mapVerse(v: ApiVerse, audio?: string): Ayah {
     juzNumber: v.juz_number,
     words,
     ...(audio ? { audio } : {}),
-    memoryAid: `আয়াতটি ${chunks.length}টি ছোট অংশে অনুশীলন করুন: ${chunks.join(" | ")}। প্রতিটি অংশ অডিও শুনে পড়ুন, তারপর না দেখে বলুন। অংশগুলো ক্রমানুসারে জুড়ে পুরো আয়াত পড়ুন। আজ পরে, আগামীকাল এবং এক সপ্তাহ পরে আবার অনুশীলন করুন।`,
   };
 }
 async function main() {
@@ -162,7 +157,7 @@ async function main() {
     for (const page of pages) {
       const [{ verses }, { audio_files }] = await Promise.all([
         get<{ verses: ApiVerse[] }>(
-          `/verses/by_chapter/${info.number}?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=161&per_page=50&page=${page}`,
+          `/verses/by_chapter/${info.number}?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213&per_page=50&page=${page}`,
         ),
         get<{ audio_files: { verse_key: string; url: string }[] }>(
           `/recitations/7/by_chapter/${info.number}?per_page=50&page=${page}`,
@@ -189,11 +184,14 @@ async function main() {
     [...before].some((k) => !keys.includes(k))
   )
     throw new Error("Duplicate or lost ayahs");
+  const morphology = await prepareMorphology(library.surahs);
+  const mnemonicCoverage = rewriteTricks(library.surahs, morphology.result);
   const integrity = validate(catalog, library.surahs, {
     completedCount: keys.length,
     completedVerseKeys: keys,
   });
   if (integrity.length) throw new Error(integrity.join("\n"));
+  await saveMorphology(morphology);
   await atomic("src/data/chapters.json", catalog);
   await atomic("src/data/quran-library.json", library);
   await atomic("src/data/progress.json", {
@@ -202,15 +200,17 @@ async function main() {
     completedCount: keys.length,
     completedVerseKeys: keys,
     lastBatch: { added, repaired },
+    mnemonicCoverage,
     sources: {
       provider: "Quran.com / Quran Foundation",
       api: API,
       translation: EDITION,
+      morphology: "Quranic Arabic Corpus v0.4 · Kais Dukes · https://corpus.quran.com",
       wordTranslation: "Quran.com Bengali word translations (API language=bn)",
       reciter: "Mishary Rashid Alafasy (Quran.com recitation 7)",
     },
     learningAids:
-      "Generated text-linked retrieval practice and chunking. Learning aids, not translation, tafsir, tajwid instruction or verified etymology.",
+      "Relational word mnemonics: familiar words, sourced Arabic form families and verse-local word associations. No verse-level chunking panel.",
     originalDraft:
       "src/data/surah-mulk.json retained unchanged. Unsourced roots are not published in the new reader.",
   });

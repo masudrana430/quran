@@ -4,6 +4,8 @@ export type QuranWord = {
   transliteration: string;
   banglaMeaning: string;
   memoryTrick: string;
+  memoryTrickType?: "familiar" | "family" | "context";
+  memoryTrickSource?: string;
   root?: string;
   rootSource?: string;
   audio?: string;
