@@ -55,6 +55,6 @@
 #====================================================================
 
 
-Derived subset: word-level root, lemma and part-of-speech annotations for the 330 published ayahs. Original morphology v0.4: https://corpus.quran.com/download/
-Verbatim download mirror: https://github.com/taziksh/quran-frequencies/blob/main/data/quranic-corpus-morphology-0.4.txt
-Arabic display text remains sourced from Quran.com; the morphological subset is used only for relational memory cues.
+Derived word-level annotation subset. Source: https://corpus.quran.com/download/
+Verbatim download mirror: https://raw.githubusercontent.com/taziksh/quran-frequencies/main/data/quranic-corpus-morphology-0.4.txt
+Used for relational memory cues, not as replacement Quran text.

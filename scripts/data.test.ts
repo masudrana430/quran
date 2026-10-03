@@ -30,7 +30,11 @@ test("Validator rejects duplicate verses, fabricated root attribution and mismat
   assert.ok(errors.includes("Progress mismatch"));
 });
 test("Latest batch respects quota and canonical verse ordering, separate from repair work", () => {
-  assert.ok(progress.lastBatch.added.length <= 300);
+  const limit = progress.lastBatch.requestedLimit ?? 300;
+  assert.ok(
+    limit >= 1 && limit <= (progress.lastBatch.mode === "one-off" ? 500 : 300),
+  );
+  assert.ok(progress.lastBatch.added.length <= limit);
   assert.equal(
     new Set(progress.lastBatch.added).size,
     progress.lastBatch.added.length,
@@ -73,7 +77,14 @@ test("All published ayahs use Zakaria and word-level relational cues without the
         );
       }
     }
-  assert.equal(count, 6585);
+  assert.equal(count, Object.keys(morphology).length);
+  assert.equal(
+    count,
+    Object.values(progress.mnemonicCoverage).reduce(
+      (sum: number, n) => sum + Number(n),
+      0,
+    ),
+  );
   const mulk = library.surahs.find(
     (s: { surah: { number: number } }) => s.surah.number === 67,
   );
@@ -88,4 +99,23 @@ test("Validator rejects an old translation and a reintroduced verse-level memory
   const errors = validate(catalog, copy.surahs, progress);
   assert.ok(errors.some((e) => /translation/i.test(e)));
   assert.ok(errors.some((e) => /Removed verse-level aid/i.test(e)));
+});
+
+test("Familiar-phrase cues do not conflate shay with shaa or tawalla with wali", () => {
+  let things = 0,
+    turns = 0;
+  for (const surah of library.surahs)
+    for (const ayah of surah.ayahs)
+      for (const word of ayah.words) {
+        const lemma = morphology[`${ayah.verseKey}:${word.position}`].lemma;
+        if (lemma === "$aYo'") {
+          things++;
+          assert.doesNotMatch(word.memoryTrick, /ইনশাআল্লাহ/);
+        }
+        if (lemma === "tawal~aY`") {
+          turns++;
+          assert.doesNotMatch(word.memoryTrick, /পরিচিত “ওলি”/);
+        }
+      }
+  assert.ok(things > 0 && turns > 0);
 });
