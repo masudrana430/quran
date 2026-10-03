@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import AudioButton from "./AudioButton";
+import DetailedWordAid from "./DetailedWordAid";
 import {
   BOOKMARKS,
   LAST_READ,
@@ -354,14 +355,19 @@ function ReaderAyah({
             {word.arabic}
           </p>
           <p>
-            <strong>শব্দের অর্থ:</strong> {word.banglaMeaning}
+            <strong>শব্দের অর্থ:</strong>{" "}
+            {word.detailedAid?.meaning ?? word.banglaMeaning}
           </p>
           <p>
             <strong>ট্রান্সলিটারেশন:</strong> {word.transliteration}
           </p>
           <p className="learning-label">মনে রাখার trick:</p>
-          <p>{word.memoryTrick}</p>
-          {word.memoryTrickSource && (
+          {word.detailedAid ? (
+            <DetailedWordAid word={word} />
+          ) : (
+            <p>{word.memoryTrick}</p>
+          )}
+          {!word.detailedAid && word.memoryTrickSource && (
             <a
               className="mnemonic-source"
               href={word.memoryTrickSource}

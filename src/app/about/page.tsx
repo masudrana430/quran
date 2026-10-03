@@ -1,4 +1,4 @@
-import { contentProgress } from "@/lib/quran";
+import { contentProgress, detailedProgress } from "@/lib/quran";
 export default function AboutPage() {
   return (
     <article className="about-page">
@@ -34,6 +34,14 @@ export default function AboutPage() {
         , সংস্করণ ০.৪, © Kais Dukes।
       </p>
       <h2>কনটেন্টের অগ্রগতি</h2>
+      <p>
+        প্রথম {detailedProgress.ayahCount.toLocaleString("bn-BD")} আয়াতে (ফাতিহা
+        ১–৭ এবং আল-বাকারা ১–৯৩) প্রতিটি শব্দের বিস্তারিত সহায়িকা আছে:
+        বাংলা/উর্দুর পরিচিত সূত্র বা অর্থের তুলনা, শব্দে যুক্ত ছোট অংশ এবং
+        আয়াতের প্রসঙ্গে মনে রাখার ব্যাখ্যা। উর্দু শব্দার্থ Quran.com থেকে;
+        পরিচিত শব্দের নির্বাচিত যাচাইয়ে Rekhta Dictionary-ও ব্যবহৃত হয়েছে।
+        সংক্ষিপ্ত শব্দার্থ অসম্পূর্ণ হলে সহায়িকায় উৎসসহ স্পষ্টীকরণ আছে।
+      </p>
       <p>
         {contentProgress.completedCount.toLocaleString("bn-BD")} / ৬,২৩৬ আয়াত
         এখন পড়া যায়। প্রতিদিন পরবর্তী ৩০০ আয়াত যোগ করার কাজ নির্ধারিত। অসম্পূর্ণ

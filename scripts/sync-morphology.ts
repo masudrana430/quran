@@ -67,7 +67,8 @@ const chars: Record<string, string> = {
   _: "ـ",
   '"': "۠",
 };
-const arabic = (text: string) => [...text].map((c) => chars[c] ?? c).join("");
+export const arabic = (text: string) =>
+  [...text].map((c) => chars[c] ?? c).join("");
 // Orthographic-only comparison ignores recitation signs, elongation and hamza glyph conventions.
 const normalize = (text: string) =>
   text
