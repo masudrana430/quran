@@ -927,3 +927,75 @@ small {
   margin: 8px 0 12px;
   text-decoration: underline;
 }
+
+.detailed-word-aid {
+  margin-top: 12px;
+  max-width: 900px;
+}
+.detailed-word-aid .aid-summary {
+  padding: 14px 16px;
+  background: #fffdf4;
+  border-inline-start: 3px solid #967a3b;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.detailed-word-aid h4 {
+  color: #2f5039;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 18px 0 8px;
+}
+.aid-steps {
+  list-style: decimal;
+  padding-inline-start: 24px;
+  display: grid;
+  gap: 12px;
+}
+.aid-parts ul,
+.aid-context ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.aid-parts li,
+.aid-context li {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  padding: 9px 12px;
+  background: #ffffffa6;
+  border-radius: 8px;
+}
+.aid-parts bdi,
+.aid-context bdi,
+.aid-summary bdi[lang="ar"] {
+  font-family: var(--font-amiri-quran);
+  font-size: 22px;
+}
+.urdu-gloss {
+  font-size: 20px;
+  line-height: 1.8;
+}
+.detailed-word-aid .aid-note {
+  margin-top: 14px;
+  color: #5a4934;
+}
+.aid-sources {
+  margin-top: 16px;
+  font-size: 13px;
+}
+.aid-sources summary {
+  cursor: pointer;
+  color: #477451;
+}
+.aid-sources ul {
+  list-style: none;
+  padding: 8px 0 0;
+}
+.aid-sources a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}

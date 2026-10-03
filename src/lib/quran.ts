@@ -1,9 +1,15 @@
 import library from "@/data/quran-library.json";
 import chapters from "@/data/chapters.json";
 import progress from "@/data/progress.json";
-import type { SurahData, SurahInfo } from "@/types/quran";
+import detailed from "@/data/detailed-word-aids.json";
+import { attachDetailedAids } from "./detailed-aids";
+import type { DetailedWordAid, SurahData, SurahInfo } from "@/types/quran";
 export const catalog = chapters as SurahInfo[];
-export const surahs = library.surahs as SurahData[];
+export const surahs = attachDetailedAids(
+  library.surahs as SurahData[],
+  detailed.words as Record<string, DetailedWordAid>,
+);
+export const detailedProgress = detailed.review;
 export const contentProgress = progress;
 export function getSurahByNumber(value: string | number): SurahData | null {
   if (!/^[1-9]\d{0,2}$/.test(String(value))) return null;

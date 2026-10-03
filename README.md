@@ -70,6 +70,16 @@ All 16,665 word occurrences in the current 830 ayahs have relational cues. Famil
 
 The derived morphology subset and its original copyright/terms notice are stored in `src/data/word-morphology.json` and `src/data/MORPHOLOGY-NOTICE.txt`. The importer prepares and checks position/text alignment against the corpus before generating cues. Core hints in `mnemonic-anchors.json` and exact-lemma overrides in `mnemonic-lemmas.json` must be reviewed carefully.
 
+## Detailed aids for the first 100 ayahs
+
+Al-Fatihah 1–7 and Al-Baqarah 1–93 now have detailed aids for all **1,593 word occurrences**. Each aid explains a carefully selected familiar Bangla/Urdu word, familiar Arabic phrase, grammar relation, or concrete meaning association; these categories do not imply that every Arabic word has a Bangla/Urdu cognate. The reader shows three word-specific memory explanations, real corpus prefix/stem/suffix segmentation where available, nearby words from the actual ayah, and source links. Five missing Urdu provider glosses remain unavailable rather than invented.
+
+The separate `detailed-word-aids.json` overlay retains the original source gloss fingerprint. Five educational gloss clarifications distinguish wrath, women, the two-word number twelve, the possessive phrase for relatives, and disobedient fasiks; original provider data and Zakaria's full translations remain intact. The other **730 ayahs** keep their existing word content. Future imports cannot overwrite these detailed aids; mismatched source fingerprints are not attached silently.
+
+Authored profiles and exceptions are in `detailed-aid-profiles.ts` and `detailed-aid-overrides.ts`. Quran.com Urdu glosses and Quranic Arabic Corpus v0.4 segments for this scope are cached in `first-100-urdu-glosses.json` and `first-100-segments.json`. Rebuild offline with `npm run build:detailed-aids`, then run `npm test`. The subset retains the original corpus attribution and terms in `MORPHOLOGY-NOTICE.txt`. Structural/source checks are not an independent scholarly review.
+
+Next detailed-aid work starts at **2:94**, separately from adding new ayahs.
+
 ## Next work
 
 Continue from **6:12**. Complete all remaining ayah batches; review source edition details and memorization aids; add stronger end-to-end UI checks and optionally device-to-device progress synchronization.

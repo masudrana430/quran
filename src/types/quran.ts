@@ -1,3 +1,22 @@
+export type DetailedWordAid = {
+  arabic: string;
+  meaning: string;
+  sourceMeaning: string;
+  meaningNote: string | null;
+  kind: "familiar" | "phrase" | "grammar" | "meaning";
+  anchor: string;
+  connection: string;
+  steps: string[];
+  parts: {
+    arabic: string;
+    meaning: string;
+    role: "prefix" | "stem" | "suffix";
+  }[];
+  context: { arabic: string; meaning: string }[];
+  urduMeaning: string | null;
+  caution: string | null;
+  sources: { label: string; url: string }[];
+};
 export type QuranWord = {
   position: number;
   arabic: string;
@@ -6,6 +25,7 @@ export type QuranWord = {
   memoryTrick: string;
   memoryTrickType?: "familiar" | "family" | "context";
   memoryTrickSource?: string;
+  detailedAid?: DetailedWordAid;
   root?: string;
   rootSource?: string;
   audio?: string;
