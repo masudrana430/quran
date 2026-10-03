@@ -171,8 +171,7 @@ export default function QuranReader({
         />
       </label>
       <p className="source-line">
-        অনুবাদ: Taisirul Quran · Tawheed Publication। শব্দের অর্থ: Quran.com।
-        শেখার কৌশল স্বয়ংক্রিয় অনুশীলন সহায়িকা; তাফসীর নয়।
+        বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া। শব্দের অর্থ: Quran.com।
       </p>
       {notice && <p role="status">{notice}</p>}
       <div className="ayah-list">
@@ -360,22 +359,25 @@ function ReaderAyah({
           <p>
             <strong>ট্রান্সলিটারেশন:</strong> {word.transliteration}
           </p>
-          <p className="learning-label">অনুশীলন সহায়িকা</p>
+          <p className="learning-label">মনে রাখার trick:</p>
           <p>{word.memoryTrick}</p>
+          {word.memoryTrickSource && (
+            <a
+              className="mnemonic-source"
+              href={word.memoryTrickSource}
+              target="_blank"
+              rel="noreferrer"
+            >
+              শব্দের সম্পর্ক যাচাই করুন ↗
+            </a>
+          )}
           {word.audio && <AudioButton src={word.audio} />}
         </div>
       )}
       {showTranslation && !hidden && (
         <p className="translation">{plain(a.banglaTranslation)}</p>
       )}
-      <details className="memory-panel">
-        <summary>মনে রাখার অনুশীলন</summary>
-        <p>{a.memoryAid}</p>
-        <small>
-          এটি শেখার কৌশল, অনুবাদ বা তাফসীর নয়। শুদ্ধ উচ্চারণ অডিও ও শিক্ষকের
-          সঙ্গে মিলিয়ে নিন।
-        </small>
-      </details>
+
       <div className="practice-actions">
         <button
           className="tool-button"

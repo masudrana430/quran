@@ -48,3 +48,44 @@ test("Latest batch respects quota and canonical verse ordering, separate from re
     ),
   );
 });
+
+const morphology = JSON.parse(
+  readFileSync("src/data/word-morphology.json", "utf8"),
+);
+test("All published ayahs use Zakaria and word-level relational cues without the removed panel", () => {
+  let count = 0;
+  for (const surah of library.surahs)
+    for (const ayah of surah.ayahs) {
+      assert.match(ayah.translationSource, /Zakaria.*213/);
+      assert.equal(ayah.memoryAid, undefined);
+      for (const word of ayah.words) {
+        count++;
+        assert.ok(
+          ["familiar", "family", "context"].includes(word.memoryTrickType),
+        );
+        assert.match(
+          word.memoryTrickSource,
+          /^https:\/\/(corpus\.quran\.com|quran\.com)\//,
+        );
+        assert.equal(
+          morphology[`${ayah.verseKey}:${word.position}`].aligned,
+          true,
+        );
+      }
+    }
+  assert.equal(count, 6585);
+  const mulk = library.surahs.find(
+    (s: { surah: { number: number } }) => s.surah.number === 67,
+  );
+  assert.match(mulk.ayahs[0].words[3].memoryTrick, /নিজ মুলুকে রাজা/);
+  assert.match(mulk.ayahs[1].words[4].memoryTrick, /বালা/);
+  assert.equal(morphology["67:2:5"].root, "blw");
+});
+test("Validator rejects an old translation and a reintroduced verse-level memory panel", () => {
+  const copy = structuredClone(library);
+  copy.surahs[0].ayahs[0].translationSource = "Taisirul Quran";
+  copy.surahs[0].ayahs[0].memoryAid = "obsolete chunking";
+  const errors = validate(catalog, copy.surahs, progress);
+  assert.ok(errors.some((e) => /translation/i.test(e)));
+  assert.ok(errors.some((e) => /Removed verse-level aid/i.test(e)));
+});
