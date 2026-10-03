@@ -1,0 +1,1028 @@
+[
+  {
+    "number": 1,
+    "nameEnglish": "Al-Fatihah",
+    "nameBangla": "সূচনা",
+    "nameArabic": "الفاتحة",
+    "versesCount": 7,
+    "revelationPlace": "makkah",
+    "bismillahPre": false
+  },
+  {
+    "number": 2,
+    "nameEnglish": "Al-Baqarah",
+    "nameBangla": "বকনা-বাছুর",
+    "nameArabic": "البقرة",
+    "versesCount": 286,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 3,
+    "nameEnglish": "Ali 'Imran",
+    "nameBangla": "ইমরানের পরিবার",
+    "nameArabic": "آل عمران",
+    "versesCount": 200,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 4,
+    "nameEnglish": "An-Nisa",
+    "nameBangla": "নারী",
+    "nameArabic": "النساء",
+    "versesCount": 176,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 5,
+    "nameEnglish": "Al-Ma'idah",
+    "nameBangla": "খাদ্য পরিবেশিত টেবিল",
+    "nameArabic": "المائدة",
+    "versesCount": 120,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 6,
+    "nameEnglish": "Al-An'am",
+    "nameBangla": "গৃহপালিত পশু",
+    "nameArabic": "الأنعام",
+    "versesCount": 165,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 7,
+    "nameEnglish": "Al-A'raf",
+    "nameBangla": "উচু স্থান",
+    "nameArabic": "الأعراف",
+    "versesCount": 206,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 8,
+    "nameEnglish": "Al-Anfal",
+    "nameBangla": "যুদ্ধ-লব্ধ ধনসম্পদ",
+    "nameArabic": "الأنفال",
+    "versesCount": 75,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 9,
+    "nameEnglish": "At-Tawbah",
+    "nameBangla": "অনুশোচনা",
+    "nameArabic": "التوبة",
+    "versesCount": 129,
+    "revelationPlace": "madinah",
+    "bismillahPre": false
+  },
+  {
+    "number": 10,
+    "nameEnglish": "Yunus",
+    "nameBangla": "নবী ইউনুস",
+    "nameArabic": "يونس",
+    "versesCount": 109,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 11,
+    "nameEnglish": "Hud",
+    "nameBangla": "নবী হুদ",
+    "nameArabic": "هود",
+    "versesCount": 123,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 12,
+    "nameEnglish": "Yusuf",
+    "nameBangla": "নবী ইউসুফ",
+    "nameArabic": "يوسف",
+    "versesCount": 111,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 13,
+    "nameEnglish": "Ar-Ra'd",
+    "nameBangla": "বজ্রপাত",
+    "nameArabic": "الرعد",
+    "versesCount": 43,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 14,
+    "nameEnglish": "Ibrahim",
+    "nameBangla": "নবী ইবরাহীম",
+    "nameArabic": "ابراهيم",
+    "versesCount": 52,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 15,
+    "nameEnglish": "Al-Hijr",
+    "nameBangla": "পাথুরে পাহাড়",
+    "nameArabic": "الحجر",
+    "versesCount": 99,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 16,
+    "nameEnglish": "An-Nahl",
+    "nameBangla": "মৌমাছি",
+    "nameArabic": "النحل",
+    "versesCount": 128,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 17,
+    "nameEnglish": "Al-Isra",
+    "nameBangla": "ইহুদি জাতি",
+    "nameArabic": "الإسراء",
+    "versesCount": 111,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 18,
+    "nameEnglish": "Al-Kahf",
+    "nameBangla": "গুহা",
+    "nameArabic": "الكهف",
+    "versesCount": 110,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 19,
+    "nameEnglish": "Maryam",
+    "nameBangla": "মারইয়াম (ঈসা নবীর মা)",
+    "nameArabic": "مريم",
+    "versesCount": 98,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 20,
+    "nameEnglish": "Taha",
+    "nameBangla": "ত়া হা",
+    "nameArabic": "طه",
+    "versesCount": 135,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 21,
+    "nameEnglish": "Al-Anbya",
+    "nameBangla": "নবীগণ",
+    "nameArabic": "الأنبياء",
+    "versesCount": 112,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 22,
+    "nameEnglish": "Al-Hajj",
+    "nameBangla": "হ়াজ্জ",
+    "nameArabic": "الحج",
+    "versesCount": 78,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 23,
+    "nameEnglish": "Al-Mu'minun",
+    "nameBangla": "বিশ্বাসী",
+    "nameArabic": "المؤمنون",
+    "versesCount": 118,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 24,
+    "nameEnglish": "An-Nur",
+    "nameBangla": "আলো",
+    "nameArabic": "النور",
+    "versesCount": 64,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 25,
+    "nameEnglish": "Al-Furqan",
+    "nameBangla": "মানদণ্ড",
+    "nameArabic": "الفرقان",
+    "versesCount": 77,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 26,
+    "nameEnglish": "Ash-Shu'ara",
+    "nameBangla": "কবি",
+    "nameArabic": "الشعراء",
+    "versesCount": 227,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 27,
+    "nameEnglish": "An-Naml",
+    "nameBangla": "পিঁপড়া",
+    "nameArabic": "النمل",
+    "versesCount": 93,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 28,
+    "nameEnglish": "Al-Qasas",
+    "nameBangla": "কাহিনি",
+    "nameArabic": "القصص",
+    "versesCount": 88,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 29,
+    "nameEnglish": "Al-'Ankabut",
+    "nameBangla": "মাকড়শা",
+    "nameArabic": "العنكبوت",
+    "versesCount": 69,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 30,
+    "nameEnglish": "Ar-Rum",
+    "nameBangla": "রোমান জাতি",
+    "nameArabic": "الروم",
+    "versesCount": 60,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 31,
+    "nameEnglish": "Luqman",
+    "nameBangla": "এক জ্ঞানী ব্যাক্তি",
+    "nameArabic": "لقمان",
+    "versesCount": 34,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 32,
+    "nameEnglish": "As-Sajdah",
+    "nameBangla": "সিজদা",
+    "nameArabic": "السجدة",
+    "versesCount": 30,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 33,
+    "nameEnglish": "Al-Ahzab",
+    "nameBangla": "জোট",
+    "nameArabic": "الأحزاب",
+    "versesCount": 73,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 34,
+    "nameEnglish": "Saba",
+    "nameBangla": "রানী সাবা/শেবা",
+    "nameArabic": "سبإ",
+    "versesCount": 54,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 35,
+    "nameEnglish": "Fatir",
+    "nameBangla": "আদি স্রষ্টা",
+    "nameArabic": "فاطر",
+    "versesCount": 45,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 36,
+    "nameEnglish": "Ya-Sin",
+    "nameBangla": "ইয়াসীন",
+    "nameArabic": "يس",
+    "versesCount": 83,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 37,
+    "nameEnglish": "As-Saffat",
+    "nameBangla": "সারিবদ্ধভাবে দাঁড়ানো",
+    "nameArabic": "الصافات",
+    "versesCount": 182,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 38,
+    "nameEnglish": "Sad",
+    "nameBangla": "আরবি বর্ণ সাদ",
+    "nameArabic": "ص",
+    "versesCount": 88,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 39,
+    "nameEnglish": "Az-Zumar",
+    "nameBangla": "দলবদ্ধ জনতা",
+    "nameArabic": "الزمر",
+    "versesCount": 75,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 40,
+    "nameEnglish": "Ghafir",
+    "nameBangla": "ক্ষমাকারী",
+    "nameArabic": "غافر",
+    "versesCount": 85,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 41,
+    "nameEnglish": "Fussilat",
+    "nameBangla": "সুস্পষ্ট বিবরণ",
+    "nameArabic": "فصلت",
+    "versesCount": 54,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 42,
+    "nameEnglish": "Ash-Shuraa",
+    "nameBangla": "পরামর্শ",
+    "nameArabic": "الشورى",
+    "versesCount": 53,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 43,
+    "nameEnglish": "Az-Zukhruf",
+    "nameBangla": "সোনাদানা",
+    "nameArabic": "الزخرف",
+    "versesCount": 89,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 44,
+    "nameEnglish": "Ad-Dukhan",
+    "nameBangla": "ধোঁয়া",
+    "nameArabic": "الدخان",
+    "versesCount": 59,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 45,
+    "nameEnglish": "Al-Jathiyah",
+    "nameBangla": "নতজানু",
+    "nameArabic": "الجاثية",
+    "versesCount": 37,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 46,
+    "nameEnglish": "Al-Ahqaf",
+    "nameBangla": "বালুর পাহাড়",
+    "nameArabic": "الأحقاف",
+    "versesCount": 35,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 47,
+    "nameEnglish": "Muhammad",
+    "nameBangla": "নবী মুহাম্মদ",
+    "nameArabic": "محمد",
+    "versesCount": 38,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 48,
+    "nameEnglish": "Al-Fath",
+    "nameBangla": "বিজয়",
+    "nameArabic": "الفتح",
+    "versesCount": 29,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 49,
+    "nameEnglish": "Al-Hujurat",
+    "nameBangla": "আবাস",
+    "nameArabic": "الحجرات",
+    "versesCount": 18,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 50,
+    "nameEnglish": "Qaf",
+    "nameBangla": "কাফ",
+    "nameArabic": "ق",
+    "versesCount": 45,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 51,
+    "nameEnglish": "Adh-Dhariyat",
+    "nameBangla": "বিক্ষেপকারী বাতাস",
+    "nameArabic": "الذاريات",
+    "versesCount": 60,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 52,
+    "nameEnglish": "At-Tur",
+    "nameBangla": "পাহাড়",
+    "nameArabic": "الطور",
+    "versesCount": 49,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 53,
+    "nameEnglish": "An-Najm",
+    "nameBangla": "তারা",
+    "nameArabic": "النجم",
+    "versesCount": 62,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 54,
+    "nameEnglish": "Al-Qamar",
+    "nameBangla": "চাঁদ",
+    "nameArabic": "القمر",
+    "versesCount": 55,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 55,
+    "nameEnglish": "Ar-Rahman",
+    "nameBangla": "পরম করুণাময়",
+    "nameArabic": "الرحمن",
+    "versesCount": 78,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 56,
+    "nameEnglish": "Al-Waqi'ah",
+    "nameBangla": "নিশ্চিত ঘটনা",
+    "nameArabic": "الواقعة",
+    "versesCount": 96,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 57,
+    "nameEnglish": "Al-Hadid",
+    "nameBangla": "লোহা",
+    "nameArabic": "الحديد",
+    "versesCount": 29,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 58,
+    "nameEnglish": "Al-Mujadila",
+    "nameBangla": "অনুযোগকারিণী",
+    "nameArabic": "المجادلة",
+    "versesCount": 22,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 59,
+    "nameEnglish": "Al-Hashr",
+    "nameBangla": "সমাবেশ",
+    "nameArabic": "الحشر",
+    "versesCount": 24,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 60,
+    "nameEnglish": "Al-Mumtahanah",
+    "nameBangla": "নারী, যাকে পরীক্ষা করা হবে",
+    "nameArabic": "الممتحنة",
+    "versesCount": 13,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 61,
+    "nameEnglish": "As-Saf",
+    "nameBangla": "সারিবদ্ধ সৈন্যদল",
+    "nameArabic": "الصف",
+    "versesCount": 14,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 62,
+    "nameEnglish": "Al-Jumu'ah",
+    "nameBangla": "সম্মেলন/শুক্রবার",
+    "nameArabic": "الجمعة",
+    "versesCount": 11,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 63,
+    "nameEnglish": "Al-Munafiqun",
+    "nameBangla": "ভণ্ড বিশ্বাসী",
+    "nameArabic": "المنافقون",
+    "versesCount": 11,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 64,
+    "nameEnglish": "At-Taghabun",
+    "nameBangla": "মোহ অপসারণ",
+    "nameArabic": "التغابن",
+    "versesCount": 18,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 65,
+    "nameEnglish": "At-Talaq",
+    "nameBangla": "তালাক",
+    "nameArabic": "الطلاق",
+    "versesCount": 12,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 66,
+    "nameEnglish": "At-Tahrim",
+    "nameBangla": "নিষিদ্ধকরণ",
+    "nameArabic": "التحريم",
+    "versesCount": 12,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 67,
+    "nameEnglish": "Al-Mulk",
+    "nameBangla": "সার্বভৌম কর্তৃত্ব",
+    "nameArabic": "الملك",
+    "versesCount": 30,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 68,
+    "nameEnglish": "Al-Qalam",
+    "nameBangla": "কলম",
+    "nameArabic": "القلم",
+    "versesCount": 52,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 69,
+    "nameEnglish": "Al-Haqqah",
+    "nameBangla": "নিশ্চিত সত্য",
+    "nameArabic": "الحاقة",
+    "versesCount": 52,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 70,
+    "nameEnglish": "Al-Ma'arij",
+    "nameBangla": "উন্নয়নের সোপান",
+    "nameArabic": "المعارج",
+    "versesCount": 44,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 71,
+    "nameEnglish": "Nuh",
+    "nameBangla": "নবী নূহ",
+    "nameArabic": "نوح",
+    "versesCount": 28,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 72,
+    "nameEnglish": "Al-Jinn",
+    "nameBangla": "জিন সম্প্রদায়",
+    "nameArabic": "الجن",
+    "versesCount": 28,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 73,
+    "nameEnglish": "Al-Muzzammil",
+    "nameBangla": "বস্ত্রাচ্ছাদনকারী",
+    "nameArabic": "المزمل",
+    "versesCount": 20,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 74,
+    "nameEnglish": "Al-Muddaththir",
+    "nameBangla": "পোশাক পরিহিত",
+    "nameArabic": "المدثر",
+    "versesCount": 56,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 75,
+    "nameEnglish": "Al-Qiyamah",
+    "nameBangla": "পুনরুত্থান",
+    "nameArabic": "القيامة",
+    "versesCount": 40,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 76,
+    "nameEnglish": "Al-Insan",
+    "nameBangla": "মানবজাতি",
+    "nameArabic": "الانسان",
+    "versesCount": 31,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 77,
+    "nameEnglish": "Al-Mursalat",
+    "nameBangla": "প্রেরিত পুরুষ",
+    "nameArabic": "المرسلات",
+    "versesCount": 50,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 78,
+    "nameEnglish": "An-Naba",
+    "nameBangla": "মহাসংবাদ",
+    "nameArabic": "النبإ",
+    "versesCount": 40,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 79,
+    "nameEnglish": "An-Nazi'at",
+    "nameBangla": "প্রচেষ্টাকারী",
+    "nameArabic": "النازعات",
+    "versesCount": 46,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 80,
+    "nameEnglish": "'Abasa",
+    "nameBangla": "সে ভ্রু কুঁচকালো",
+    "nameArabic": "عبس",
+    "versesCount": 42,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 81,
+    "nameEnglish": "At-Takwir",
+    "nameBangla": "অন্ধকারাচ্ছন্ন",
+    "nameArabic": "التكوير",
+    "versesCount": 29,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 82,
+    "nameEnglish": "Al-Infitar",
+    "nameBangla": "বিদীর্ণ করা",
+    "nameArabic": "الإنفطار",
+    "versesCount": 19,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 83,
+    "nameEnglish": "Al-Mutaffifin",
+    "nameBangla": "প্রতারণা করা",
+    "nameArabic": "المطففين",
+    "versesCount": 36,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 84,
+    "nameEnglish": "Al-Inshiqaq",
+    "nameBangla": "খণ্ড-বিখণ্ডকরণ",
+    "nameArabic": "الإنشقاق",
+    "versesCount": 25,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 85,
+    "nameEnglish": "Al-Buruj",
+    "nameBangla": "নক্ষত্রপুঞ্জ",
+    "nameArabic": "البروج",
+    "versesCount": 22,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 86,
+    "nameEnglish": "At-Tariq",
+    "nameBangla": "রাতের আগন্তুক",
+    "nameArabic": "الطارق",
+    "versesCount": 17,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 87,
+    "nameEnglish": "Al-A'la",
+    "nameBangla": "সর্বোন্নত",
+    "nameArabic": "الأعلى",
+    "versesCount": 19,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 88,
+    "nameEnglish": "Al-Ghashiyah",
+    "nameBangla": "বিহ্বলকর ঘটনা",
+    "nameArabic": "الغاشية",
+    "versesCount": 26,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 89,
+    "nameEnglish": "Al-Fajr",
+    "nameBangla": "ভোরবেলা",
+    "nameArabic": "الفجر",
+    "versesCount": 30,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 90,
+    "nameEnglish": "Al-Balad",
+    "nameBangla": "নগর",
+    "nameArabic": "البلد",
+    "versesCount": 20,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 91,
+    "nameEnglish": "Ash-Shams",
+    "nameBangla": "সূর্য",
+    "nameArabic": "الشمس",
+    "versesCount": 15,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 92,
+    "nameEnglish": "Al-Layl",
+    "nameBangla": "রাত",
+    "nameArabic": "الليل",
+    "versesCount": 21,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 93,
+    "nameEnglish": "Ad-Duhaa",
+    "nameBangla": "পূর্বাহ্নের সুর্যকিরণ",
+    "nameArabic": "الضحى",
+    "versesCount": 11,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 94,
+    "nameEnglish": "Ash-Sharh",
+    "nameBangla": "বক্ষ প্রশস্তকরণ",
+    "nameArabic": "الشرح",
+    "versesCount": 8,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 95,
+    "nameEnglish": "At-Tin",
+    "nameBangla": "ডুমুর",
+    "nameArabic": "التين",
+    "versesCount": 8,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 96,
+    "nameEnglish": "Al-'Alaq",
+    "nameBangla": "রক্তপিণ্ড",
+    "nameArabic": "العلق",
+    "versesCount": 19,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 97,
+    "nameEnglish": "Al-Qadr",
+    "nameBangla": "মহিমান্বিত",
+    "nameArabic": "القدر",
+    "versesCount": 5,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 98,
+    "nameEnglish": "Al-Bayyinah",
+    "nameBangla": "প্রমাণ",
+    "nameArabic": "البينة",
+    "versesCount": 8,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 99,
+    "nameEnglish": "Az-Zalzalah",
+    "nameBangla": "ভূমিকম্প",
+    "nameArabic": "الزلزلة",
+    "versesCount": 8,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 100,
+    "nameEnglish": "Al-'Adiyat",
+    "nameBangla": "অভিযানকারী",
+    "nameArabic": "العاديات",
+    "versesCount": 11,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 101,
+    "nameEnglish": "Al-Qari'ah",
+    "nameBangla": "মহাসংকট",
+    "nameArabic": "القارعة",
+    "versesCount": 11,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 102,
+    "nameEnglish": "At-Takathur",
+    "nameBangla": "প্রাচুর্যের প্রতিযোগিতা",
+    "nameArabic": "التكاثر",
+    "versesCount": 8,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 103,
+    "nameEnglish": "Al-'Asr",
+    "nameBangla": "সময়",
+    "nameArabic": "العصر",
+    "versesCount": 3,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 104,
+    "nameEnglish": "Al-Humazah",
+    "nameBangla": "পরনিন্দাকারী",
+    "nameArabic": "الهمزة",
+    "versesCount": 9,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 105,
+    "nameEnglish": "Al-Fil",
+    "nameBangla": "হাতি",
+    "nameArabic": "الفيل",
+    "versesCount": 5,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 106,
+    "nameEnglish": "Quraysh",
+    "nameBangla": "কুরাইশ গোত্র",
+    "nameArabic": "قريش",
+    "versesCount": 4,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 107,
+    "nameEnglish": "Al-Ma'un",
+    "nameBangla": "সাহায্য সহায়তা",
+    "nameArabic": "الماعون",
+    "versesCount": 7,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 108,
+    "nameEnglish": "Al-Kawthar",
+    "nameBangla": "কাউসার/প্রাচুর্য",
+    "nameArabic": "الكوثر",
+    "versesCount": 3,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 109,
+    "nameEnglish": "Al-Kafirun",
+    "nameBangla": "অবিশ্বাসী",
+    "nameArabic": "الكافرون",
+    "versesCount": 6,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 110,
+    "nameEnglish": "An-Nasr",
+    "nameBangla": "সাহায্য",
+    "nameArabic": "النصر",
+    "versesCount": 3,
+    "revelationPlace": "madinah",
+    "bismillahPre": true
+  },
+  {
+    "number": 111,
+    "nameEnglish": "Al-Masad",
+    "nameBangla": "খেজুরের পাকানো (রশি)",
+    "nameArabic": "المسد",
+    "versesCount": 5,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 112,
+    "nameEnglish": "Al-Ikhlas",
+    "nameBangla": "আন্তরিকতা",
+    "nameArabic": "الإخلاص",
+    "versesCount": 4,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 113,
+    "nameEnglish": "Al-Falaq",
+    "nameBangla": "নিশিভোর",
+    "nameArabic": "الفلق",
+    "versesCount": 5,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  },
+  {
+    "number": 114,
+    "nameEnglish": "An-Nas",
+    "nameBangla": "মানুষ জাতি",
+    "nameArabic": "الناس",
+    "versesCount": 6,
+    "revelationPlace": "makkah",
+    "bismillahPre": true
+  }
+]

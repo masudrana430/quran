@@ -6,6 +6,8 @@ import {
   Noto_Naskh_Arabic,
 } from "next/font/google";
 import "./globals.css";
+import SiteHeader from "@/components/SiteHeader";
+import Link from "next/link";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -45,7 +47,15 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${hindSiliguri.variable} ${amiriQuran.variable} ${notoNaskhArabic.variable}`}
       >
-        {children}
+        <a className="skip-link" href="#main-content">
+          মূল লেখায় যান
+        </a>
+        <SiteHeader />
+        <main id="main-content">{children}</main>
+        <footer className="site-footer">
+          <p>কুরআন · পড়ুন, বুঝুন, অনুশীলন করুন</p>
+          <Link href="/about">অনুবাদ ও শেখার সহায়িকার উৎস</Link>
+        </footer>
       </body>
     </html>
   );

@@ -5,6 +5,8 @@ export type QuranWord = {
   banglaMeaning: string;
   memoryTrick: string;
   root?: string;
+  rootSource?: string;
+  audio?: string;
 };
 
 export type Ayah = {
@@ -14,6 +16,10 @@ export type Ayah = {
   banglaTranslation: string;
   audio?: string;
   words: QuranWord[];
+  memoryAid?: string;
+  pageNumber?: number;
+  juzNumber?: number;
+  translationSource?: string;
 };
 
 export type SurahInfo = {
@@ -22,6 +28,8 @@ export type SurahInfo = {
   nameBangla: string;
   nameArabic: string;
   versesCount: number;
+  revelationPlace?: string;
+  bismillahPre?: boolean;
 };
 
 export type SurahData = {
