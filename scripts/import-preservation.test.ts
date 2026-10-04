@@ -1,10 +1,11 @@
+import { readLibraryData } from "./library-data";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readFileSync } from "node:fs";
 import { rewriteTricks } from "./refresh-word-tricks";
 import type { SurahData } from "../src/types/quran";
 
-const library = JSON.parse(readFileSync("src/data/quran-library.json", "utf8"));
+const library = readLibraryData();
 const progress = JSON.parse(readFileSync("src/data/progress.json", "utf8"));
 const morph = JSON.parse(readFileSync("src/data/word-morphology.json", "utf8"));
 

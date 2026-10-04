@@ -1,3 +1,4 @@
+import { readLibraryData } from "./library-data";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readFileSync } from "node:fs";
@@ -12,7 +13,7 @@ import {
 import DetailedWordAid from "../src/components/DetailedWordAid";
 const read = (path: string) =>
   JSON.parse(readFileSync(`src/data/${path}.json`, "utf8"));
-const library = read("quran-library"),
+const library = readLibraryData(),
   details = read("detailed-word-aids"),
   morphology = read("word-morphology"),
   urdu = read("first-100-urdu-glosses"),
@@ -37,7 +38,8 @@ test("Exactly the requested first 100 ayahs have details; all other ayahs retain
           (x: { surah: { number: number } }) =>
             x.surah.number === s.surah.number,
         )
-        .ayahs.find((x: { verseKey: string }) => x.verseKey === a.verseKey);
+        ?.ayahs.find((x: { verseKey: string }) => x.verseKey === a.verseKey);
+      assert.ok(original);
       if (!expected.has(a.verseKey)) {
         remaining++;
         assert.deepEqual(a, original);

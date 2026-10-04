@@ -1,9 +1,10 @@
+import { readLibraryData } from "./library-data";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readFileSync } from "node:fs";
 import { validate } from "./validate-data";
 const catalog = JSON.parse(readFileSync("src/data/chapters.json", "utf8"));
-const library = JSON.parse(readFileSync("src/data/quran-library.json", "utf8"));
+const library = readLibraryData();
 const progress = JSON.parse(readFileSync("src/data/progress.json", "utf8"));
 test("Published data has no missing text, unsourced roots, broken local audio or duplicate ayahs", () => {
   assert.deepEqual(validate(catalog, library.surahs, progress), []);
@@ -60,10 +61,13 @@ test("All published ayahs use Zakaria and word-level relational cues without the
   let count = 0;
   for (const surah of library.surahs)
     for (const ayah of surah.ayahs) {
+      assert.ok(ayah.translationSource);
       assert.match(ayah.translationSource, /Zakaria.*213/);
       assert.equal(ayah.memoryAid, undefined);
       for (const word of ayah.words) {
         count++;
+        assert.ok(word.memoryTrickType);
+        assert.ok(word.memoryTrickSource);
         assert.ok(
           ["familiar", "family", "context"].includes(word.memoryTrickType),
         );
@@ -88,6 +92,7 @@ test("All published ayahs use Zakaria and word-level relational cues without the
   const mulk = library.surahs.find(
     (s: { surah: { number: number } }) => s.surah.number === 67,
   );
+  assert.ok(mulk);
   assert.match(mulk.ayahs[0].words[3].memoryTrick, /নিজ মুলুকে রাজা/);
   assert.match(mulk.ayahs[1].words[4].memoryTrick, /বালা/);
   assert.equal(morphology["67:2:5"].root, "blw");

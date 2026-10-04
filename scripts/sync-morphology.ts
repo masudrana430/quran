@@ -1,3 +1,4 @@
+import spellings from "../src/data/morphology-spellings.json";
 import { writeFile } from "node:fs/promises";
 import type { SurahData } from "../src/types/quran";
 export type WordMorph = {
@@ -6,6 +7,8 @@ export type WordMorph = {
   tag: string;
   stemArabic: string;
   aligned: boolean;
+  alignmentNote?: string;
+  alignmentSource?: string;
 };
 const MIRROR =
   "https://raw.githubusercontent.com/taziksh/quran-frequencies/main/data/quranic-corpus-morphology-0.4.txt";
@@ -101,23 +104,26 @@ export function extractMorphology(
     rows.set(key, list);
   }
   const result: Record<string, WordMorph> = {};
+  const mismatches: string[] = [];
   for (const [key, word] of wanted) {
     const segments = rows.get(key);
     const stem = segments?.find((s) => s.features.includes("STEM"));
     if (!segments || !stem) throw new Error(`Morphology missing ${key}`);
-    if (
-      normalize(arabic(segments.map((s) => s.form).join(""))) !==
-      normalize(word)
-    )
-      throw new Error(`Morphology/text alignment ${key}`);
+    const corpusForm = arabic(segments.map((s) => s.form).join(""));
+    const spelling = (spellings as Record<string, { corpus: string; provider: string; source: string; note: string }>)[key];
+    const documentedSpelling = spelling?.corpus === corpusForm && spelling.provider === word;
+    if (normalize(corpusForm) !== normalize(word) && !documentedSpelling)
+      mismatches.push(`Morphology/text alignment ${key}: corpus=${arabic(segments.map((s) => s.form).join(""))}; provider=${word}`);
     result[key] = {
       root: stem.features.match(/ROOT:([^|]+)/)?.[1] ?? "",
       lemma: stem.features.match(/LEM:([^|]+)/)?.[1] ?? stem.form,
       tag: stem.tag,
       stemArabic: arabic(stem.form),
       aligned: true,
+      ...(documentedSpelling ? { alignmentNote: spelling.note, alignmentSource: spelling.source } : {}),
     };
   }
+  if (mismatches.length) throw new Error(mismatches.join("\n"));
   return result;
 }
 export async function prepareMorphology(surahs: SurahData[]) {

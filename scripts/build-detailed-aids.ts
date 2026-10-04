@@ -1,3 +1,4 @@
+import { readLibraryData } from "./library-data";
 import { readFile, writeFile } from "node:fs/promises";
 import type { SurahData, DetailedWordAid } from "../src/types/quran";
 import { arabic, extractMorphology, type WordMorph } from "./sync-morphology";
@@ -307,9 +308,7 @@ export function buildDetailedAids(
   };
 }
 async function main() {
-  const library = JSON.parse(
-    await readFile("src/data/quran-library.json", "utf8"),
-  );
+  const library = readLibraryData();
   const morphology = JSON.parse(
     await readFile("src/data/word-morphology.json", "utf8"),
   );

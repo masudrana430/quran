@@ -1,3 +1,5 @@
+import spellings from "../src/data/morphology-spellings.json";
+import { readLibraryData } from "./library-data";
 import { readFileSync } from "node:fs";
 import type { SurahData, SurahInfo } from "../src/types/quran";
 export function validate(
@@ -45,7 +47,11 @@ export function validate(
         errors.push(`Removed verse-level aid returned ${a.verseKey}`);
       const normalize = (text: string) => text.replace(/[\p{M}\p{Z}\sـ]/gu, "");
       if (
-        normalize(a.arabic) !== normalize(a.words.map((w) => w.arabic).join(""))
+        normalize(a.arabic) !== normalize(a.words.map((w) => w.arabic).join("")) &&
+        normalize(a.arabic) !== normalize(a.words.map((w) => {
+          const spelling = (spellings as Record<string, { corpus: string; provider: string }>)[`${a.verseKey}:${w.position}`];
+          return spelling?.provider === w.arabic ? spelling.corpus : w.arabic;
+        }).join(""))
       )
         errors.push(`Word/verse alignment mismatch ${a.verseKey}`);
       const positions = new Set<number>();
@@ -77,9 +83,7 @@ export function validate(
 }
 if (process.argv[1]?.endsWith("validate-data.ts")) {
   const catalog = JSON.parse(readFileSync("src/data/chapters.json", "utf8"));
-  const library = JSON.parse(
-    readFileSync("src/data/quran-library.json", "utf8"),
-  );
+  const library = readLibraryData();
   const progress = JSON.parse(readFileSync("src/data/progress.json", "utf8"));
   const errors = validate(catalog, library.surahs, progress);
   if (errors.length) {
