@@ -54,7 +54,7 @@ test("A shared lemma alone cannot link differently classified words", () => {
   for (const w of copy.ayahs[0].words) assert.equal(w.memoryTrickType, "context");
 });
 
-test("Two word-gloss clarifications follow exact Zakaria wording and preserve original fingerprints in the UI", () => {
+test("Source-backed word-gloss clarifications follow exact Zakaria wording and preserve original fingerprints in the UI", () => {
   const rendered = attachDetailedAids(library.surahs, clarifications.words as Record<string, Aid>);
   for (const [key, expected] of Object.entries(clarifications.words) as [string, Aid][]) {
     const [s, a, p] = key.split(":");

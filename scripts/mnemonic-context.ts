@@ -5,6 +5,9 @@ const ambiguousRoots = new Set([
   "qlb", "rwH", "xlf", "ysr", "qrA", "Hbb", "rbw", "Swr", "frD",
   "dyn", "nZr", "Hsb", "wfy", "Amm", "mll", "n*r", "EZm", "swy",
   "Sdq", "skn", "xlw", "vmr", "Emr", "Amr", "twb", "nwr",
+  "Hyy", "Hjj", "bny", "$bh", "*kr", "Slw", "Amn", "smE", "bSr",
+  "kfr", "hdy", "nEm", "qdr", "Ezz", "xyr",
+  "jnn", "nhr", "Zlm", "byt", "lqy", "brr", "qrb", "mwl", "b$r", "Drb",
 ]);
 type Morph = { root: string; lemma: string; tag: string };
 export function rootHintAllowed(meta: Morph) {
@@ -13,6 +16,7 @@ export function rootHintAllowed(meta: Morph) {
 }
 const textualVerses = new Set([
   "18:26", "20:5", "20:12", "20:13", "20:14", "20:46", "24:35", "25:59",
+  "32:4", "33:43", "33:56", "35:41", "36:82", "38:75", "39:42",
 ]);
 const attributeLemmas = new Set([
   "Ealiym", "baSiyr", "samiyE", "r~aHiym", "r~aHoma`n", "Hakiym",
@@ -22,7 +26,7 @@ const attributeLemmas = new Set([
 ]);
 export function textualMnemonicOnly(key: string, meta: Morph, meaning: string) {
   const verse = key.split(":").slice(0, 2).join(":");
-  return textualVerses.has(verse) || attributeLemmas.has(meta.lemma) ||
+  return textualVerses.has(verse) || key === "33:53:36" || attributeLemmas.has(meta.lemma) ||
     ["huwa", "naHonu", ">anaA", ">anaA\""].includes(meta.lemma) ||
     (meta.root === "EZm" && /হাড়|হাড়|অস্থি/.test(meaning));
 }
