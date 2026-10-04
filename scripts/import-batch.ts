@@ -56,7 +56,10 @@ async function readLibrary(): Promise<Library> {
   }
 }
 async function atomic(path: string, data: unknown) {
-  await writeFile(`${path}.tmp`, JSON.stringify(data, null, 2) + "\n");
+  const serialized = path.endsWith("quran-library.json")
+    ? JSON.stringify(data)
+    : JSON.stringify(data, null, 2);
+  await writeFile(`${path}.tmp`, serialized + "\n");
   await rename(`${path}.tmp`, path);
 }
 function mapVerse(v: ApiVerse, audio?: string): Ayah {
@@ -189,7 +192,11 @@ async function main() {
   )
     throw new Error("Duplicate or lost ayahs");
   const morphology = await prepareMorphology(library.surahs);
-  const mnemonicCoverage = rewriteTricks(library.surahs, morphology.result);
+  const mnemonicCoverage = rewriteTricks(
+    library.surahs,
+    morphology.result,
+    new Set([...before].filter((key) => !repaired.includes(key))),
+  );
   const integrity = validate(catalog, library.surahs, {
     completedCount: keys.length,
     completedVerseKeys: keys,
@@ -198,7 +205,13 @@ async function main() {
   await saveMorphology(morphology);
   await atomic("src/data/chapters.json", catalog);
   await atomic("src/data/quran-library.json", library);
+  const previousProgress = JSON.parse(
+    await readFile("src/data/progress.json", "utf8"),
+  );
   await atomic("src/data/progress.json", {
+    ...(previousProgress.detailedAidProgress
+      ? { detailedAidProgress: previousProgress.detailedAidProgress }
+      : {}),
     updatedAt: new Date().toISOString(),
     totalAyahs: 6236,
     completedCount: keys.length,

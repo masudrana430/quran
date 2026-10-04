@@ -18,7 +18,7 @@ const library = read("quran-library"),
   urdu = read("first-100-urdu-glosses"),
   segments = read("first-100-segments");
 const rendered = attachDetailedAids(library.surahs, details.words);
-test("Exactly the requested first 100 ayahs have details; the other 730 retain their original word content", () => {
+test("Exactly the requested first 100 ayahs have details; all other ayahs retain their original word content", () => {
   const selected = firstHundred(library.surahs),
     expected = new Set(selected.map((a) => a.verseKey));
   assert.equal(selected.length, 100);
@@ -56,11 +56,11 @@ test("Exactly the requested first 100 ayahs have details; the other 730 retain t
         }
     }
   assert.equal(covered, 1593);
-  assert.equal(remaining, 730);
+  assert.equal(remaining, library.surahs.flatMap((s: {ayahs: unknown[]})=>s.ayahs).length - 100);
   assert.equal(Object.keys(details.words).length, covered);
   assert.equal(
     library.surahs.flatMap((s: { ayahs: unknown[] }) => s.ayahs).length,
-    830,
+    read("progress").completedCount,
   );
 });
 test("Every detailed cue has the correct source fingerprint, morphology, source links and actual nearby words", () => {
