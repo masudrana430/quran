@@ -70,6 +70,42 @@
       "file": "quran-surahs/017.json"
     },
     {
+      "number": 18,
+      "file": "quran-surahs/018.json"
+    },
+    {
+      "number": 19,
+      "file": "quran-surahs/019.json"
+    },
+    {
+      "number": 20,
+      "file": "quran-surahs/020.json"
+    },
+    {
+      "number": 21,
+      "file": "quran-surahs/021.json"
+    },
+    {
+      "number": 22,
+      "file": "quran-surahs/022.json"
+    },
+    {
+      "number": 23,
+      "file": "quran-surahs/023.json"
+    },
+    {
+      "number": 24,
+      "file": "quran-surahs/024.json"
+    },
+    {
+      "number": 25,
+      "file": "quran-surahs/025.json"
+    },
+    {
+      "number": 26,
+      "file": "quran-surahs/026.json"
+    },
+    {
       "number": 67,
       "file": "quran-surahs/067.json"
     }

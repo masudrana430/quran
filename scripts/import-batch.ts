@@ -208,6 +208,9 @@ async function main() {
     await readFile("src/data/progress.json", "utf8"),
   );
   await atomic("src/data/progress.json", {
+    ...(previousProgress.wordGlossClarifications
+      ? { wordGlossClarifications: previousProgress.wordGlossClarifications }
+      : {}),
     ...(previousProgress.contentRequestHistory
       ? { contentRequestHistory: previousProgress.contentRequestHistory }
       : {}),

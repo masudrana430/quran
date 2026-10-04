@@ -3,12 +3,13 @@ import chapters from "@/data/chapters.json";
 import progress from "@/data/progress.json";
 import detailed from "@/data/detailed-word-aids.json";
 import nextDetailed from "@/data/detailed-word-aids-next-200.json";
+import clarifications from "@/data/source-word-clarifications.json";
 import { attachDetailedAids } from "./detailed-aids";
 import type { DetailedWordAid, SurahData, SurahInfo } from "@/types/quran";
 export const catalog = chapters as SurahInfo[];
 export const surahs = attachDetailedAids(
   library.surahs as SurahData[],
-  { ...detailed.words, ...nextDetailed.words } as Record<
+  { ...detailed.words, ...nextDetailed.words, ...clarifications.words } as Record<
     string,
     DetailedWordAid
   >,

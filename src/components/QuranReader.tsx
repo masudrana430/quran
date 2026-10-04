@@ -324,7 +324,7 @@ function ReaderAyah({
                 setWord(w);
                 onRead();
               }}
-              title={w.banglaMeaning}
+              title={w.detailedAid?.meaning ?? w.banglaMeaning}
               aria-pressed={word?.position === w.position}
             >
               {w.arabic}
