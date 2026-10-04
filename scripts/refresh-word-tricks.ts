@@ -1,3 +1,4 @@
+import { readLibraryData, writeLibraryData } from "./library-data";
 import { readFile, writeFile } from "node:fs/promises";
 import type { SurahData, QuranWord } from "../src/types/quran";
 import roots from "../src/data/mnemonic-anchors.json";
@@ -106,9 +107,7 @@ export function rewriteTricks(
   return counts;
 }
 async function main() {
-  const library = JSON.parse(
-    await readFile("src/data/quran-library.json", "utf8"),
-  ) as { surahs: SurahData[] };
+  const library = readLibraryData() as { surahs: SurahData[] };
   // Refresh only existing verses; no new ayahs are added by this correction.
   for (const s of library.surahs) {
     const translations = new Map<number, string>();
@@ -140,10 +139,7 @@ async function main() {
     console.log(`Zakaria translations prepared: ${s.surah.number}`);
   }
   const counts = rewriteTricks(library.surahs);
-  await writeFile(
-    "src/data/quran-library.json",
-    JSON.stringify(library, null, 2) + "\n",
-  );
+  await writeLibraryData(library);
   const progress = JSON.parse(await readFile("src/data/progress.json", "utf8"));
   progress.sources.translation = SOURCE;
   progress.sources.morphology =

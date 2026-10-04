@@ -1,4 +1,4 @@
-import library from "@/data/quran-library.json";
+import library from "@/data/quran-library";
 import chapters from "@/data/chapters.json";
 import progress from "@/data/progress.json";
 import detailed from "@/data/detailed-word-aids.json";

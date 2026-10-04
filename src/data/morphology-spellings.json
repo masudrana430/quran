@@ -1,0 +1,20 @@
+{
+  "11:13:3": {
+    "corpus": "ٱفْتَرَىٰهُ",
+    "provider": "افْتَرَاهُ ۖ",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(11:13:3)",
+    "note": "Corpus writes final alif maqsura plus dagger alif before the pronoun; Quran.com word text writes alif. Exact sourced forms only, without changing either source text or a global ya/alif rule."
+  },
+  "12:39:1": {
+    "corpus": "يَٰصَىٰحِبَىِ",
+    "provider": "يَـٰصَـٰحِبَىِ",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(12:39:1)",
+    "note": "Corpus v0.4 segmented transcription uses an extra alif-maqsura carrier in the medial long vowel. Quran.com word and verse text agree. Positional word and root SHb are verified on the primary Corpus page; the questioned possessive/dual segmentation is not used to teach grammar."
+  },
+  "12:41:1": {
+    "corpus": "يَٰصَىٰحِبَىِ",
+    "provider": "يَـٰصَـٰحِبَىِ",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(12:41:1)",
+    "note": "Corpus v0.4 segmented transcription uses an extra alif-maqsura carrier in the medial long vowel. Quran.com word and verse text agree. Positional word and root SHb are verified on the primary Corpus page; the questioned possessive/dual segmentation is not used to teach grammar."
+  }
+}

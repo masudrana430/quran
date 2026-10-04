@@ -1,3 +1,4 @@
+import { readLibraryData } from "./library-data";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { readFileSync } from "node:fs";
@@ -6,7 +7,7 @@ import { nextTwoHundred } from "./build-detailed-aids";
 import { attachDetailedAids } from "../src/lib/detailed-aids";
 const read = (s: string) =>
   JSON.parse(readFileSync(`src/data/${s}.json`, "utf8"));
-const library = read("quran-library"),
+const library = readLibraryData(),
   first = read("detailed-word-aids"),
   next = read("detailed-word-aids-next-200"),
   morph = read("word-morphology"),

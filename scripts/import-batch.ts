@@ -1,3 +1,4 @@
+import { readLibraryData, writeLibraryData } from "./library-data";
 import { readFile, writeFile, rename } from "node:fs/promises";
 import type { Ayah, SurahData, SurahInfo } from "../src/types/quran";
 import { validate } from "./validate-data";
@@ -48,7 +49,7 @@ async function get<T>(path: string): Promise<T> {
 }
 async function readLibrary(): Promise<Library> {
   try {
-    return JSON.parse(await readFile("src/data/quran-library.json", "utf8"));
+    return readLibraryData();
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code === "ENOENT")
       return { surahs: [] };
@@ -56,9 +57,7 @@ async function readLibrary(): Promise<Library> {
   }
 }
 async function atomic(path: string, data: unknown) {
-  const serialized = path.endsWith("quran-library.json")
-    ? JSON.stringify(data)
-    : JSON.stringify(data, null, 2);
+  const serialized = JSON.stringify(data, null, 2);
   await writeFile(`${path}.tmp`, serialized + "\n");
   await rename(`${path}.tmp`, path);
 }
@@ -204,11 +203,14 @@ async function main() {
   if (integrity.length) throw new Error(integrity.join("\n"));
   await saveMorphology(morphology);
   await atomic("src/data/chapters.json", catalog);
-  await atomic("src/data/quran-library.json", library);
+  await writeLibraryData(library);
   const previousProgress = JSON.parse(
     await readFile("src/data/progress.json", "utf8"),
   );
   await atomic("src/data/progress.json", {
+    ...(previousProgress.contentRequestHistory
+      ? { contentRequestHistory: previousProgress.contentRequestHistory }
+      : {}),
     ...(previousProgress.detailedAidProgress
       ? { detailedAidProgress: previousProgress.detailedAidProgress }
       : {}),

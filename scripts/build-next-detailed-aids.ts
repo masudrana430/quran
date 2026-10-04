@@ -1,3 +1,4 @@
+import { readLibraryData } from "./library-data";
 import { readFile, writeFile } from "node:fs/promises";
 import {
   buildDetailedAids,
@@ -46,7 +47,7 @@ export function buildNextDetailedAids(
 async function main() {
   const read = async (p: string) =>
     JSON.parse(await readFile(`src/data/${p}.json`, "utf8"));
-  const library = await read("quran-library"),
+  const library = readLibraryData(),
     morph = await read("word-morphology"),
     urdu = await read("next-200-urdu-glosses");
   const path = process.argv.find((a) => a.startsWith("--corpus="))?.slice(9);
