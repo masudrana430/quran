@@ -20,6 +20,11 @@ const textualVerses = new Set([
   "32:4", "33:43", "33:56", "35:41", "36:82", "38:75", "39:42",
   "39:67", "40:15", "41:11", "42:11", "48:10", "50:16", "50:38",
   "51:47", "52:48", "53:8", "53:9", "54:14", "55:27", "57:3", "57:4",
+  // Keep these passages tied to their local text, without importing a different
+  // sense from a same-lemma verse or depicting Allah's attributes as human ones.
+  "58:7", "59:22", "59:23", "59:24", "62:1", "68:42", "69:17", "70:4",
+  "74:31", "75:22", "75:23", "75:29", "76:9", "85:14", "85:15", "85:16",
+  "87:1", "89:22", "92:20", "96:14",
 ]);
 const attributeLemmas = new Set([
   "Ealiym", "baSiyr", "samiyE", "r~aHiym", "r~aHoma`n", "Hakiym",
