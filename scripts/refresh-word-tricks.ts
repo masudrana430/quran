@@ -100,6 +100,12 @@ export function rewriteTricks(
             "পরিচিত “বালা” বিপদ বা পরীক্ষা মনে করায়। لِيَبْلُوَكُمْ-এ পরীক্ষা করার ক্রিয়াটি ب ل و শব্দপরিবারের; لِ উদ্দেশ্য বোঝায়, كُمْ তোমাদের—এখানে অর্থ: তোমাদের পরীক্ষা করার জন্য।";
           type = "familiar";
         }
+        if (key === "57:25:13" && meta?.aligned && meta.lemma === "Hadiyd" &&
+          meta.tag === "N" && norm(w.arabic) === "الحديد" && w.banglaMeaning === "লোহা") {
+          hint = "সূরার পরিচিত নাম ‘আল-হাদীদ’ মনে করুন—حَدِيد মানে লোহা। এই আয়াতের «ٱلْحَدِيدَ»-কেও লোহা অর্থে মিলিয়ে রাখুন; ৫০:২২-এর প্রখর দৃষ্টির প্রসঙ্গে এই অর্থ বসাবেন না।";
+          type = "familiar";
+          source = "https://corpus.quran.com/wordmorphology.jsp?location=(57:25:13)";
+        }
         w.memoryTrick = hint;
         w.memoryTrickType = type as "familiar" | "family" | "context";
         w.memoryTrickSource = source;
