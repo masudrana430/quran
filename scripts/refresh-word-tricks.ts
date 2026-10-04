@@ -21,6 +21,7 @@ const meaning = (s: string) =>
 export function rewriteTricks(
   surahs: SurahData[],
   suppliedMorph: Record<string, Morph> = morph,
+  preserveVerseKeys: ReadonlySet<string> = new Set(),
 ) {
   const morph = suppliedMorph;
   const families = new Map<
@@ -40,6 +41,13 @@ export function rewriteTricks(
   const counts: Record<string, number> = {};
   for (const s of surahs)
     for (const a of s.ayahs) {
+      if (preserveVerseKeys.has(a.verseKey)) {
+        for (const w of a.words) {
+          const type = w.memoryTrickType ?? "context";
+          counts[type] = (counts[type] ?? 0) + 1;
+        }
+        continue;
+      }
       delete a.memoryAid;
       for (const w of a.words) {
         const key = `${a.verseKey}:${w.position}`,

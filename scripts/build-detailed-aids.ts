@@ -48,6 +48,8 @@ const dictionarySources = new Set([
   "https://rekhtadictionary.com/meaning-of-ilm",
   "https://www.rekhtadictionary.com/meaning-of-zulmat",
   "https://www.rekhtadictionary.com/meaning-of-zaalim",
+  "https://www.rekhtadictionary.com/meaning-of-takliif",
+  "https://www.rekhtadictionary.com/meaning-of-qabz?lang=ur",
 ]);
 export function firstHundred(surahs: SurahData[]) {
   const keys = [
@@ -63,8 +65,25 @@ export function firstHundred(surahs: SurahData[]) {
     return ayah;
   });
 }
-export function segmentSnapshot(text: string, surahs: SurahData[]) {
-  const selected = firstHundred(surahs);
+export function nextTwoHundred(surahs: SurahData[]) {
+  const keys = [
+    ...Array.from({ length: 193 }, (_, i) => `2:${i + 94}`),
+    ...Array.from({ length: 7 }, (_, i) => `3:${i + 1}`),
+  ];
+  const all = new Map(
+    surahs.flatMap((s) => s.ayahs).map((a) => [a.verseKey, a]),
+  );
+  return keys.map((key) => {
+    const ayah = all.get(key);
+    if (!ayah) throw new Error(`Missing next-200 ayah ${key}`);
+    return ayah;
+  });
+}
+export function segmentSnapshot(
+  text: string,
+  surahs: SurahData[],
+  selected = firstHundred(surahs),
+) {
   // Check source/word alignment before using any segmentation annotation.
   extractMorphology(text, [{ surah: surahs[0].surah, ayahs: selected }]);
   const wanted = new Set(
@@ -95,7 +114,7 @@ const pronouns: Record<string, string> = {
   "3MP": "তারা/তাদের",
   "3FP": "তারা/তাদের",
 };
-export function explainParts(segments: Segment[]) {
+export function explainParts(segments: Segment[], expanded = false) {
   return segments.map((s) => {
     let meaning = "শব্দের প্রধান অংশ";
     if (s.features.startsWith("PREFIX")) {
@@ -107,6 +126,12 @@ export function explainParts(segments: Segment[]) {
       else if (s.features.includes("A:INTG+")) meaning = "কি—প্রশ্নের অংশ";
       else if (s.features.includes("l:EMPH+"))
         meaning = "নিশ্চয়/অবশ্যই—জোর দেওয়ার অংশ";
+      else if (expanded && s.features.includes("l:PRP+"))
+        meaning = "যাতে/উদ্দেশ্যে—কাজের উদ্দেশ্য";
+      else if (expanded && s.features.includes("l:IMPV+"))
+        meaning = "যেন করে/করুক—নির্দেশের অংশ";
+      else if (expanded && s.features.includes("sa+"))
+        meaning = "করবে—ভবিষ্যতের অংশ";
       else if (s.features.includes("l:P+"))
         meaning = "জন্য/কে/সম্পর্কে—প্রসঙ্গ অনুযায়ী";
       else if (s.features.startsWith("PREFIX|w:"))
@@ -140,8 +165,25 @@ export function buildDetailedAids(
   morphology: Record<string, WordMorph>,
   urdu: Record<string, UrduGloss>,
   snapshots: Record<string, Segment[]>,
+  options: {
+    selected?: ReturnType<typeof firstHundred>;
+    profileForWord?: (
+      key: string,
+      meta: WordMorph,
+      meaning: string,
+    ) => AidProfile | undefined;
+    clarifications?: Record<string, { meaning: string; note: string }>;
+    nextVerseKey?: string;
+    fallbackPictures?: boolean;
+    expandedParts?: boolean;
+    fallbackPicture?: (
+      key: string,
+      meta: WordMorph,
+      meaning: string,
+    ) => string | undefined;
+  } = {},
 ) {
-  const selected = firstHundred(surahs);
+  const selected = options.selected ?? firstHundred(surahs);
   const words: Record<string, DetailedWordAid> = {};
   const kinds: Record<string, number> = {};
   for (const ayah of selected)
@@ -159,14 +201,15 @@ export function buildDetailedAids(
       const root = stem.features.match(/ROOT:([^|]+)/)?.[1] ?? "";
       if (lemma !== meta.lemma || root !== meta.root)
         throw new Error(`Morphology mismatch ${key}`);
-      let profile: AidProfile | undefined =
-        wordOverrides[key] ||
-        specializedProfiles[meta.lemma] ||
-        lemmaProfiles[meta.lemma] ||
-        rootProfiles[meta.root];
       const sourceMeaning = plain(word.banglaMeaning),
-        clarification = clarifications[key];
+        clarification = options.clarifications?.[key] ?? clarifications[key];
       const mean = clarification?.meaning ?? sourceMeaning;
+      let profile: AidProfile | undefined = options.profileForWord
+        ? options.profileForWord(key, meta, mean)
+        : wordOverrides[key] ||
+          specializedProfiles[meta.lemma] ||
+          lemmaProfiles[meta.lemma] ||
+          rootProfiles[meta.root];
       if (!profile) {
         profile = {
           kind: "meaning",
@@ -177,11 +220,14 @@ export function buildDetailedAids(
             ? `এই জায়গায় উর্দুর «${plain(u.text)}» এবং বাংলার «${mean}» একই আরবি শব্দের অর্থ ধরতে সাহায্য করে। এটি অর্থের তুলনা; ধ্বনি মিলে যাওয়া বা একই উৎসের শব্দ হওয়ার দাবি নয়।`
             : `এখানে বাংলার «${mean}» এবং আয়াতের পাশের শব্দ দিয়ে সম্পর্ক রাখুন। নির্ভরযোগ্য পরিচিত শব্দের মিল না থাকলে মিল বানানোর প্রয়োজন নেই।`,
           picture:
-            rootPictures[meta.root] ??
+            options.fallbackPicture?.(key, meta, mean) ??
+            (options.fallbackPictures === false
+              ? undefined
+              : rootPictures[meta.root]) ??
             `আয়াতের এই জায়গায় «${mean}» কথাটি কী সম্পর্ক বলছে ভাবুন; নিচের কাছের শব্দগুলো দিয়ে অর্থটি নির্দিষ্ট করুন।`,
         };
       }
-      const parts = explainParts(segments);
+      const parts = explainParts(segments, options.expandedParts);
       const formNote =
         parts.length > 1
           ? `শব্দটির ${parts
@@ -199,6 +245,7 @@ export function buildDetailedAids(
       const context = contextWords.map((w) => ({
         arabic: w.arabic,
         meaning:
+          options.clarifications?.[`${ayah.verseKey}:${w.position}`]?.meaning ??
           clarifications[`${ayah.verseKey}:${w.position}`]?.meaning ??
           plain(w.banglaMeaning),
       }));
@@ -245,14 +292,14 @@ export function buildDetailedAids(
     review: {
       version: 1,
       verseKeys: selected.map((a) => a.verseKey),
-      ayahCount: 100,
+      ayahCount: selected.length,
       wordCount: Object.keys(words).length,
       coverage: kinds,
       urduGlossCount: Object.values(urdu).filter((u) => u.text).length,
       urduUnavailableKeys: Object.entries(urdu)
         .filter(([, u]) => !u.text)
         .map(([k]) => k),
-      nextVerseKey: "2:94",
+      nextVerseKey: options.nextVerseKey ?? "2:94",
       method:
         "Authored Bangla/Urdu associations, source-aligned Urdu glosses and Corpus segmentation. Meaning analogies are distinguished from familiar words. Not a scholarly certification.",
     },

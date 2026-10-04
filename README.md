@@ -4,7 +4,7 @@ A Next.js 16 / React 19 application for reading Quran Arabic, exploring Bengali 
 
 ## Current content
 
-**830 distinct ayahs** are available: all of Al-Fatihah, Al-Baqarah, Ali 'Imran, An-Nisa and Al-Ma'idah; Al-An'am 1–11; and all 30 Al-Mulk ayahs. The first batch added 300 new ayahs and repaired Al-Mulk separately. The latest explicitly requested one-off batch adds **500 new ayahs**, 3:8–6:11, without replacing existing sourced Arabic, translations, word glosses or audio. The catalog lists all 114 surahs and marks unavailable or partial content.
+**1,130 distinct ayahs** are available: all of Al-Fatihah, Al-Baqarah, Ali 'Imran, An-Nisa, Al-Ma'idah and Al-An'am; Al-A'raf 1–146; and all 30 Al-Mulk ayahs. The latest daily batch adds **300 new ayahs**, 6:12–7:146, preserving all previous 830 verse objects. The catalog lists all 114 surahs and marks unavailable or partial content.
 
 The original `src/data/surah-mulk.json` is retained unchanged as an archive. The live reader uses `src/data/quran-library.json`. Original unsourced roots are not published.
 
@@ -66,7 +66,7 @@ The scheduled ChatGPT task begins October 4, 2026, around 09:00 Asia/Dhaka. It t
 
 ## Relational mnemonic correction
 
-All 16,665 word occurrences in the current 830 ayahs have relational cues. Familiar-language anchors are curated; Arabic form/lemma matches are annotated in Quranic Arabic Corpus v0.4. When no dependable familiar match exists, use a same-lemma form comparison or a concrete verse-local word pair. Never invent shared etymology from similar sounds. The verse-level chunking panel has been removed. Full Bangla translation is now exclusively Dr. Abu Bakr Muhammad Zakaria (213); Bengali word glosses remain separately attributed to Quran.com. Preserve the provider translation including footnotes in the stored data.
+All 21,811 word occurrences in the current 1,130 ayahs have relational cues. Familiar-language anchors are curated; Arabic form/lemma matches are annotated in Quranic Arabic Corpus v0.4. When no dependable familiar match exists, use a same-lemma form comparison or a concrete verse-local word pair. Never invent shared etymology from similar sounds. The verse-level chunking panel has been removed. Full Bangla translation is now exclusively Dr. Abu Bakr Muhammad Zakaria (213); Bengali word glosses remain separately attributed to Quran.com. Preserve the provider translation including footnotes in the stored data.
 
 The derived morphology subset and its original copyright/terms notice are stored in `src/data/word-morphology.json` and `src/data/MORPHOLOGY-NOTICE.txt`. The importer prepares and checks position/text alignment against the corpus before generating cues. Core hints in `mnemonic-anchors.json` and exact-lemma overrides in `mnemonic-lemmas.json` must be reviewed carefully.
 
@@ -74,14 +74,24 @@ The derived morphology subset and its original copyright/terms notice are stored
 
 Al-Fatihah 1–7 and Al-Baqarah 1–93 now have detailed aids for all **1,593 word occurrences**. Each aid explains a carefully selected familiar Bangla/Urdu word, familiar Arabic phrase, grammar relation, or concrete meaning association; these categories do not imply that every Arabic word has a Bangla/Urdu cognate. The reader shows three word-specific memory explanations, real corpus prefix/stem/suffix segmentation where available, nearby words from the actual ayah, and source links. Five missing Urdu provider glosses remain unavailable rather than invented.
 
-The separate `detailed-word-aids.json` overlay retains the original source gloss fingerprint. Five educational gloss clarifications distinguish wrath, women, the two-word number twelve, the possessive phrase for relatives, and disobedient fasiks; original provider data and Zakaria's full translations remain intact. The other **730 ayahs** keep their existing word content. Future imports cannot overwrite these detailed aids; mismatched source fingerprints are not attached silently.
+The separate `detailed-word-aids.json` overlay retains the original source gloss fingerprint. Five educational gloss clarifications distinguish wrath, women, the two-word number twelve, the possessive phrase for relatives, and disobedient fasiks; original provider data and Zakaria's full translations remain intact. Existing verse content is preserved outside the overlay. Future imports cannot overwrite these detailed aids; mismatched source fingerprints are not attached silently.
 
 Authored profiles and exceptions are in `detailed-aid-profiles.ts` and `detailed-aid-overrides.ts`. Quran.com Urdu glosses and Quranic Arabic Corpus v0.4 segments for this scope are cached in `first-100-urdu-glosses.json` and `first-100-segments.json`. Rebuild offline with `npm run build:detailed-aids`, then run `npm test`. The subset retains the original corpus attribution and terms in `MORPHOLOGY-NOTICE.txt`. Structural/source checks are not an independent scholarly review.
 
-Next detailed-aid work starts at **2:94**, separately from adding new ayahs.
+The first detailed batch ends at **2:93**; the next batch below continues from **2:94**, separately from adding new ayahs.
+
+## Detailed aids for the next 200 ayahs
+
+The second detailed batch covers **Al-Baqarah 2:94–286 and Ali Imran 3:1–7**, exactly **200 ayahs / 4,659 word occurrences**. Together with the unchanged first batch, **300 ayahs / 6,252 words** now have detailed aids. The remaining 830 ayahs retain their original word content; this is an aid-improvement batch, not a new-ayah import.
+
+New curated associations include taklif, aman, amanat, nikah, talaq, qard, hifazat, mashwara, and others. Context exceptions distinguish hady/guidance, dayn/din, nahar/river, rih/ruh, wombs/mercy, charity/truthfulness, temporary postponement/looking, and other polysemous forms. Meaning scenes and grammatical relationships are used where familiar-language matches are unreliable.
+
+The requested religious boundary is implemented as word learning anchored to Zakaria 213, without new tafsir, religious rulings, human comparisons or imagined forms for Allah's names, attributes and actions. Educational clarifications preserve the original source gloss: security at 2:125, abundance at 2:115, Kursi at 2:255, and the mutashabih terminology at 3:7. Dictionaries support language usage only. This is not a claim of certification by a Salafi scholar.
+
+Source snapshots are `next-200-urdu-glosses.json` and `next-200-segments.json`; 29 unavailable Urdu provider glosses are left empty. `next-detailed-aid-profiles.ts` contains the authored additions, and `detailed-word-aids-next-200.json` is a separate overlay. Rebuild with `npm run build:next-detailed-aids`, then run `npm test`. Next detailed-aid work starts at **3:8**. The next new-ayah import starts at **7:147**. Detailed review is progressing toward the first **1,000 canonical ayahs**, ending at **7:46**; 300 are complete, with completed keys, source snapshots and word counts recorded separately in `progress.json`.
 
 ## Next work
 
-Continue from **6:12**. Complete all remaining ayah batches; review source edition details and memorization aids; add stronger end-to-end UI checks and optionally device-to-device progress synchronization.
+Continue new ayah imports from **7:147** and detailed word-aid review from **3:8**. Complete all remaining ayah batches; review source edition details and memorization aids; add stronger end-to-end UI checks and optionally device-to-device progress synchronization.
 
 Additional familiar-phrase anchors for kaana/kun, bayan, wali, inshaAllah and An-Nas use Quranic Arabic Corpus lemma matches. The “inshaAllah” cue applies to the verb shaa, not the noun shay (thing), and the wali cue is not used for tawalla (turn away). Source dictionaries: https://corpus.quran.com/qurandictionary.jsp?q=kwn , https://corpus.quran.com/qurandictionary.jsp?q=byn , https://corpus.quran.com/qurandictionary.jsp?q=wly , https://corpus.quran.com/qurandictionary.jsp?q=$yA .

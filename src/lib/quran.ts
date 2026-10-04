@@ -2,14 +2,22 @@ import library from "@/data/quran-library.json";
 import chapters from "@/data/chapters.json";
 import progress from "@/data/progress.json";
 import detailed from "@/data/detailed-word-aids.json";
+import nextDetailed from "@/data/detailed-word-aids-next-200.json";
 import { attachDetailedAids } from "./detailed-aids";
 import type { DetailedWordAid, SurahData, SurahInfo } from "@/types/quran";
 export const catalog = chapters as SurahInfo[];
 export const surahs = attachDetailedAids(
   library.surahs as SurahData[],
-  detailed.words as Record<string, DetailedWordAid>,
+  { ...detailed.words, ...nextDetailed.words } as Record<
+    string,
+    DetailedWordAid
+  >,
 );
-export const detailedProgress = detailed.review;
+export const detailedProgress = {
+  ayahCount: detailed.review.ayahCount + nextDetailed.review.ayahCount,
+  wordCount: detailed.review.wordCount + nextDetailed.review.wordCount,
+  nextVerseKey: nextDetailed.review.nextVerseKey,
+};
 export const contentProgress = progress;
 export function getSurahByNumber(value: string | number): SurahData | null {
   if (!/^[1-9]\d{0,2}$/.test(String(value))) return null;

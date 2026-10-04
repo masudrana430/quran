@@ -11,7 +11,8 @@
     "import:batch": "node --import tsx scripts/import-batch.ts",
     "validate:data": "node --import tsx scripts/validate-data.ts",
     "test": "node --import tsx --test scripts/*.test.ts",
-    "build:detailed-aids": "node --import tsx scripts/build-detailed-aids.ts"
+    "build:detailed-aids": "node --import tsx scripts/build-detailed-aids.ts",
+    "build:next-detailed-aids": "node --import tsx scripts/build-next-detailed-aids.ts"
   },
   "dependencies": {
     "next": "16.2.6",
