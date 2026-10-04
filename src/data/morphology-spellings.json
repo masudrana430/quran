@@ -16,5 +16,23 @@
     "provider": "يَـٰصَـٰحِبَىِ",
     "source": "https://corpus.quran.com/wordmorphology.jsp?location=(12:41:1)",
     "note": "Corpus v0.4 segmented transcription uses an extra alif-maqsura carrier in the medial long vowel. Quran.com word and verse text agree. Positional word and root SHb are verified on the primary Corpus page; the questioned possessive/dual segmentation is not used to teach grammar."
+  },
+  "70:1:2": {
+    "corpus": "سَآئِلٌۢ",
+    "provider": "سَآئِلٌۢ",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(70:1:2)",
+    "note": "Corpus uses separate alif plus combining maddah; provider word text uses the precomposed alif-maddah character. The official extended Buckwalter small-high-meem marker is decoded separately. Exact forms at this position only."
+  },
+  "80:25:1": {
+    "corpus": "أَنَّا",
+    "provider": "اَنَّا",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(80:25:1)",
+    "note": "Corpus includes hamza-above on the initial alif; provider word text omits it. Verse position and particle/pronoun identity are verified on the primary Corpus page. Preserve both source spellings; no global hamza acceptance rule."
+  },
+  "82:1:2": {
+    "corpus": "ٱلسَّمَآءُ",
+    "provider": "ٱلسَّمَآءُ",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(82:1:2)",
+    "note": "Corpus uses separate alif plus combining maddah; provider word text uses precomposed alif-maddah and a different combining-mark order. Exact sourced forms at this position only."
   }
 }

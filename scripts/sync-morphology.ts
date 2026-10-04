@@ -69,6 +69,17 @@ const chars: Record<string, string> = {
   ":": "ۜ",
   _: "ـ",
   '"': "۠",
+  // Official JQuranTree extended Buckwalter symbols:
+  // https://corpus.quran.com/java/buckwalter.jsp
+  "[": "ۢ",
+  ";": "ۣ",
+  ",": "ۥ",
+  ".": "ۦ",
+  "!": "ۨ",
+  "-": "۪",
+  "+": "۫",
+  "%": "۬",
+  "]": "ۭ",
 };
 export const arabic = (text: string) =>
   [...text].map((c) => chars[c] ?? c).join("");

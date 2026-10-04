@@ -1,6 +1,6 @@
 {
   "review": {
-    "wordCount": 9,
+    "wordCount": 11,
     "keys": [
       "20:5:4",
       "25:59:11",
@@ -10,11 +10,13 @@
       "51:47:3",
       "54:14:2",
       "55:27:2",
-      "57:4:10"
+      "57:4:10",
+      "70:4:4",
+      "75:23:3"
     ],
     "translationResource": 213,
     "fullyDetailedAyahsAdded": 0,
-    "method": "Nine contextual word-gloss clarifications from exact full Zakaria translations; original provider fingerprints retained. Six newly reviewed positions in 39:43–57:25."
+    "method": "Eleven contextual word-gloss clarifications from exact full Zakaria translations; original provider fingerprints retained. Two newly reviewed positions in 57:26–97:5."
   },
   "words": {
     "20:5:4": {
@@ -437,6 +439,92 @@
         {
           "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
           "url": "https://corpus.quran.com/wordmorphology.jsp?location=(57:4:10)"
+        }
+      ]
+    },
+    "70:4:4": {
+      "arabic": "إِلَيْهِ",
+      "meaning": "আল্লাহর দিকে",
+      "sourceMeaning": "তাকে",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «তাকে» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «আল্লাহর দিকে উর্ধ্বগামী হয়» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "إِلَيْهِ → যাকারিয়ার পূর্ণ আয়াতের «আল্লাহর দিকে উর্ধ্বগামী হয়»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «আল্লাহর দিকে উর্ধ্বগামী হয়» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: إِلَيْهِ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «আল্লাহর দিকে উর্ধ্বগামী হয়» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «আল্লাহর দিকে» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "وَٱلرُّوحُ",
+          "meaning": "ও রূহ(জিবরাঈল)"
+        },
+        {
+          "arabic": "إِلَيْهِ",
+          "meaning": "আল্লাহর দিকে"
+        },
+        {
+          "arabic": "فِى",
+          "meaning": "মধ্যে"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/70/4?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/70:4?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(70:4:4)"
+        }
+      ]
+    },
+    "75:23:3": {
+      "arabic": "نَاظِرَةٌۭ",
+      "meaning": "তাকিয়ে থাকবে",
+      "sourceMeaning": "দৃষ্টিমান হবে",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «দৃষ্টিমান হবে» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «তারা তাদের রবের দিকে তাকিয়ে থাকবে» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "نَاظِرَةٌۭ → যাকারিয়ার পূর্ণ আয়াতের «তারা তাদের রবের দিকে তাকিয়ে থাকবে»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «তারা তাদের রবের দিকে তাকিয়ে থাকবে» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: نَاظِرَةٌۭ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «তারা তাদের রবের দিকে তাকিয়ে থাকবে» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «তাকিয়ে থাকবে» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "رَبِّهَا",
+          "meaning": "তার রবের"
+        },
+        {
+          "arabic": "نَاظِرَةٌۭ",
+          "meaning": "তাকিয়ে থাকবে"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/75/23?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/75:23?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(75:23:3)"
         }
       ]
     }
