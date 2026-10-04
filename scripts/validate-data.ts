@@ -45,7 +45,9 @@ export function validate(
         errors.push(`Wrong translation edition ${a.verseKey}`);
       if (a.memoryAid)
         errors.push(`Removed verse-level aid returned ${a.verseKey}`);
-      const normalize = (text: string) => text.replace(/[\p{M}\p{Z}\sـ]/gu, "");
+      // Provider word text can retain LRM/RLM display controls (e.g. 27:26:8).
+      // Ignore these display controls during comparison without rewriting source text.
+      const normalize = (text: string) => text.replace(/[\p{M}\p{Z}\sـ\u200e\u200f]/gu, "");
       if (
         normalize(a.arabic) !== normalize(a.words.map((w) => w.arabic).join("")) &&
         normalize(a.arabic) !== normalize(a.words.map((w) => {
