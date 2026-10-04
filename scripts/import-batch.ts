@@ -140,6 +140,17 @@ async function main() {
       (library.surahs.find((s) => s.surah.number === c.number)?.ayahs.length ??
         0) < c.versesCount,
   );
+  if (!repair && !selected.length) {
+    const integrity = validate(catalog, library.surahs, {
+      completedCount: before.size,
+      completedVerseKeys: [...before],
+    });
+    if (integrity.length) throw new Error(integrity.join("\n"));
+    console.log(
+      "All 6,236 ayahs are already available. No content or progress files changed; continue source and detailed-aid review.",
+    );
+    return;
+  }
   selected.sort((a, b) =>
     repair && (a.number === 67 || b.number === 67)
       ? a.number === 67

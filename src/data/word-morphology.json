@@ -538639,5 +538639,3381 @@
     "tag": "N",
     "stemArabic": "فَجْرِ",
     "aligned": true
+  },
+  "98:1:1": {
+    "root": "",
+    "lemma": "lam",
+    "tag": "NEG",
+    "stemArabic": "لَمْ",
+    "aligned": true
+  },
+  "98:1:2": {
+    "root": "kwn",
+    "lemma": "kaAna",
+    "tag": "V",
+    "stemArabic": "يَكُنِ",
+    "aligned": true
+  },
+  "98:1:3": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "98:1:4": {
+    "root": "kfr",
+    "lemma": "kafara",
+    "tag": "V",
+    "stemArabic": "كَفَرُ",
+    "aligned": true
+  },
+  "98:1:5": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِنْ",
+    "aligned": true
+  },
+  "98:1:6": {
+    "root": "Ahl",
+    "lemma": ">ahol",
+    "tag": "N",
+    "stemArabic": "أَهْلِ",
+    "aligned": true
+  },
+  "98:1:7": {
+    "root": "ktb",
+    "lemma": "kita`b",
+    "tag": "N",
+    "stemArabic": "كِتَٰبِ",
+    "aligned": true
+  },
+  "98:1:8": {
+    "root": "$rk",
+    "lemma": "mu$orik",
+    "tag": "N",
+    "stemArabic": "مُشْرِكِينَ",
+    "aligned": true
+  },
+  "98:1:9": {
+    "root": "fkk",
+    "lemma": "munfak~iyn",
+    "tag": "N",
+    "stemArabic": "مُنفَكِّينَ",
+    "aligned": true
+  },
+  "98:1:10": {
+    "root": "",
+    "lemma": "Hat~aY`",
+    "tag": "P",
+    "stemArabic": "حَتَّىٰ",
+    "aligned": true
+  },
+  "98:1:11": {
+    "root": "Aty",
+    "lemma": ">ataY",
+    "tag": "V",
+    "stemArabic": "تَأْتِيَ",
+    "aligned": true
+  },
+  "98:1:12": {
+    "root": "byn",
+    "lemma": "bay~inap",
+    "tag": "N",
+    "stemArabic": "بَيِّنَةُ",
+    "aligned": true
+  },
+  "98:2:1": {
+    "root": "rsl",
+    "lemma": "rasuwl",
+    "tag": "N",
+    "stemArabic": "رَسُولٌ",
+    "aligned": true
+  },
+  "98:2:2": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِّنَ",
+    "aligned": true
+  },
+  "98:2:3": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهِ",
+    "aligned": true
+  },
+  "98:2:4": {
+    "root": "tlw",
+    "lemma": "talaY`",
+    "tag": "V",
+    "stemArabic": "يَتْلُوا۟",
+    "aligned": true
+  },
+  "98:2:5": {
+    "root": "SHf",
+    "lemma": "SuHuf",
+    "tag": "N",
+    "stemArabic": "صُحُفًا",
+    "aligned": true
+  },
+  "98:2:6": {
+    "root": "Thr",
+    "lemma": "m~uTah~arap",
+    "tag": "ADJ",
+    "stemArabic": "مُّطَهَّرَةً",
+    "aligned": true
+  },
+  "98:3:1": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِي",
+    "aligned": true
+  },
+  "98:3:2": {
+    "root": "ktb",
+    "lemma": "kita`b",
+    "tag": "N",
+    "stemArabic": "كُتُبٌ",
+    "aligned": true
+  },
+  "98:3:3": {
+    "root": "qwm",
+    "lemma": "qay~imap",
+    "tag": "ADJ",
+    "stemArabic": "قَيِّمَةٌ",
+    "aligned": true
+  },
+  "98:4:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "NEG",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "98:4:2": {
+    "root": "frq",
+    "lemma": "tafar~aqa",
+    "tag": "V",
+    "stemArabic": "تَفَرَّقَ",
+    "aligned": true
+  },
+  "98:4:3": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "98:4:4": {
+    "root": "Aty",
+    "lemma": "A^taY",
+    "tag": "V",
+    "stemArabic": "أُوتُ",
+    "aligned": true
+  },
+  "98:4:5": {
+    "root": "ktb",
+    "lemma": "kita`b",
+    "tag": "N",
+    "stemArabic": "كِتَٰبَ",
+    "aligned": true
+  },
+  "98:4:6": {
+    "root": "",
+    "lemma": "<il~aA",
+    "tag": "CERT",
+    "stemArabic": "إِلَّا",
+    "aligned": true
+  },
+  "98:4:7": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِنۢ",
+    "aligned": true
+  },
+  "98:4:8": {
+    "root": "bEd",
+    "lemma": "baEod",
+    "tag": "N",
+    "stemArabic": "بَعْدِ",
+    "aligned": true
+  },
+  "98:4:9": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "98:4:10": {
+    "root": "jyA",
+    "lemma": "jaA^'a",
+    "tag": "V",
+    "stemArabic": "جَآءَتْ",
+    "aligned": true
+  },
+  "98:4:11": {
+    "root": "byn",
+    "lemma": "bay~inap",
+    "tag": "N",
+    "stemArabic": "بَيِّنَةُ",
+    "aligned": true
+  },
+  "98:5:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "NEG",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "98:5:2": {
+    "root": "Amr",
+    "lemma": ">amara",
+    "tag": "V",
+    "stemArabic": "أُمِرُ",
+    "aligned": true
+  },
+  "98:5:3": {
+    "root": "",
+    "lemma": "<il~aA",
+    "tag": "CERT",
+    "stemArabic": "إِلَّا",
+    "aligned": true
+  },
+  "98:5:4": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "يَعْبُدُ",
+    "aligned": true
+  },
+  "98:5:5": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهَ",
+    "aligned": true
+  },
+  "98:5:6": {
+    "root": "xlS",
+    "lemma": "muxoliS",
+    "tag": "N",
+    "stemArabic": "مُخْلِصِينَ",
+    "aligned": true
+  },
+  "98:5:7": {
+    "root": "",
+    "lemma": "hu",
+    "tag": "PRON",
+    "stemArabic": "هُ",
+    "aligned": true
+  },
+  "98:5:8": {
+    "root": "dyn",
+    "lemma": "diyn",
+    "tag": "N",
+    "stemArabic": "دِّينَ",
+    "aligned": true
+  },
+  "98:5:9": {
+    "root": "Hnf",
+    "lemma": "Haniyf",
+    "tag": "N",
+    "stemArabic": "حُنَفَآءَ",
+    "aligned": true
+  },
+  "98:5:10": {
+    "root": "qwm",
+    "lemma": ">aqaAma",
+    "tag": "V",
+    "stemArabic": "يُقِيمُ",
+    "aligned": true
+  },
+  "98:5:11": {
+    "root": "Slw",
+    "lemma": "Salaw`p",
+    "tag": "N",
+    "stemArabic": "صَّلَوٰةَ",
+    "aligned": true
+  },
+  "98:5:12": {
+    "root": "Aty",
+    "lemma": "A^taY",
+    "tag": "V",
+    "stemArabic": "يُؤْتُ",
+    "aligned": true
+  },
+  "98:5:13": {
+    "root": "zkw",
+    "lemma": "zakaw`p",
+    "tag": "N",
+    "stemArabic": "زَّكَوٰةَ",
+    "aligned": true
+  },
+  "98:5:14": {
+    "root": "",
+    "lemma": "*a`lik",
+    "tag": "DEM",
+    "stemArabic": "ذَٰلِكَ",
+    "aligned": true
+  },
+  "98:5:15": {
+    "root": "dyn",
+    "lemma": "diyn",
+    "tag": "N",
+    "stemArabic": "دِينُ",
+    "aligned": true
+  },
+  "98:5:16": {
+    "root": "qwm",
+    "lemma": "qay~imap",
+    "tag": "N",
+    "stemArabic": "قَيِّمَةِ",
+    "aligned": true
+  },
+  "98:6:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "98:6:2": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "98:6:3": {
+    "root": "kfr",
+    "lemma": "kafara",
+    "tag": "V",
+    "stemArabic": "كَفَرُ",
+    "aligned": true
+  },
+  "98:6:4": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِنْ",
+    "aligned": true
+  },
+  "98:6:5": {
+    "root": "Ahl",
+    "lemma": ">ahol",
+    "tag": "N",
+    "stemArabic": "أَهْلِ",
+    "aligned": true
+  },
+  "98:6:6": {
+    "root": "ktb",
+    "lemma": "kita`b",
+    "tag": "N",
+    "stemArabic": "كِتَٰبِ",
+    "aligned": true
+  },
+  "98:6:7": {
+    "root": "$rk",
+    "lemma": "mu$orik",
+    "tag": "N",
+    "stemArabic": "مُشْرِكِينَ",
+    "aligned": true
+  },
+  "98:6:8": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "98:6:9": {
+    "root": "nwr",
+    "lemma": "naAr",
+    "tag": "N",
+    "stemArabic": "نَارِ",
+    "aligned": true
+  },
+  "98:6:10": {
+    "root": "",
+    "lemma": "jahan~am",
+    "tag": "PN",
+    "stemArabic": "جَهَنَّمَ",
+    "aligned": true
+  },
+  "98:6:11": {
+    "root": "xld",
+    "lemma": "xa`lid",
+    "tag": "N",
+    "stemArabic": "خَٰلِدِينَ",
+    "aligned": true
+  },
+  "98:6:12": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِي",
+    "aligned": true
+  },
+  "98:6:13": {
+    "root": "",
+    "lemma": ">uwla`^}ik",
+    "tag": "DEM",
+    "stemArabic": "أُو۟لَٰٓئِكَ",
+    "aligned": true
+  },
+  "98:6:14": {
+    "root": "",
+    "lemma": "humo",
+    "tag": "PRON",
+    "stemArabic": "هُمْ",
+    "aligned": true
+  },
+  "98:6:15": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرُّ",
+    "aligned": true
+  },
+  "98:6:16": {
+    "root": "brA",
+    "lemma": "bariy~ap",
+    "tag": "N",
+    "stemArabic": "بَرِيَّةِ",
+    "aligned": true
+  },
+  "98:7:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "98:7:2": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "98:7:3": {
+    "root": "Amn",
+    "lemma": "'aAmana",
+    "tag": "V",
+    "stemArabic": "ءَامَنُ",
+    "aligned": true
+  },
+  "98:7:4": {
+    "root": "Eml",
+    "lemma": "Eamila",
+    "tag": "V",
+    "stemArabic": "عَمِلُ",
+    "aligned": true
+  },
+  "98:7:5": {
+    "root": "SlH",
+    "lemma": "S~a`liHa`t",
+    "tag": "N",
+    "stemArabic": "صَّٰلِحَٰتِ",
+    "aligned": true
+  },
+  "98:7:6": {
+    "root": "",
+    "lemma": ">uwla`^}ik",
+    "tag": "DEM",
+    "stemArabic": "أُو۟لَٰٓئِكَ",
+    "aligned": true
+  },
+  "98:7:7": {
+    "root": "",
+    "lemma": "humo",
+    "tag": "PRON",
+    "stemArabic": "هُمْ",
+    "aligned": true
+  },
+  "98:7:8": {
+    "root": "xyr",
+    "lemma": "xayor",
+    "tag": "N",
+    "stemArabic": "خَيْرُ",
+    "aligned": true
+  },
+  "98:7:9": {
+    "root": "brA",
+    "lemma": "bariy~ap",
+    "tag": "N",
+    "stemArabic": "بَرِيَّةِ",
+    "aligned": true
+  },
+  "98:8:1": {
+    "root": "jzy",
+    "lemma": "jazaA^'",
+    "tag": "N",
+    "stemArabic": "جَزَآؤُ",
+    "aligned": true
+  },
+  "98:8:2": {
+    "root": "End",
+    "lemma": "Eind",
+    "tag": "LOC",
+    "stemArabic": "عِندَ",
+    "aligned": true
+  },
+  "98:8:3": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبِّ",
+    "aligned": true
+  },
+  "98:8:4": {
+    "root": "jnn",
+    "lemma": "jan~ap",
+    "tag": "N",
+    "stemArabic": "جَنَّٰتُ",
+    "aligned": true
+  },
+  "98:8:5": {
+    "root": "",
+    "lemma": "Eadon",
+    "tag": "PN",
+    "stemArabic": "عَدْنٍ",
+    "aligned": true
+  },
+  "98:8:6": {
+    "root": "jry",
+    "lemma": "jarayo",
+    "tag": "V",
+    "stemArabic": "تَجْرِى",
+    "aligned": true
+  },
+  "98:8:7": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِن",
+    "aligned": true
+  },
+  "98:8:8": {
+    "root": "tHt",
+    "lemma": "taHot",
+    "tag": "N",
+    "stemArabic": "تَحْتِ",
+    "aligned": true
+  },
+  "98:8:9": {
+    "root": "nhr",
+    "lemma": "nahar",
+    "tag": "N",
+    "stemArabic": "أَنْهَٰرُ",
+    "aligned": true
+  },
+  "98:8:10": {
+    "root": "xld",
+    "lemma": "xa`lid",
+    "tag": "N",
+    "stemArabic": "خَٰلِدِينَ",
+    "aligned": true
+  },
+  "98:8:11": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِي",
+    "aligned": true
+  },
+  "98:8:12": {
+    "root": "Abd",
+    "lemma": ">abadFA",
+    "tag": "T",
+    "stemArabic": "أَبَدًا",
+    "aligned": true
+  },
+  "98:8:13": {
+    "root": "rDw",
+    "lemma": "r~aDiYa",
+    "tag": "V",
+    "stemArabic": "رَّضِىَ",
+    "aligned": true
+  },
+  "98:8:14": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهُ",
+    "aligned": true
+  },
+  "98:8:15": {
+    "root": "",
+    "lemma": "Ean",
+    "tag": "P",
+    "stemArabic": "عَنْ",
+    "aligned": true
+  },
+  "98:8:16": {
+    "root": "rDw",
+    "lemma": "r~aDiYa",
+    "tag": "V",
+    "stemArabic": "رَضُ",
+    "aligned": true
+  },
+  "98:8:17": {
+    "root": "",
+    "lemma": "Ean",
+    "tag": "P",
+    "stemArabic": "عَنْ",
+    "aligned": true
+  },
+  "98:8:18": {
+    "root": "",
+    "lemma": "*a`lik",
+    "tag": "DEM",
+    "stemArabic": "ذَٰلِكَ",
+    "aligned": true
+  },
+  "98:8:19": {
+    "root": "",
+    "lemma": "man",
+    "tag": "REL",
+    "stemArabic": "مَنْ",
+    "aligned": true
+  },
+  "98:8:20": {
+    "root": "x$y",
+    "lemma": "xa$iYa",
+    "tag": "V",
+    "stemArabic": "خَشِىَ",
+    "aligned": true
+  },
+  "98:8:21": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبَّ",
+    "aligned": true
+  },
+  "99:1:1": {
+    "root": "",
+    "lemma": "<i*aA",
+    "tag": "T",
+    "stemArabic": "إِذَا",
+    "aligned": true
+  },
+  "99:1:2": {
+    "root": "zlzl",
+    "lemma": "zulozilu",
+    "tag": "V",
+    "stemArabic": "زُلْزِلَتِ",
+    "aligned": true
+  },
+  "99:1:3": {
+    "root": "ArD",
+    "lemma": ">aroD",
+    "tag": "N",
+    "stemArabic": "أَرْضُ",
+    "aligned": true
+  },
+  "99:1:4": {
+    "root": "zlzl",
+    "lemma": "zilozaAl",
+    "tag": "N",
+    "stemArabic": "زِلْزَالَ",
+    "aligned": true
+  },
+  "99:2:1": {
+    "root": "xrj",
+    "lemma": ">axoraja",
+    "tag": "V",
+    "stemArabic": "أَخْرَجَتِ",
+    "aligned": true
+  },
+  "99:2:2": {
+    "root": "ArD",
+    "lemma": ">aroD",
+    "tag": "N",
+    "stemArabic": "أَرْضُ",
+    "aligned": true
+  },
+  "99:2:3": {
+    "root": "vql",
+    "lemma": "v~aqalaAn",
+    "tag": "N",
+    "stemArabic": "أَثْقَالَ",
+    "aligned": true
+  },
+  "99:3:1": {
+    "root": "qwl",
+    "lemma": "qaAla",
+    "tag": "V",
+    "stemArabic": "قَالَ",
+    "aligned": true
+  },
+  "99:3:2": {
+    "root": "Ans",
+    "lemma": "<insa`n",
+    "tag": "N",
+    "stemArabic": "إِنسَٰنُ",
+    "aligned": true
+  },
+  "99:3:3": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "99:3:4": {
+    "root": "",
+    "lemma": "haA",
+    "tag": "PRON",
+    "stemArabic": "هَا",
+    "aligned": true
+  },
+  "99:4:1": {
+    "root": "",
+    "lemma": "yawoma}i*",
+    "tag": "T",
+    "stemArabic": "يَوْمَئِذٍ",
+    "aligned": true
+  },
+  "99:4:2": {
+    "root": "Hdv",
+    "lemma": "tuHad~ivu",
+    "tag": "V",
+    "stemArabic": "تُحَدِّثُ",
+    "aligned": true
+  },
+  "99:4:3": {
+    "root": "xbr",
+    "lemma": ">axobaAr",
+    "tag": "N",
+    "stemArabic": "أَخْبَارَ",
+    "aligned": true
+  },
+  "99:5:1": {
+    "root": "",
+    "lemma": ">an~",
+    "tag": "ACC",
+    "stemArabic": "أَنَّ",
+    "aligned": true
+  },
+  "99:5:2": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبَّ",
+    "aligned": true
+  },
+  "99:5:3": {
+    "root": "wHy",
+    "lemma": ">awoHaY`^",
+    "tag": "V",
+    "stemArabic": "أَوْحَىٰ",
+    "aligned": true
+  },
+  "99:5:4": {
+    "root": "",
+    "lemma": "haA",
+    "tag": "PRON",
+    "stemArabic": "هَا",
+    "aligned": true
+  },
+  "99:6:1": {
+    "root": "",
+    "lemma": "yawoma}i*",
+    "tag": "T",
+    "stemArabic": "يَوْمَئِذٍ",
+    "aligned": true
+  },
+  "99:6:2": {
+    "root": "Sdr",
+    "lemma": "yaSoduru",
+    "tag": "V",
+    "stemArabic": "يَصْدُرُ",
+    "aligned": true
+  },
+  "99:6:3": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسُ",
+    "aligned": true
+  },
+  "99:6:4": {
+    "root": "$tt",
+    "lemma": ">a$otaAt",
+    "tag": "N",
+    "stemArabic": "أَشْتَاتًا",
+    "aligned": true
+  },
+  "99:6:5": {
+    "root": "rAy",
+    "lemma": ">arayo",
+    "tag": "V",
+    "stemArabic": "يُرَ",
+    "aligned": true
+  },
+  "99:6:6": {
+    "root": "Eml",
+    "lemma": "Eamal",
+    "tag": "N",
+    "stemArabic": "أَعْمَٰلَ",
+    "aligned": true
+  },
+  "99:7:1": {
+    "root": "",
+    "lemma": "man",
+    "tag": "COND",
+    "stemArabic": "مَن",
+    "aligned": true
+  },
+  "99:7:2": {
+    "root": "Eml",
+    "lemma": "Eamila",
+    "tag": "V",
+    "stemArabic": "يَعْمَلْ",
+    "aligned": true
+  },
+  "99:7:3": {
+    "root": "vql",
+    "lemma": "mivoqaAl",
+    "tag": "N",
+    "stemArabic": "مِثْقَالَ",
+    "aligned": true
+  },
+  "99:7:4": {
+    "root": "*rr",
+    "lemma": "*ar~ap",
+    "tag": "N",
+    "stemArabic": "ذَرَّةٍ",
+    "aligned": true
+  },
+  "99:7:5": {
+    "root": "xyr",
+    "lemma": "xayor",
+    "tag": "N",
+    "stemArabic": "خَيْرًا",
+    "aligned": true
+  },
+  "99:7:6": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "يَرَ",
+    "aligned": true
+  },
+  "99:8:1": {
+    "root": "",
+    "lemma": "man",
+    "tag": "COND",
+    "stemArabic": "مَن",
+    "aligned": true
+  },
+  "99:8:2": {
+    "root": "Eml",
+    "lemma": "Eamila",
+    "tag": "V",
+    "stemArabic": "يَعْمَلْ",
+    "aligned": true
+  },
+  "99:8:3": {
+    "root": "vql",
+    "lemma": "mivoqaAl",
+    "tag": "N",
+    "stemArabic": "مِثْقَالَ",
+    "aligned": true
+  },
+  "99:8:4": {
+    "root": "*rr",
+    "lemma": "*ar~ap",
+    "tag": "N",
+    "stemArabic": "ذَرَّةٍ",
+    "aligned": true
+  },
+  "99:8:5": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرًّا",
+    "aligned": true
+  },
+  "99:8:6": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "يَرَ",
+    "aligned": true
+  },
+  "100:1:1": {
+    "root": "Edw",
+    "lemma": "Ea`diya`t",
+    "tag": "N",
+    "stemArabic": "عَٰدِيَٰتِ",
+    "aligned": true
+  },
+  "100:1:2": {
+    "root": "DbH",
+    "lemma": "DaboH",
+    "tag": "N",
+    "stemArabic": "ضَبْحًا",
+    "aligned": true
+  },
+  "100:2:1": {
+    "root": "wry",
+    "lemma": "muwriya`t",
+    "tag": "N",
+    "stemArabic": "مُورِيَٰتِ",
+    "aligned": true
+  },
+  "100:2:2": {
+    "root": "qdH",
+    "lemma": "qadoH",
+    "tag": "N",
+    "stemArabic": "قَدْحًا",
+    "aligned": true
+  },
+  "100:3:1": {
+    "root": "gyr",
+    "lemma": "mugiyra`t",
+    "tag": "N",
+    "stemArabic": "مُغِيرَٰتِ",
+    "aligned": true
+  },
+  "100:3:2": {
+    "root": "SbH",
+    "lemma": "SuboH",
+    "tag": "T",
+    "stemArabic": "صُبْحًا",
+    "aligned": true
+  },
+  "100:4:1": {
+    "root": "vwr",
+    "lemma": ">avaAru",
+    "tag": "V",
+    "stemArabic": "أَثَرْ",
+    "aligned": true
+  },
+  "100:4:2": {
+    "root": "",
+    "lemma": "hi.",
+    "tag": "PRON",
+    "stemArabic": "هِۦ",
+    "aligned": true
+  },
+  "100:4:3": {
+    "root": "nqE",
+    "lemma": "naqoE",
+    "tag": "N",
+    "stemArabic": "نَقْعًا",
+    "aligned": true
+  },
+  "100:5:1": {
+    "root": "wsT",
+    "lemma": "wasaTo",
+    "tag": "V",
+    "stemArabic": "وَسَطْ",
+    "aligned": true
+  },
+  "100:5:2": {
+    "root": "",
+    "lemma": "hi.",
+    "tag": "PRON",
+    "stemArabic": "هِۦ",
+    "aligned": true
+  },
+  "100:5:3": {
+    "root": "jmE",
+    "lemma": "jamoE",
+    "tag": "N",
+    "stemArabic": "جَمْعًا",
+    "aligned": true
+  },
+  "100:6:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "100:6:2": {
+    "root": "Ans",
+    "lemma": "<insa`n",
+    "tag": "N",
+    "stemArabic": "إِنسَٰنَ",
+    "aligned": true
+  },
+  "100:6:3": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبِّ",
+    "aligned": true
+  },
+  "100:6:4": {
+    "root": "knd",
+    "lemma": "kanuwd",
+    "tag": "N",
+    "stemArabic": "كَنُودٌ",
+    "aligned": true
+  },
+  "100:7:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "100:7:2": {
+    "root": "",
+    "lemma": "EalaY`",
+    "tag": "P",
+    "stemArabic": "عَلَىٰ",
+    "aligned": true
+  },
+  "100:7:3": {
+    "root": "",
+    "lemma": "*a`lik",
+    "tag": "DEM",
+    "stemArabic": "ذَٰلِكَ",
+    "aligned": true
+  },
+  "100:7:4": {
+    "root": "$hd",
+    "lemma": "$ahiyd",
+    "tag": "N",
+    "stemArabic": "شَهِيدٌ",
+    "aligned": true
+  },
+  "100:8:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "100:8:2": {
+    "root": "Hbb",
+    "lemma": "Hub~",
+    "tag": "N",
+    "stemArabic": "حُبِّ",
+    "aligned": true
+  },
+  "100:8:3": {
+    "root": "xyr",
+    "lemma": "xayor",
+    "tag": "N",
+    "stemArabic": "خَيْرِ",
+    "aligned": true
+  },
+  "100:8:4": {
+    "root": "$dd",
+    "lemma": "$adiyd",
+    "tag": "N",
+    "stemArabic": "شَدِيدٌ",
+    "aligned": true
+  },
+  "100:9:1": {
+    "root": "",
+    "lemma": "laA",
+    "tag": "NEG",
+    "stemArabic": "لَا",
+    "aligned": true
+  },
+  "100:9:2": {
+    "root": "Elm",
+    "lemma": "Ealima",
+    "tag": "V",
+    "stemArabic": "يَعْلَمُ",
+    "aligned": true
+  },
+  "100:9:3": {
+    "root": "",
+    "lemma": "<i*aA",
+    "tag": "T",
+    "stemArabic": "إِذَا",
+    "aligned": true
+  },
+  "100:9:4": {
+    "root": "bEvr",
+    "lemma": "buEovira",
+    "tag": "V",
+    "stemArabic": "بُعْثِرَ",
+    "aligned": true
+  },
+  "100:9:5": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "100:9:6": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "100:9:7": {
+    "root": "qbr",
+    "lemma": "qabor",
+    "tag": "N",
+    "stemArabic": "قُبُورِ",
+    "aligned": true
+  },
+  "100:10:1": {
+    "root": "HSl",
+    "lemma": "HuS~ila",
+    "tag": "V",
+    "stemArabic": "حُصِّلَ",
+    "aligned": true
+  },
+  "100:10:2": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "100:10:3": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "100:10:4": {
+    "root": "Sdr",
+    "lemma": "Sador",
+    "tag": "N",
+    "stemArabic": "صُّدُورِ",
+    "aligned": true
+  },
+  "100:11:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "100:11:2": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبَّ",
+    "aligned": true
+  },
+  "100:11:3": {
+    "root": "",
+    "lemma": "himo",
+    "tag": "PRON",
+    "stemArabic": "هِمْ",
+    "aligned": true
+  },
+  "100:11:4": {
+    "root": "",
+    "lemma": "yawoma}i*",
+    "tag": "T",
+    "stemArabic": "يَوْمَئِذٍ",
+    "aligned": true
+  },
+  "100:11:5": {
+    "root": "xbr",
+    "lemma": "xabiyr",
+    "tag": "N",
+    "stemArabic": "خَبِيرٌۢ",
+    "aligned": true
+  },
+  "101:1:1": {
+    "root": "qrE",
+    "lemma": "qaAriEap",
+    "tag": "N",
+    "stemArabic": "قَارِعَةُ",
+    "aligned": true
+  },
+  "101:2:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "101:2:2": {
+    "root": "qrE",
+    "lemma": "qaAriEap",
+    "tag": "N",
+    "stemArabic": "قَارِعَةُ",
+    "aligned": true
+  },
+  "101:3:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "101:3:2": {
+    "root": "dry",
+    "lemma": ">adoraY`",
+    "tag": "V",
+    "stemArabic": "أَدْرَىٰ",
+    "aligned": true
+  },
+  "101:3:3": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "101:3:4": {
+    "root": "qrE",
+    "lemma": "qaAriEap",
+    "tag": "N",
+    "stemArabic": "قَارِعَةُ",
+    "aligned": true
+  },
+  "101:4:1": {
+    "root": "ywm",
+    "lemma": "yawom",
+    "tag": "T",
+    "stemArabic": "يَوْمَ",
+    "aligned": true
+  },
+  "101:4:2": {
+    "root": "kwn",
+    "lemma": "kaAna",
+    "tag": "V",
+    "stemArabic": "يَكُونُ",
+    "aligned": true
+  },
+  "101:4:3": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسُ",
+    "aligned": true
+  },
+  "101:4:4": {
+    "root": "fr$",
+    "lemma": "faraA$",
+    "tag": "N",
+    "stemArabic": "فَرَاشِ",
+    "aligned": true
+  },
+  "101:4:5": {
+    "root": "bvv",
+    "lemma": "mabovuwv",
+    "tag": "ADJ",
+    "stemArabic": "مَبْثُوثِ",
+    "aligned": true
+  },
+  "101:5:1": {
+    "root": "kwn",
+    "lemma": "kaAna",
+    "tag": "V",
+    "stemArabic": "تَكُونُ",
+    "aligned": true
+  },
+  "101:5:2": {
+    "root": "jbl",
+    "lemma": "jabal",
+    "tag": "N",
+    "stemArabic": "جِبَالُ",
+    "aligned": true
+  },
+  "101:5:3": {
+    "root": "Ehn",
+    "lemma": "Eihon",
+    "tag": "N",
+    "stemArabic": "عِهْنِ",
+    "aligned": true
+  },
+  "101:5:4": {
+    "root": "nf$",
+    "lemma": "manfuw$",
+    "tag": "ADJ",
+    "stemArabic": "مَنفُوشِ",
+    "aligned": true
+  },
+  "101:6:1": {
+    "root": "",
+    "lemma": ">am~aA",
+    "tag": "EXL",
+    "stemArabic": "أَمَّا",
+    "aligned": true
+  },
+  "101:6:2": {
+    "root": "",
+    "lemma": "man",
+    "tag": "COND",
+    "stemArabic": "مَن",
+    "aligned": true
+  },
+  "101:6:3": {
+    "root": "vql",
+    "lemma": "vaqulato",
+    "tag": "V",
+    "stemArabic": "ثَقُلَتْ",
+    "aligned": true
+  },
+  "101:6:4": {
+    "root": "wzn",
+    "lemma": "miyzaAn",
+    "tag": "N",
+    "stemArabic": "مَوَٰزِينُ",
+    "aligned": true
+  },
+  "101:7:1": {
+    "root": "",
+    "lemma": "huwa",
+    "tag": "PRON",
+    "stemArabic": "هُوَ",
+    "aligned": true
+  },
+  "101:7:2": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "101:7:3": {
+    "root": "Ey$",
+    "lemma": "Eiy$ap",
+    "tag": "N",
+    "stemArabic": "عِيشَةٍ",
+    "aligned": true
+  },
+  "101:7:4": {
+    "root": "rDw",
+    "lemma": "raADiyap",
+    "tag": "ADJ",
+    "stemArabic": "رَّاضِيَةٍ",
+    "aligned": true
+  },
+  "101:8:1": {
+    "root": "",
+    "lemma": ">am~aA",
+    "tag": "EXL",
+    "stemArabic": "أَمَّا",
+    "aligned": true
+  },
+  "101:8:2": {
+    "root": "",
+    "lemma": "man",
+    "tag": "COND",
+    "stemArabic": "مَنْ",
+    "aligned": true
+  },
+  "101:8:3": {
+    "root": "xff",
+    "lemma": "xaf~ato",
+    "tag": "V",
+    "stemArabic": "خَفَّتْ",
+    "aligned": true
+  },
+  "101:8:4": {
+    "root": "wzn",
+    "lemma": "miyzaAn",
+    "tag": "N",
+    "stemArabic": "مَوَٰزِينُ",
+    "aligned": true
+  },
+  "101:9:1": {
+    "root": "Amm",
+    "lemma": ">um~",
+    "tag": "N",
+    "stemArabic": "أُمُّ",
+    "aligned": true
+  },
+  "101:9:2": {
+    "root": "hwy",
+    "lemma": "haAwiyap",
+    "tag": "N",
+    "stemArabic": "هَاوِيَةٌ",
+    "aligned": true
+  },
+  "101:10:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "101:10:2": {
+    "root": "dry",
+    "lemma": ">adoraY`",
+    "tag": "V",
+    "stemArabic": "أَدْرَىٰ",
+    "aligned": true
+  },
+  "101:10:3": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "101:10:4": {
+    "root": "",
+    "lemma": "hiyaho",
+    "tag": "PRON",
+    "stemArabic": "هِيَهْ",
+    "aligned": true
+  },
+  "101:11:1": {
+    "root": "nwr",
+    "lemma": "naAr",
+    "tag": "N",
+    "stemArabic": "نَارٌ",
+    "aligned": true
+  },
+  "101:11:2": {
+    "root": "Hmy",
+    "lemma": "HaAmiyap",
+    "tag": "ADJ",
+    "stemArabic": "حَامِيَةٌۢ",
+    "aligned": true
+  },
+  "102:1:1": {
+    "root": "lhw",
+    "lemma": ">alohaY`",
+    "tag": "V",
+    "stemArabic": "أَلْهَىٰ",
+    "aligned": true
+  },
+  "102:1:2": {
+    "root": "kvr",
+    "lemma": "t~akaAvur",
+    "tag": "N",
+    "stemArabic": "تَّكَاثُرُ",
+    "aligned": true
+  },
+  "102:2:1": {
+    "root": "",
+    "lemma": "Hat~aY`",
+    "tag": "INC",
+    "stemArabic": "حَتَّىٰ",
+    "aligned": true
+  },
+  "102:2:2": {
+    "root": "zwr",
+    "lemma": "zuro",
+    "tag": "V",
+    "stemArabic": "زُرْ",
+    "aligned": true
+  },
+  "102:2:3": {
+    "root": "qbr",
+    "lemma": "maqaAbir",
+    "tag": "N",
+    "stemArabic": "مَقَابِرَ",
+    "aligned": true
+  },
+  "102:3:1": {
+    "root": "",
+    "lemma": "kal~aA",
+    "tag": "AVR",
+    "stemArabic": "كَلَّا",
+    "aligned": true
+  },
+  "102:3:2": {
+    "root": "",
+    "lemma": "sawof",
+    "tag": "FUT",
+    "stemArabic": "سَوْفَ",
+    "aligned": true
+  },
+  "102:3:3": {
+    "root": "Elm",
+    "lemma": "Ealima",
+    "tag": "V",
+    "stemArabic": "تَعْلَمُ",
+    "aligned": true
+  },
+  "102:4:1": {
+    "root": "",
+    "lemma": "vum~",
+    "tag": "CONJ",
+    "stemArabic": "ثُمَّ",
+    "aligned": true
+  },
+  "102:4:2": {
+    "root": "",
+    "lemma": "kal~aA",
+    "tag": "AVR",
+    "stemArabic": "كَلَّا",
+    "aligned": true
+  },
+  "102:4:3": {
+    "root": "",
+    "lemma": "sawof",
+    "tag": "FUT",
+    "stemArabic": "سَوْفَ",
+    "aligned": true
+  },
+  "102:4:4": {
+    "root": "Elm",
+    "lemma": "Ealima",
+    "tag": "V",
+    "stemArabic": "تَعْلَمُ",
+    "aligned": true
+  },
+  "102:5:1": {
+    "root": "",
+    "lemma": "kal~aA",
+    "tag": "AVR",
+    "stemArabic": "كَلَّا",
+    "aligned": true
+  },
+  "102:5:2": {
+    "root": "",
+    "lemma": "law",
+    "tag": "COND",
+    "stemArabic": "لَوْ",
+    "aligned": true
+  },
+  "102:5:3": {
+    "root": "Elm",
+    "lemma": "Ealima",
+    "tag": "V",
+    "stemArabic": "تَعْلَمُ",
+    "aligned": true
+  },
+  "102:5:4": {
+    "root": "Elm",
+    "lemma": "Eilom",
+    "tag": "N",
+    "stemArabic": "عِلْمَ",
+    "aligned": true
+  },
+  "102:5:5": {
+    "root": "yqn",
+    "lemma": "yaqiyn",
+    "tag": "N",
+    "stemArabic": "يَقِينِ",
+    "aligned": true
+  },
+  "102:6:1": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "تَرَوُ",
+    "aligned": true
+  },
+  "102:6:2": {
+    "root": "jHm",
+    "lemma": "jaHiym",
+    "tag": "N",
+    "stemArabic": "جَحِيمَ",
+    "aligned": true
+  },
+  "102:7:1": {
+    "root": "",
+    "lemma": "vum~",
+    "tag": "CONJ",
+    "stemArabic": "ثُمَّ",
+    "aligned": true
+  },
+  "102:7:2": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "تَرَوُ",
+    "aligned": true
+  },
+  "102:7:3": {
+    "root": "Eyn",
+    "lemma": "Eayon",
+    "tag": "N",
+    "stemArabic": "عَيْنَ",
+    "aligned": true
+  },
+  "102:7:4": {
+    "root": "yqn",
+    "lemma": "yaqiyn",
+    "tag": "N",
+    "stemArabic": "يَقِينِ",
+    "aligned": true
+  },
+  "102:8:1": {
+    "root": "",
+    "lemma": "vum~",
+    "tag": "CONJ",
+    "stemArabic": "ثُمَّ",
+    "aligned": true
+  },
+  "102:8:2": {
+    "root": "sAl",
+    "lemma": "sa>ala",
+    "tag": "V",
+    "stemArabic": "تُسْـَٔلُ",
+    "aligned": true
+  },
+  "102:8:3": {
+    "root": "",
+    "lemma": "yawoma}i*",
+    "tag": "T",
+    "stemArabic": "يَوْمَئِذٍ",
+    "aligned": true
+  },
+  "102:8:4": {
+    "root": "",
+    "lemma": "Ean",
+    "tag": "P",
+    "stemArabic": "عَنِ",
+    "aligned": true
+  },
+  "102:8:5": {
+    "root": "nEm",
+    "lemma": "naEiym",
+    "tag": "N",
+    "stemArabic": "نَّعِيمِ",
+    "aligned": true
+  },
+  "103:1:1": {
+    "root": "ESr",
+    "lemma": "EaSor",
+    "tag": "N",
+    "stemArabic": "عَصْرِ",
+    "aligned": true
+  },
+  "103:2:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "103:2:2": {
+    "root": "Ans",
+    "lemma": "<insa`n",
+    "tag": "N",
+    "stemArabic": "إِنسَٰنَ",
+    "aligned": true
+  },
+  "103:2:3": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "103:2:4": {
+    "root": "xsr",
+    "lemma": "xusor",
+    "tag": "N",
+    "stemArabic": "خُسْرٍ",
+    "aligned": true
+  },
+  "103:3:1": {
+    "root": "",
+    "lemma": "<il~aA",
+    "tag": "EXP",
+    "stemArabic": "إِلَّا",
+    "aligned": true
+  },
+  "103:3:2": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "103:3:3": {
+    "root": "Amn",
+    "lemma": "'aAmana",
+    "tag": "V",
+    "stemArabic": "ءَامَنُ",
+    "aligned": true
+  },
+  "103:3:4": {
+    "root": "Eml",
+    "lemma": "Eamila",
+    "tag": "V",
+    "stemArabic": "عَمِلُ",
+    "aligned": true
+  },
+  "103:3:5": {
+    "root": "SlH",
+    "lemma": "S~a`liHa`t",
+    "tag": "N",
+    "stemArabic": "صَّٰلِحَٰتِ",
+    "aligned": true
+  },
+  "103:3:6": {
+    "root": "wSy",
+    "lemma": "tawaASa",
+    "tag": "V",
+    "stemArabic": "تَوَاصَ",
+    "aligned": true
+  },
+  "103:3:7": {
+    "root": "Hqq",
+    "lemma": "Haq~",
+    "tag": "N",
+    "stemArabic": "حَقِّ",
+    "aligned": true
+  },
+  "103:3:8": {
+    "root": "wSy",
+    "lemma": "tawaASa",
+    "tag": "V",
+    "stemArabic": "تَوَاصَ",
+    "aligned": true
+  },
+  "103:3:9": {
+    "root": "Sbr",
+    "lemma": "Sabor",
+    "tag": "N",
+    "stemArabic": "صَّبْرِ",
+    "aligned": true
+  },
+  "104:1:1": {
+    "root": "",
+    "lemma": "wayol",
+    "tag": "N",
+    "stemArabic": "وَيْلٌ",
+    "aligned": true
+  },
+  "104:1:2": {
+    "root": "kll",
+    "lemma": "kul~",
+    "tag": "N",
+    "stemArabic": "كُلِّ",
+    "aligned": true
+  },
+  "104:1:3": {
+    "root": "hmz",
+    "lemma": "humazap",
+    "tag": "N",
+    "stemArabic": "هُمَزَةٍ",
+    "aligned": true
+  },
+  "104:1:4": {
+    "root": "lmz",
+    "lemma": "l~umazap",
+    "tag": "N",
+    "stemArabic": "لُّمَزَةٍ",
+    "aligned": true
+  },
+  "104:2:1": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِى",
+    "aligned": true
+  },
+  "104:2:2": {
+    "root": "jmE",
+    "lemma": "jamaEa",
+    "tag": "V",
+    "stemArabic": "جَمَعَ",
+    "aligned": true
+  },
+  "104:2:3": {
+    "root": "mwl",
+    "lemma": "maAl",
+    "tag": "N",
+    "stemArabic": "مَالًا",
+    "aligned": true
+  },
+  "104:2:4": {
+    "root": "Edd",
+    "lemma": "Ead~ada",
+    "tag": "V",
+    "stemArabic": "عَدَّدَ",
+    "aligned": true
+  },
+  "104:3:1": {
+    "root": "Hsb",
+    "lemma": "Hasiba",
+    "tag": "V",
+    "stemArabic": "يَحْسَبُ",
+    "aligned": true
+  },
+  "104:3:2": {
+    "root": "",
+    "lemma": ">an~",
+    "tag": "ACC",
+    "stemArabic": "أَنَّ",
+    "aligned": true
+  },
+  "104:3:3": {
+    "root": "mwl",
+    "lemma": "maAl",
+    "tag": "N",
+    "stemArabic": "مَالَ",
+    "aligned": true
+  },
+  "104:3:4": {
+    "root": "xld",
+    "lemma": ">axolada",
+    "tag": "V",
+    "stemArabic": "أَخْلَدَ",
+    "aligned": true
+  },
+  "104:4:1": {
+    "root": "",
+    "lemma": "kal~aA",
+    "tag": "AVR",
+    "stemArabic": "كَلَّا",
+    "aligned": true
+  },
+  "104:4:2": {
+    "root": "nb*",
+    "lemma": "naba*a",
+    "tag": "V",
+    "stemArabic": "يُنۢبَذَ",
+    "aligned": true
+  },
+  "104:4:3": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "104:4:4": {
+    "root": "HTm",
+    "lemma": "HuTamap",
+    "tag": "N",
+    "stemArabic": "حُطَمَةِ",
+    "aligned": true
+  },
+  "104:5:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "104:5:2": {
+    "root": "dry",
+    "lemma": ">adoraY`",
+    "tag": "V",
+    "stemArabic": "أَدْرَىٰ",
+    "aligned": true
+  },
+  "104:5:3": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "INTG",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "104:5:4": {
+    "root": "HTm",
+    "lemma": "HuTamap",
+    "tag": "N",
+    "stemArabic": "حُطَمَةُ",
+    "aligned": true
+  },
+  "104:6:1": {
+    "root": "nwr",
+    "lemma": "naAr",
+    "tag": "N",
+    "stemArabic": "نَارُ",
+    "aligned": true
+  },
+  "104:6:2": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهِ",
+    "aligned": true
+  },
+  "104:6:3": {
+    "root": "wqd",
+    "lemma": "muwqadap",
+    "tag": "ADJ",
+    "stemArabic": "مُوقَدَةُ",
+    "aligned": true
+  },
+  "104:7:1": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّتِى",
+    "aligned": true
+  },
+  "104:7:2": {
+    "root": "TlE",
+    "lemma": "T~alaEa",
+    "tag": "V",
+    "stemArabic": "تَطَّلِعُ",
+    "aligned": true
+  },
+  "104:7:3": {
+    "root": "",
+    "lemma": "EalaY`",
+    "tag": "P",
+    "stemArabic": "عَلَى",
+    "aligned": true
+  },
+  "104:7:4": {
+    "root": "fAd",
+    "lemma": "fu&aAd",
+    "tag": "N",
+    "stemArabic": "أَفْـِٔدَةِ",
+    "aligned": true
+  },
+  "104:8:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "104:8:2": {
+    "root": "",
+    "lemma": "EalaY`",
+    "tag": "P",
+    "stemArabic": "عَلَيْ",
+    "aligned": true
+  },
+  "104:8:3": {
+    "root": "wSd",
+    "lemma": "m~u&oSadap",
+    "tag": "N",
+    "stemArabic": "مُّؤْصَدَةٌ",
+    "aligned": true
+  },
+  "104:9:1": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "104:9:2": {
+    "root": "Emd",
+    "lemma": "Eamad",
+    "tag": "N",
+    "stemArabic": "عَمَدٍ",
+    "aligned": true
+  },
+  "104:9:3": {
+    "root": "mdd",
+    "lemma": "m~umad~adap",
+    "tag": "ADJ",
+    "stemArabic": "مُّمَدَّدَةٍۭ",
+    "aligned": true
+  },
+  "105:1:1": {
+    "root": "",
+    "lemma": "lam",
+    "tag": "NEG",
+    "stemArabic": "لَمْ",
+    "aligned": true
+  },
+  "105:1:2": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "تَرَ",
+    "aligned": true
+  },
+  "105:1:3": {
+    "root": "kyf",
+    "lemma": "kayof",
+    "tag": "INTG",
+    "stemArabic": "كَيْفَ",
+    "aligned": true
+  },
+  "105:1:4": {
+    "root": "fEl",
+    "lemma": "faEala",
+    "tag": "V",
+    "stemArabic": "فَعَلَ",
+    "aligned": true
+  },
+  "105:1:5": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبُّ",
+    "aligned": true
+  },
+  "105:1:6": {
+    "root": "SHb",
+    "lemma": ">aSoHa`b",
+    "tag": "N",
+    "stemArabic": "أَصْحَٰبِ",
+    "aligned": true
+  },
+  "105:1:7": {
+    "root": "fyl",
+    "lemma": "fiyl",
+    "tag": "N",
+    "stemArabic": "فِيلِ",
+    "aligned": true
+  },
+  "105:2:1": {
+    "root": "",
+    "lemma": "lam",
+    "tag": "NEG",
+    "stemArabic": "لَمْ",
+    "aligned": true
+  },
+  "105:2:2": {
+    "root": "jEl",
+    "lemma": "jaEala",
+    "tag": "V",
+    "stemArabic": "يَجْعَلْ",
+    "aligned": true
+  },
+  "105:2:3": {
+    "root": "kyd",
+    "lemma": "kayod",
+    "tag": "N",
+    "stemArabic": "كَيْدَ",
+    "aligned": true
+  },
+  "105:2:4": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "105:2:5": {
+    "root": "Dll",
+    "lemma": "taDoliyl",
+    "tag": "N",
+    "stemArabic": "تَضْلِيلٍ",
+    "aligned": true
+  },
+  "105:3:1": {
+    "root": "rsl",
+    "lemma": ">arosala",
+    "tag": "V",
+    "stemArabic": "أَرْسَلَ",
+    "aligned": true
+  },
+  "105:3:2": {
+    "root": "",
+    "lemma": "EalaY`",
+    "tag": "P",
+    "stemArabic": "عَلَيْ",
+    "aligned": true
+  },
+  "105:3:3": {
+    "root": "Tyr",
+    "lemma": "Tayor",
+    "tag": "N",
+    "stemArabic": "طَيْرًا",
+    "aligned": true
+  },
+  "105:3:4": {
+    "root": "Abl",
+    "lemma": ">abaAbiyl",
+    "tag": "ADJ",
+    "stemArabic": "أَبَابِيلَ",
+    "aligned": true
+  },
+  "105:4:1": {
+    "root": "rmy",
+    "lemma": "ramaY`",
+    "tag": "V",
+    "stemArabic": "تَرْمِي",
+    "aligned": true
+  },
+  "105:4:2": {
+    "root": "Hjr",
+    "lemma": "HijaArap",
+    "tag": "N",
+    "stemArabic": "حِجَارَةٍ",
+    "aligned": true
+  },
+  "105:4:3": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِّن",
+    "aligned": true
+  },
+  "105:4:4": {
+    "root": "sjl",
+    "lemma": "sij~iyl",
+    "tag": "N",
+    "stemArabic": "سِجِّيلٍ",
+    "aligned": true
+  },
+  "105:5:1": {
+    "root": "jEl",
+    "lemma": "jaEala",
+    "tag": "V",
+    "stemArabic": "جَعَلَ",
+    "aligned": true
+  },
+  "105:5:2": {
+    "root": "ESf",
+    "lemma": "EaSof",
+    "tag": "N",
+    "stemArabic": "عَصْفٍ",
+    "aligned": true
+  },
+  "105:5:3": {
+    "root": "Akl",
+    "lemma": "m~a>okuwl",
+    "tag": "ADJ",
+    "stemArabic": "مَّأْكُولٍۭ",
+    "aligned": true
+  },
+  "106:1:1": {
+    "root": "Alf",
+    "lemma": "<ila`f",
+    "tag": "N",
+    "stemArabic": "إِيلَٰفِ",
+    "aligned": true
+  },
+  "106:1:2": {
+    "root": "",
+    "lemma": "qurayo$",
+    "tag": "PN",
+    "stemArabic": "قُرَيْشٍ",
+    "aligned": true
+  },
+  "106:2:1": {
+    "root": "Alf",
+    "lemma": "<ila`f",
+    "tag": "N",
+    "stemArabic": "إِۦلَٰفِ",
+    "aligned": true
+  },
+  "106:2:2": {
+    "root": "rHl",
+    "lemma": "riHolap",
+    "tag": "N",
+    "stemArabic": "رِحْلَةَ",
+    "aligned": true
+  },
+  "106:2:3": {
+    "root": "$tw",
+    "lemma": "$~itaA^'",
+    "tag": "N",
+    "stemArabic": "شِّتَآءِ",
+    "aligned": true
+  },
+  "106:2:4": {
+    "root": "Syf",
+    "lemma": "S~ayof",
+    "tag": "N",
+    "stemArabic": "صَّيْفِ",
+    "aligned": true
+  },
+  "106:3:1": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "يَعْبُدُ",
+    "aligned": true
+  },
+  "106:3:2": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبَّ",
+    "aligned": true
+  },
+  "106:3:3": {
+    "root": "",
+    "lemma": "ha`*aA",
+    "tag": "DEM",
+    "stemArabic": "هَٰذَا",
+    "aligned": true
+  },
+  "106:3:4": {
+    "root": "byt",
+    "lemma": "bayot",
+    "tag": "N",
+    "stemArabic": "بَيْتِ",
+    "aligned": true
+  },
+  "106:4:1": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِىٓ",
+    "aligned": true
+  },
+  "106:4:2": {
+    "root": "TEm",
+    "lemma": ">aToEama",
+    "tag": "V",
+    "stemArabic": "أَطْعَمَ",
+    "aligned": true
+  },
+  "106:4:3": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِّن",
+    "aligned": true
+  },
+  "106:4:4": {
+    "root": "jwE",
+    "lemma": "juwE",
+    "tag": "N",
+    "stemArabic": "جُوعٍ",
+    "aligned": true
+  },
+  "106:4:5": {
+    "root": "Amn",
+    "lemma": "'aAmana",
+    "tag": "V",
+    "stemArabic": "ءَامَنَ",
+    "aligned": true
+  },
+  "106:4:6": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِّنْ",
+    "aligned": true
+  },
+  "106:4:7": {
+    "root": "xwf",
+    "lemma": "xawof",
+    "tag": "N",
+    "stemArabic": "خَوْفٍۭ",
+    "aligned": true
+  },
+  "107:1:1": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "رَءَيْ",
+    "aligned": true
+  },
+  "107:1:2": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِى",
+    "aligned": true
+  },
+  "107:1:3": {
+    "root": "k*b",
+    "lemma": "ka*~aba",
+    "tag": "V",
+    "stemArabic": "يُكَذِّبُ",
+    "aligned": true
+  },
+  "107:1:4": {
+    "root": "dyn",
+    "lemma": "diyn",
+    "tag": "N",
+    "stemArabic": "دِّينِ",
+    "aligned": true
+  },
+  "107:2:1": {
+    "root": "",
+    "lemma": "*a`lik",
+    "tag": "DEM",
+    "stemArabic": "ذَٰلِكَ",
+    "aligned": true
+  },
+  "107:2:2": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِى",
+    "aligned": true
+  },
+  "107:2:3": {
+    "root": "dEE",
+    "lemma": "yaduE~u",
+    "tag": "V",
+    "stemArabic": "يَدُعُّ",
+    "aligned": true
+  },
+  "107:2:4": {
+    "root": "ytm",
+    "lemma": "yatiym",
+    "tag": "N",
+    "stemArabic": "يَتِيمَ",
+    "aligned": true
+  },
+  "107:3:1": {
+    "root": "",
+    "lemma": "laA",
+    "tag": "NEG",
+    "stemArabic": "لَا",
+    "aligned": true
+  },
+  "107:3:2": {
+    "root": "HDD",
+    "lemma": "yaHuD~u",
+    "tag": "V",
+    "stemArabic": "يَحُضُّ",
+    "aligned": true
+  },
+  "107:3:3": {
+    "root": "",
+    "lemma": "EalaY`",
+    "tag": "P",
+    "stemArabic": "عَلَىٰ",
+    "aligned": true
+  },
+  "107:3:4": {
+    "root": "TEm",
+    "lemma": "TaEaAm",
+    "tag": "N",
+    "stemArabic": "طَعَامِ",
+    "aligned": true
+  },
+  "107:3:5": {
+    "root": "skn",
+    "lemma": "misokiyn",
+    "tag": "N",
+    "stemArabic": "مِسْكِينِ",
+    "aligned": true
+  },
+  "107:4:1": {
+    "root": "",
+    "lemma": "wayol",
+    "tag": "N",
+    "stemArabic": "وَيْلٌ",
+    "aligned": true
+  },
+  "107:4:2": {
+    "root": "Slw",
+    "lemma": "muSal~iyn",
+    "tag": "N",
+    "stemArabic": "مُصَلِّينَ",
+    "aligned": true
+  },
+  "107:5:1": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "107:5:2": {
+    "root": "",
+    "lemma": "humo",
+    "tag": "PRON",
+    "stemArabic": "هُمْ",
+    "aligned": true
+  },
+  "107:5:3": {
+    "root": "",
+    "lemma": "Ean",
+    "tag": "P",
+    "stemArabic": "عَن",
+    "aligned": true
+  },
+  "107:5:4": {
+    "root": "Slw",
+    "lemma": "Salaw`p",
+    "tag": "N",
+    "stemArabic": "صَلَاتِ",
+    "aligned": true
+  },
+  "107:5:5": {
+    "root": "shw",
+    "lemma": "saAhuwn",
+    "tag": "N",
+    "stemArabic": "سَاهُونَ",
+    "aligned": true
+  },
+  "107:6:1": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِينَ",
+    "aligned": true
+  },
+  "107:6:2": {
+    "root": "",
+    "lemma": "humo",
+    "tag": "PRON",
+    "stemArabic": "هُمْ",
+    "aligned": true
+  },
+  "107:6:3": {
+    "root": "rAy",
+    "lemma": "yuraA^'u",
+    "tag": "V",
+    "stemArabic": "يُرَآءُ",
+    "aligned": true
+  },
+  "107:7:1": {
+    "root": "mnE",
+    "lemma": "m~anaEa",
+    "tag": "V",
+    "stemArabic": "يَمْنَعُ",
+    "aligned": true
+  },
+  "107:7:2": {
+    "root": "mEn",
+    "lemma": "maAEuwn",
+    "tag": "N",
+    "stemArabic": "مَاعُونَ",
+    "aligned": true
+  },
+  "108:1:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true,
+    "alignmentNote": "Corpus uses separate final alif plus combining maddah; Quran.com word text uses precomposed alif-maddah and a different combining-mark order. The particle plus first-person plural pronoun are verified at this exact position. Preserve both source forms; no global hamza or alif acceptance rule.",
+    "alignmentSource": "https://corpus.quran.com/wordmorphology.jsp?location=(108:1:1)"
+  },
+  "108:1:2": {
+    "root": "ETw",
+    "lemma": ">aEoTaY`",
+    "tag": "V",
+    "stemArabic": "أَعْطَيْ",
+    "aligned": true
+  },
+  "108:1:3": {
+    "root": "kvr",
+    "lemma": "kawovar",
+    "tag": "N",
+    "stemArabic": "كَوْثَرَ",
+    "aligned": true
+  },
+  "108:2:1": {
+    "root": "Slw",
+    "lemma": "Sal~aY`",
+    "tag": "V",
+    "stemArabic": "صَلِّ",
+    "aligned": true
+  },
+  "108:2:2": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبِّ",
+    "aligned": true
+  },
+  "108:2:3": {
+    "root": "nHr",
+    "lemma": "{noHaro",
+    "tag": "V",
+    "stemArabic": "ٱنْحَرْ",
+    "aligned": true
+  },
+  "108:3:1": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "108:3:2": {
+    "root": "$nA",
+    "lemma": "$aAni}",
+    "tag": "N",
+    "stemArabic": "شَانِئَ",
+    "aligned": true
+  },
+  "108:3:3": {
+    "root": "",
+    "lemma": "huwa",
+    "tag": "PRON",
+    "stemArabic": "هُوَ",
+    "aligned": true
+  },
+  "108:3:4": {
+    "root": "btr",
+    "lemma": ">abotar",
+    "tag": "N",
+    "stemArabic": "أَبْتَرُ",
+    "aligned": true
+  },
+  "109:1:1": {
+    "root": "qwl",
+    "lemma": "qaAla",
+    "tag": "V",
+    "stemArabic": "قُلْ",
+    "aligned": true
+  },
+  "109:1:2": {
+    "root": "",
+    "lemma": ">ay~uhaA",
+    "tag": "N",
+    "stemArabic": "أَيُّهَا",
+    "aligned": true
+  },
+  "109:1:3": {
+    "root": "kfr",
+    "lemma": "ka`firuwn",
+    "tag": "N",
+    "stemArabic": "كَٰفِرُونَ",
+    "aligned": true
+  },
+  "109:2:1": {
+    "root": "",
+    "lemma": "laA",
+    "tag": "NEG",
+    "stemArabic": "لَآ",
+    "aligned": true
+  },
+  "109:2:2": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "أَعْبُدُ",
+    "aligned": true
+  },
+  "109:2:3": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "109:2:4": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "تَعْبُدُ",
+    "aligned": true
+  },
+  "109:3:1": {
+    "root": "",
+    "lemma": "laA",
+    "tag": "NEG",
+    "stemArabic": "لَآ",
+    "aligned": true
+  },
+  "109:3:2": {
+    "root": "",
+    "lemma": ">antumo",
+    "tag": "PRON",
+    "stemArabic": "أَنتُمْ",
+    "aligned": true
+  },
+  "109:3:3": {
+    "root": "Ebd",
+    "lemma": "EaAbid",
+    "tag": "N",
+    "stemArabic": "عَٰبِدُونَ",
+    "aligned": true
+  },
+  "109:3:4": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "109:3:5": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "أَعْبُدُ",
+    "aligned": true
+  },
+  "109:4:1": {
+    "root": "",
+    "lemma": "laA",
+    "tag": "NEG",
+    "stemArabic": "لَآ",
+    "aligned": true
+  },
+  "109:4:2": {
+    "root": "",
+    "lemma": ">anaA\"",
+    "tag": "PRON",
+    "stemArabic": "أَنَا۠",
+    "aligned": true
+  },
+  "109:4:3": {
+    "root": "Ebd",
+    "lemma": "EaAbid",
+    "tag": "N",
+    "stemArabic": "عَابِدٌ",
+    "aligned": true
+  },
+  "109:4:4": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَّا",
+    "aligned": true
+  },
+  "109:4:5": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "عَبَد",
+    "aligned": true
+  },
+  "109:5:1": {
+    "root": "",
+    "lemma": "laA",
+    "tag": "NEG",
+    "stemArabic": "لَآ",
+    "aligned": true
+  },
+  "109:5:2": {
+    "root": "",
+    "lemma": ">antumo",
+    "tag": "PRON",
+    "stemArabic": "أَنتُمْ",
+    "aligned": true
+  },
+  "109:5:3": {
+    "root": "Ebd",
+    "lemma": "EaAbid",
+    "tag": "N",
+    "stemArabic": "عَٰبِدُونَ",
+    "aligned": true
+  },
+  "109:5:4": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "109:5:5": {
+    "root": "Ebd",
+    "lemma": "Eabada",
+    "tag": "V",
+    "stemArabic": "أَعْبُدُ",
+    "aligned": true
+  },
+  "109:6:1": {
+    "root": "",
+    "lemma": "kumo",
+    "tag": "PRON",
+    "stemArabic": "كُمْ",
+    "aligned": true
+  },
+  "109:6:2": {
+    "root": "dyn",
+    "lemma": "diyn",
+    "tag": "N",
+    "stemArabic": "دِينُ",
+    "aligned": true
+  },
+  "109:6:3": {
+    "root": "",
+    "lemma": "Ya",
+    "tag": "PRON",
+    "stemArabic": "ىَ",
+    "aligned": true
+  },
+  "109:6:4": {
+    "root": "dyn",
+    "lemma": "diyn",
+    "tag": "N",
+    "stemArabic": "دِينِ",
+    "aligned": true
+  },
+  "110:1:1": {
+    "root": "",
+    "lemma": "<i*aA",
+    "tag": "T",
+    "stemArabic": "إِذَا",
+    "aligned": true
+  },
+  "110:1:2": {
+    "root": "jyA",
+    "lemma": "jaA^'a",
+    "tag": "V",
+    "stemArabic": "جَآءَ",
+    "aligned": true
+  },
+  "110:1:3": {
+    "root": "nSr",
+    "lemma": "naSor",
+    "tag": "N",
+    "stemArabic": "نَصْرُ",
+    "aligned": true
+  },
+  "110:1:4": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهِ",
+    "aligned": true
+  },
+  "110:1:5": {
+    "root": "ftH",
+    "lemma": "fatoH",
+    "tag": "N",
+    "stemArabic": "فَتْحُ",
+    "aligned": true
+  },
+  "110:2:1": {
+    "root": "rAy",
+    "lemma": "ra'aA",
+    "tag": "V",
+    "stemArabic": "رَأَيْ",
+    "aligned": true
+  },
+  "110:2:2": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسَ",
+    "aligned": true
+  },
+  "110:2:3": {
+    "root": "dxl",
+    "lemma": "daxala",
+    "tag": "V",
+    "stemArabic": "يَدْخُلُ",
+    "aligned": true
+  },
+  "110:2:4": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "110:2:5": {
+    "root": "dyn",
+    "lemma": "diyn",
+    "tag": "N",
+    "stemArabic": "دِينِ",
+    "aligned": true
+  },
+  "110:2:6": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهِ",
+    "aligned": true
+  },
+  "110:2:7": {
+    "root": "fwj",
+    "lemma": "fawoj",
+    "tag": "N",
+    "stemArabic": "أَفْوَاجًا",
+    "aligned": true
+  },
+  "110:3:1": {
+    "root": "sbH",
+    "lemma": "sab~aHa",
+    "tag": "V",
+    "stemArabic": "سَبِّحْ",
+    "aligned": true
+  },
+  "110:3:2": {
+    "root": "Hmd",
+    "lemma": "Hamod",
+    "tag": "N",
+    "stemArabic": "حَمْدِ",
+    "aligned": true
+  },
+  "110:3:3": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبِّ",
+    "aligned": true
+  },
+  "110:3:4": {
+    "root": "gfr",
+    "lemma": "{sotagofara",
+    "tag": "V",
+    "stemArabic": "ٱسْتَغْفِرْ",
+    "aligned": true
+  },
+  "110:3:5": {
+    "root": "",
+    "lemma": "<in~",
+    "tag": "ACC",
+    "stemArabic": "إِنَّ",
+    "aligned": true
+  },
+  "110:3:6": {
+    "root": "kwn",
+    "lemma": "kaAna",
+    "tag": "V",
+    "stemArabic": "كَانَ",
+    "aligned": true
+  },
+  "110:3:7": {
+    "root": "twb",
+    "lemma": "taw~aAb",
+    "tag": "N",
+    "stemArabic": "تَوَّابًۢا",
+    "aligned": true
+  },
+  "111:1:1": {
+    "root": "tbb",
+    "lemma": "tab~a",
+    "tag": "V",
+    "stemArabic": "تَبَّتْ",
+    "aligned": true
+  },
+  "111:1:2": {
+    "root": "ydy",
+    "lemma": "yad",
+    "tag": "N",
+    "stemArabic": "يَدَآ",
+    "aligned": true
+  },
+  "111:1:3": {
+    "root": "Abw",
+    "lemma": ">abN",
+    "tag": "N",
+    "stemArabic": "أَبِى",
+    "aligned": true
+  },
+  "111:1:4": {
+    "root": "lhb",
+    "lemma": "lahab",
+    "tag": "N",
+    "stemArabic": "لَهَبٍ",
+    "aligned": true
+  },
+  "111:1:5": {
+    "root": "tbb",
+    "lemma": "tab~a",
+    "tag": "V",
+    "stemArabic": "تَبَّ",
+    "aligned": true
+  },
+  "111:2:1": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "NEG",
+    "stemArabic": "مَآ",
+    "aligned": true
+  },
+  "111:2:2": {
+    "root": "gny",
+    "lemma": ">agonaY`",
+    "tag": "V",
+    "stemArabic": "أَغْنَىٰ",
+    "aligned": true
+  },
+  "111:2:3": {
+    "root": "",
+    "lemma": "Ean",
+    "tag": "P",
+    "stemArabic": "عَنْ",
+    "aligned": true
+  },
+  "111:2:4": {
+    "root": "mwl",
+    "lemma": "maAl",
+    "tag": "N",
+    "stemArabic": "مَالُ",
+    "aligned": true
+  },
+  "111:2:5": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "111:2:6": {
+    "root": "ksb",
+    "lemma": "kasaba",
+    "tag": "V",
+    "stemArabic": "كَسَبَ",
+    "aligned": true
+  },
+  "111:3:1": {
+    "root": "Sly",
+    "lemma": "yaSolaY",
+    "tag": "V",
+    "stemArabic": "يَصْلَىٰ",
+    "aligned": true
+  },
+  "111:3:2": {
+    "root": "nwr",
+    "lemma": "naAr",
+    "tag": "N",
+    "stemArabic": "نَارًا",
+    "aligned": true
+  },
+  "111:3:3": {
+    "root": "",
+    "lemma": "*uw",
+    "tag": "N",
+    "stemArabic": "ذَاتَ",
+    "aligned": true
+  },
+  "111:3:4": {
+    "root": "lhb",
+    "lemma": "lahab",
+    "tag": "N",
+    "stemArabic": "لَهَبٍ",
+    "aligned": true
+  },
+  "111:4:1": {
+    "root": "mrA",
+    "lemma": "{mora>at",
+    "tag": "N",
+    "stemArabic": "ٱمْرَأَتُ",
+    "aligned": true
+  },
+  "111:4:2": {
+    "root": "Hml",
+    "lemma": "Ham~aAlap",
+    "tag": "N",
+    "stemArabic": "حَمَّالَةَ",
+    "aligned": true
+  },
+  "111:4:3": {
+    "root": "HTb",
+    "lemma": "HaTab",
+    "tag": "N",
+    "stemArabic": "حَطَبِ",
+    "aligned": true
+  },
+  "111:5:1": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "111:5:2": {
+    "root": "jyd",
+    "lemma": "jiyd",
+    "tag": "N",
+    "stemArabic": "جِيدِ",
+    "aligned": true
+  },
+  "111:5:3": {
+    "root": "Hbl",
+    "lemma": "Habol",
+    "tag": "N",
+    "stemArabic": "حَبْلٌ",
+    "aligned": true
+  },
+  "111:5:4": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِّن",
+    "aligned": true
+  },
+  "111:5:5": {
+    "root": "msd",
+    "lemma": "m~asad",
+    "tag": "N",
+    "stemArabic": "مَّسَدٍۭ",
+    "aligned": true
+  },
+  "112:1:1": {
+    "root": "qwl",
+    "lemma": "qaAla",
+    "tag": "V",
+    "stemArabic": "قُلْ",
+    "aligned": true
+  },
+  "112:1:2": {
+    "root": "",
+    "lemma": "huwa",
+    "tag": "PRON",
+    "stemArabic": "هُوَ",
+    "aligned": true
+  },
+  "112:1:3": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهُ",
+    "aligned": true
+  },
+  "112:1:4": {
+    "root": "AHd",
+    "lemma": ">aHad",
+    "tag": "N",
+    "stemArabic": "أَحَدٌ",
+    "aligned": true
+  },
+  "112:2:1": {
+    "root": "Alh",
+    "lemma": "{ll~ah",
+    "tag": "PN",
+    "stemArabic": "ٱللَّهُ",
+    "aligned": true
+  },
+  "112:2:2": {
+    "root": "Smd",
+    "lemma": "S~amad",
+    "tag": "N",
+    "stemArabic": "صَّمَدُ",
+    "aligned": true
+  },
+  "112:3:1": {
+    "root": "",
+    "lemma": "lam",
+    "tag": "NEG",
+    "stemArabic": "لَمْ",
+    "aligned": true
+  },
+  "112:3:2": {
+    "root": "wld",
+    "lemma": "walada",
+    "tag": "V",
+    "stemArabic": "يَلِدْ",
+    "aligned": true
+  },
+  "112:3:3": {
+    "root": "",
+    "lemma": "lam",
+    "tag": "NEG",
+    "stemArabic": "لَمْ",
+    "aligned": true
+  },
+  "112:3:4": {
+    "root": "wld",
+    "lemma": "walada",
+    "tag": "V",
+    "stemArabic": "يُولَدْ",
+    "aligned": true
+  },
+  "112:4:1": {
+    "root": "",
+    "lemma": "lam",
+    "tag": "NEG",
+    "stemArabic": "لَمْ",
+    "aligned": true
+  },
+  "112:4:2": {
+    "root": "kwn",
+    "lemma": "kaAna",
+    "tag": "V",
+    "stemArabic": "يَكُن",
+    "aligned": true
+  },
+  "112:4:3": {
+    "root": "",
+    "lemma": "hu,",
+    "tag": "PRON",
+    "stemArabic": "هُۥ",
+    "aligned": true
+  },
+  "112:4:4": {
+    "root": "kfA",
+    "lemma": "kufuw",
+    "tag": "N",
+    "stemArabic": "كُفُوًا",
+    "aligned": true
+  },
+  "112:4:5": {
+    "root": "AHd",
+    "lemma": ">aHad",
+    "tag": "N",
+    "stemArabic": "أَحَدٌۢ",
+    "aligned": true
+  },
+  "113:1:1": {
+    "root": "qwl",
+    "lemma": "qaAla",
+    "tag": "V",
+    "stemArabic": "قُلْ",
+    "aligned": true
+  },
+  "113:1:2": {
+    "root": "Ew*",
+    "lemma": "Eu*o",
+    "tag": "V",
+    "stemArabic": "أَعُوذُ",
+    "aligned": true
+  },
+  "113:1:3": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبِّ",
+    "aligned": true
+  },
+  "113:1:4": {
+    "root": "flq",
+    "lemma": "falaq",
+    "tag": "N",
+    "stemArabic": "فَلَقِ",
+    "aligned": true
+  },
+  "113:2:1": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِن",
+    "aligned": true
+  },
+  "113:2:2": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرِّ",
+    "aligned": true
+  },
+  "113:2:3": {
+    "root": "",
+    "lemma": "maA",
+    "tag": "REL",
+    "stemArabic": "مَا",
+    "aligned": true
+  },
+  "113:2:4": {
+    "root": "xlq",
+    "lemma": "xalaqa",
+    "tag": "V",
+    "stemArabic": "خَلَقَ",
+    "aligned": true
+  },
+  "113:3:1": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِن",
+    "aligned": true
+  },
+  "113:3:2": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرِّ",
+    "aligned": true
+  },
+  "113:3:3": {
+    "root": "gsq",
+    "lemma": "gaAsiq",
+    "tag": "N",
+    "stemArabic": "غَاسِقٍ",
+    "aligned": true
+  },
+  "113:3:4": {
+    "root": "",
+    "lemma": "<i*aA",
+    "tag": "T",
+    "stemArabic": "إِذَا",
+    "aligned": true
+  },
+  "113:3:5": {
+    "root": "wqb",
+    "lemma": "waqaba",
+    "tag": "V",
+    "stemArabic": "وَقَبَ",
+    "aligned": true
+  },
+  "113:4:1": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِن",
+    "aligned": true
+  },
+  "113:4:2": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرِّ",
+    "aligned": true
+  },
+  "113:4:3": {
+    "root": "nfv",
+    "lemma": "n~af~a`va`t",
+    "tag": "N",
+    "stemArabic": "نَّفَّٰثَٰتِ",
+    "aligned": true
+  },
+  "113:4:4": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "113:4:5": {
+    "root": "Eqd",
+    "lemma": "Euqodap",
+    "tag": "N",
+    "stemArabic": "عُقَدِ",
+    "aligned": true
+  },
+  "113:5:1": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِن",
+    "aligned": true
+  },
+  "113:5:2": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرِّ",
+    "aligned": true
+  },
+  "113:5:3": {
+    "root": "Hsd",
+    "lemma": "HaAsid",
+    "tag": "N",
+    "stemArabic": "حَاسِدٍ",
+    "aligned": true
+  },
+  "113:5:4": {
+    "root": "",
+    "lemma": "<i*aA",
+    "tag": "T",
+    "stemArabic": "إِذَا",
+    "aligned": true
+  },
+  "113:5:5": {
+    "root": "Hsd",
+    "lemma": "Hasada",
+    "tag": "V",
+    "stemArabic": "حَسَدَ",
+    "aligned": true
+  },
+  "114:1:1": {
+    "root": "qwl",
+    "lemma": "qaAla",
+    "tag": "V",
+    "stemArabic": "قُلْ",
+    "aligned": true
+  },
+  "114:1:2": {
+    "root": "Ew*",
+    "lemma": "Eu*o",
+    "tag": "V",
+    "stemArabic": "أَعُوذُ",
+    "aligned": true
+  },
+  "114:1:3": {
+    "root": "rbb",
+    "lemma": "rab~",
+    "tag": "N",
+    "stemArabic": "رَبِّ",
+    "aligned": true
+  },
+  "114:1:4": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسِ",
+    "aligned": true
+  },
+  "114:2:1": {
+    "root": "mlk",
+    "lemma": "malik",
+    "tag": "N",
+    "stemArabic": "مَلِكِ",
+    "aligned": true
+  },
+  "114:2:2": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسِ",
+    "aligned": true
+  },
+  "114:3:1": {
+    "root": "Alh",
+    "lemma": "<ila`h",
+    "tag": "N",
+    "stemArabic": "إِلَٰهِ",
+    "aligned": true
+  },
+  "114:3:2": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسِ",
+    "aligned": true
+  },
+  "114:4:1": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِن",
+    "aligned": true
+  },
+  "114:4:2": {
+    "root": "$rr",
+    "lemma": "$ar~",
+    "tag": "N",
+    "stemArabic": "شَرِّ",
+    "aligned": true
+  },
+  "114:4:3": {
+    "root": "wsws",
+    "lemma": "wasowaAs",
+    "tag": "N",
+    "stemArabic": "وَسْوَاسِ",
+    "aligned": true
+  },
+  "114:4:4": {
+    "root": "xns",
+    "lemma": "xan~aAs",
+    "tag": "ADJ",
+    "stemArabic": "خَنَّاسِ",
+    "aligned": true
+  },
+  "114:5:1": {
+    "root": "",
+    "lemma": "{l~a*iY",
+    "tag": "REL",
+    "stemArabic": "ٱلَّذِى",
+    "aligned": true
+  },
+  "114:5:2": {
+    "root": "wsws",
+    "lemma": "wasowasa",
+    "tag": "V",
+    "stemArabic": "يُوَسْوِسُ",
+    "aligned": true
+  },
+  "114:5:3": {
+    "root": "",
+    "lemma": "fiY",
+    "tag": "P",
+    "stemArabic": "فِى",
+    "aligned": true
+  },
+  "114:5:4": {
+    "root": "Sdr",
+    "lemma": "Sador",
+    "tag": "N",
+    "stemArabic": "صُدُورِ",
+    "aligned": true
+  },
+  "114:5:5": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسِ",
+    "aligned": true
+  },
+  "114:6:1": {
+    "root": "",
+    "lemma": "min",
+    "tag": "P",
+    "stemArabic": "مِنَ",
+    "aligned": true
+  },
+  "114:6:2": {
+    "root": "jnn",
+    "lemma": "jin~ap",
+    "tag": "N",
+    "stemArabic": "جِنَّةِ",
+    "aligned": true
+  },
+  "114:6:3": {
+    "root": "nws",
+    "lemma": "n~aAs",
+    "tag": "N",
+    "stemArabic": "نَّاسِ",
+    "aligned": true
   }
 }
