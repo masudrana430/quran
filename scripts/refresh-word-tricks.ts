@@ -5,6 +5,7 @@ import type { SurahData, QuranWord } from "../src/types/quran";
 import roots from "../src/data/mnemonic-anchors.json";
 import lemmas from "../src/data/mnemonic-lemmas.json";
 import morphology from "../src/data/word-morphology.json";
+import clarifications from "../src/data/source-word-clarifications.json";
 const SOURCE = "Dr. Abu Bakr Muhammad Zakaria (Quran.com resource 213)";
 type Morph = {
   root: string;
@@ -105,6 +106,34 @@ export function rewriteTricks(
           hint = "সূরার পরিচিত নাম ‘আল-হাদীদ’ মনে করুন—حَدِيد মানে লোহা। এই আয়াতের «ٱلْحَدِيدَ»-কেও লোহা অর্থে মিলিয়ে রাখুন; ৫০:২২-এর প্রখর দৃষ্টির প্রসঙ্গে এই অর্থ বসাবেন না।";
           type = "familiar";
           source = "https://corpus.quran.com/wordmorphology.jsp?location=(57:25:13)";
+        }
+        if (meta?.aligned && meta.lemma === "lahab" && meta.tag === "N" &&
+          w.arabic === "لَهَبٍۢ") {
+          if (key === "111:1:4" && w.banglaMeaning === "লাহাবের") {
+            hint = "পাশের «أَبِى» (আবু) ও «لَهَبٍۢ» (লাহাবের) একসঙ্গে মনে রাখুন—এখানে ‘আবু লাহাব’ নামটি আছে। একই বানানের «لَهَبٍۢ» ১১১:৩-এ শিখা বোঝায়; বর্তমান আয়াতের নামের প্রসঙ্গটি ধরে রাখুন।";
+            type = "context";
+          }
+          if (key === "111:3:4" && w.banglaMeaning === "শিখা") {
+            hint = "এই আয়াতের «نَارًۭا» (আগুনে) ও «لَهَبٍۢ» (শিখা) শব্দজোড়া মনে রাখুন—আগুনের শিখা। ১১১:১-এ একই বানান ‘আবু লাহাব’ নামের অংশ; এখানে আগুনের প্রসঙ্গে শিখা অর্থটি রাখুন।";
+            type = "context";
+          }
+          source = `https://corpus.quran.com/wordmorphology.jsp?location=(${key})`;
+        }
+        // Reproduce the reviewed question-word clarification without changing
+        // provider glosses or the full Zakaria translation.
+        const question = a.verseKey === "101:3"
+          ? a.words.find((x) => x.position === 3)
+          : undefined;
+        const reviewed = clarifications.words["101:3:3"];
+        if (question && question.arabic === reviewed.arabic &&
+          question.banglaMeaning === reviewed.sourceMeaning &&
+          morph["101:3:3"]?.aligned && morph["101:3:3"].tag === "INTG") {
+          const gloss = (x: QuranWord) => x.position === 3 ? reviewed.meaning : x.banglaMeaning;
+          const partner = a.words.filter((x) => x.position !== w.position)
+            .sort((x, y) => Math.abs(x.position - w.position) - Math.abs(y.position - w.position))[0];
+          hint = `আয়াতের শব্দজোড়া মনে রাখুন: «${w.arabic}» = «${gloss(w)}»; «${partner.arabic}» = «${gloss(partner)}»। এখানে مَا প্রশ্নবাচক «কী»; ১০১:২-এ একই শব্দের প্রশ্ন যাকারিয়ার অনুবাদে মিলিয়ে দেখুন।`;
+          type = "context";
+          source = `https://corpus.quran.com/wordmorphology.jsp?location=(${key})`;
         }
         w.memoryTrick = hint;
         w.memoryTrickType = type as "familiar" | "family" | "context";

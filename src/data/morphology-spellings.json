@@ -34,5 +34,11 @@
     "provider": "ٱلسَّمَآءُ",
     "source": "https://corpus.quran.com/wordmorphology.jsp?location=(82:1:2)",
     "note": "Corpus uses separate alif plus combining maddah; provider word text uses precomposed alif-maddah and a different combining-mark order. Exact sourced forms at this position only."
+  },
+  "108:1:1": {
+    "corpus": "إِنَّآ",
+    "provider": "إِنَّآ",
+    "source": "https://corpus.quran.com/wordmorphology.jsp?location=(108:1:1)",
+    "note": "Corpus uses separate final alif plus combining maddah; Quran.com word text uses precomposed alif-maddah and a different combining-mark order. The particle plus first-person plural pronoun are verified at this exact position. Preserve both source forms; no global hamza or alif acceptance rule."
   }
 }

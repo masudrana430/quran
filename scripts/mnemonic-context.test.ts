@@ -62,7 +62,13 @@ test("Source-backed word-gloss clarifications follow exact Zakaria wording and p
     const w = v.words.find((w) => w.position === +p)!;
     assert.equal(w.banglaMeaning, expected.sourceMeaning);
     assert.equal(w.detailedAid?.meaning, expected.meaning);
-    assert.ok(v.banglaTranslation.includes(expected.meaning));
+    if (key === "101:3:3") {
+      assert.equal(expected.meaning, "কী");
+      assert.equal(morph[key].tag, "INTG");
+      assert.ok(ayah("101:2").banglaTranslation.includes(expected.meaning));
+      assert.ok(expected.sources.some((source) => source.url === "https://corpus.quran.com/wordmorphology.jsp?location=(101:3:3)"));
+      assert.ok(expected.sources.some((source) => source.url === "https://quran.com/101/2?translations=213"));
+    } else assert.ok(v.banglaTranslation.includes(expected.meaning));
     assert.ok(expected.sources.some((source) => source.url.includes("translations=213")));
     const html = renderToStaticMarkup(React.createElement(DetailedWordAid, { word: w }));
     assert.ok(html.includes(expected.meaning));

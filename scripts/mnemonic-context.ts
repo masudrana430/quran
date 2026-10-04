@@ -25,6 +25,8 @@ const textualVerses = new Set([
   "58:7", "59:22", "59:23", "59:24", "62:1", "68:42", "69:17", "70:4",
   "74:31", "75:22", "75:23", "75:29", "76:9", "85:14", "85:15", "85:16",
   "87:1", "89:22", "92:20", "96:14",
+  "99:5", "101:3", "108:1", "112:1", "112:2", "112:3", "112:4", "113:1",
+  "114:1", "114:2", "114:3",
 ]);
 const attributeLemmas = new Set([
   "Ealiym", "baSiyr", "samiyE", "r~aHiym", "r~aHoma`n", "Hakiym",
@@ -34,7 +36,7 @@ const attributeLemmas = new Set([
 ]);
 export function textualMnemonicOnly(key: string, meta: Morph, meaning: string) {
   const verse = key.split(":").slice(0, 2).join(":");
-  return textualVerses.has(verse) || key === "33:53:36" || attributeLemmas.has(meta.lemma) ||
+  return textualVerses.has(verse) || ["33:53:36", "105:2:5", "111:1:4", "111:3:4"].includes(key) || attributeLemmas.has(meta.lemma) ||
     meta.root === "Hdd" ||
     ["huwa", "naHonu", ">anaA", ">anaA\""].includes(meta.lemma) ||
     (meta.root === "EZm" && /হাড়|হাড়|অস্থি/.test(meaning));

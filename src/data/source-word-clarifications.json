@@ -1,6 +1,6 @@
 {
   "review": {
-    "wordCount": 11,
+    "wordCount": 12,
     "keys": [
       "20:5:4",
       "25:59:11",
@@ -12,11 +12,12 @@
       "55:27:2",
       "57:4:10",
       "70:4:4",
-      "75:23:3"
+      "75:23:3",
+      "101:3:3"
     ],
     "translationResource": 213,
     "fullyDetailedAyahsAdded": 0,
-    "method": "Eleven contextual word-gloss clarifications from exact full Zakaria translations; original provider fingerprints retained. Two newly reviewed positions in 57:26–97:5."
+    "method": "Twelve contextual word-gloss clarifications: eleven from exact full Zakaria translations; 101:3:3 uses primary Corpus interrogative morphology and the same word in the adjacent Zakaria translation of 101:2. Original provider fingerprints retained; full verse translations unchanged."
   },
   "words": {
     "20:5:4": {
@@ -525,6 +526,51 @@
         {
           "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
           "url": "https://corpus.quran.com/wordmorphology.jsp?location=(75:23:3)"
+        }
+      ]
+    },
+    "101:3:3": {
+      "arabic": "مَا",
+      "meaning": "কী",
+      "sourceMeaning": "মহাপ্রলয়",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «মহাপ্রলয়» আছে। Corpus-এ এই مَا প্রশ্নবাচক শব্দ; এখানে তার শব্দার্থ «কী»। একই প্রশ্নবাচক مَا ১০১:২-এ যাকারিয়ার «ভীতিপ্ৰদ মহা বিপদ কী?» অনুবাদেও আছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে। পূর্ণ ১০১:৩ আয়াতের যাকারিয়া অনুবাদ অপরিবর্তিত আছে।",
+      "kind": "grammar",
+      "anchor": "প্রশ্নবাচক مَا → কী",
+      "connection": "مَا শুনলে এই প্রশ্নের «কী» অংশটি মনে আনুন। ১০১:২-এ একই আরবি শব্দ দিয়ে প্রশ্ন করা হয়েছে; যাকারিয়ার পূর্ণ অনুবাদ «ভীতিপ্ৰদ মহা বিপদ কী?»। ১০১:৩-এও Corpus শব্দটির প্রশ্নবাচক ব্যবহার দেখায়।",
+      "steps": [
+        "আরবি مَا শব্দটি এখানে প্রশ্নবাচক—এটির সঙ্গে «কী» জুড়ে মনে রাখুন।",
+        "১০১:২-এর একই প্রশ্নবাচক শব্দটি দেখুন এবং যাকারিয়ার «ভীতিপ্ৰদ মহা বিপদ কী?» অনুবাদটি পড়ুন।",
+        "পাশের ٱلْقَارِعَةُ-র সঙ্গে প্রশ্নের সম্পর্কটি চিনুন; ১০১:৩-এর পূর্ণ বক্তব্য যাকারিয়ার অনুবাদে পড়ুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "مَا",
+          "meaning": "কী"
+        },
+        {
+          "arabic": "ٱلْقَارِعَةُ",
+          "meaning": "ভয়াবহ দুর্ঘটনা"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "প্রশ্নবাচক শব্দের অবস্থান ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(101:3:3)"
+        },
+        {
+          "label": "একই প্রশ্নবাচক শব্দ ও যাকারিয়ার বাংলা অনুবাদ: ১০১:২",
+          "url": "https://quran.com/101/2?translations=213"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/101/3?translations=213"
+        },
+        {
+          "label": "মূল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/101:3?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
         }
       ]
     }
