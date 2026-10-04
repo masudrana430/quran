@@ -1,0 +1,116 @@
+{
+  "review": {
+    "wordCount": 2,
+    "keys": [
+      "20:5:4",
+      "25:59:11"
+    ],
+    "translationResource": 213,
+    "fullyDetailedAyahsAdded": 0,
+    "method": "Two contextual word-gloss clarifications from the exact full Zakaria translations; original provider fingerprints retained."
+  },
+  "words": {
+    "20:5:4": {
+      "arabic": "ٱسْتَوَىٰ",
+      "meaning": "উঠেছেন",
+      "sourceMeaning": "সমাসীন হয়েছেন",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «সমাসীন হয়েছেন» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «আরশের উপর উঠেছেন» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "ٱسْتَوَىٰ → যাকারিয়ার পূর্ণ আয়াতের «আরশের উপর উঠেছেন»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «আরশের উপর উঠেছেন» বক্তব্যটি। এই সহায়িকা কোনো আকৃতি বা কীভাবে তা ঘটেছে—এমন ব্যাখ্যা যোগ করে না।",
+      "steps": [
+        "আরবি রূপটি চিনুন: ٱسْتَوَىٰ।",
+        "আয়াতের عَلَى ٱلْعَرْشِ কথাটির সঙ্গে «আরশের উপর উঠেছেন» বক্তব্যটি মিলিয়ে রাখুন।",
+        "যাকারিয়ার পূর্ণ অনুবাদ দেখে এই আয়াতে «উঠেছেন» শব্দার্থটি মনে রাখুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "ٱسْتَوَىٰ",
+          "meaning": "উঠেছেন",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "عَلَى",
+          "meaning": "যিনি উপর"
+        },
+        {
+          "arabic": "ٱلْعَرْشِ",
+          "meaning": "আরশের"
+        },
+        {
+          "arabic": "ٱسْتَوَىٰ",
+          "meaning": "উঠেছেন"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/20/5?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/20:5?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(20:5:4)"
+        }
+      ]
+    },
+    "25:59:11": {
+      "arabic": "ٱسْتَوَىٰ",
+      "meaning": "উঠলেন",
+      "sourceMeaning": "সমাসীন হন",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «সমাসীন হন» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «‘আরশের উপর উঠলেন» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "ٱسْتَوَىٰ → যাকারিয়ার পূর্ণ আয়াতের «‘আরশের উপর উঠলেন»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «‘আরশের উপর উঠলেন» বক্তব্যটি। এই সহায়িকা কোনো আকৃতি বা কীভাবে তা ঘটেছে—এমন ব্যাখ্যা যোগ করে না।",
+      "steps": [
+        "আরবি রূপটি চিনুন: ٱسْتَوَىٰ।",
+        "আয়াতের عَلَى ٱلْعَرْشِ কথাটির সঙ্গে «‘আরশের উপর উঠলেন» বক্তব্যটি মিলিয়ে রাখুন।",
+        "যাকারিয়ার পূর্ণ অনুবাদ দেখে এই আয়াতে «উঠলেন» শব্দার্থটি মনে রাখুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "ٱسْتَوَىٰ",
+          "meaning": "উঠলেন",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "ٱسْتَوَىٰ",
+          "meaning": "উঠলেন"
+        },
+        {
+          "arabic": "عَلَى",
+          "meaning": "উপর"
+        },
+        {
+          "arabic": "ٱلْعَرْشِ ۚ",
+          "meaning": "আরশের"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/25/59?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/25:59?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(25:59:11)"
+        }
+      ]
+    }
+  }
+}

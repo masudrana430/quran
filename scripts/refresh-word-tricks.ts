@@ -1,3 +1,4 @@
+import { rootHintAllowed, textualMnemonicOnly } from "./mnemonic-context";
 import { readLibraryData, writeLibraryData } from "./library-data";
 import { readFile, writeFile } from "node:fs/promises";
 import type { SurahData, QuranWord } from "../src/types/quran";
@@ -53,22 +54,23 @@ export function rewriteTricks(
       for (const w of a.words) {
         const key = `${a.verseKey}:${w.position}`,
           meta = morph[key];
+        const textualOnly = !!meta && textualMnemonicOnly(key, meta, w.banglaMeaning);
         let type = "context",
           hint = "",
           source = `https://quran.com/${s.surah.number}/${a.ayahNumber}`;
         if (
-          meta?.aligned &&
-          (lemmaHints[meta.lemma] || (meta.root && rootHints[meta.root]))
+          !textualOnly && meta?.aligned &&
+          (lemmaHints[meta.lemma] || (meta.root && rootHints[meta.root] && rootHintAllowed(meta)))
         ) {
           type = "familiar";
           hint = lemmaHints[meta.lemma] || rootHints[meta.root];
           hint += ` এই রূপে আয়াতের অর্থ: «${meaning(w.banglaMeaning)}»।`;
           source = `https://corpus.quran.com/wordmorphology.jsp?location=(${key})`;
         } else {
-          const relative = meta?.aligned
+          const relative = !textualOnly && meta?.aligned
             ? families
                 .get(meta.lemma)
-                ?.find((x) => norm(x.word.arabic) !== norm(w.arabic))
+                ?.find((x) => x.meta.tag === meta.tag && norm(x.word.arabic) !== norm(w.arabic))
             : undefined;
           if (relative) {
             type = "family";
