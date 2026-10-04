@@ -1,14 +1,20 @@
 {
   "review": {
-    "wordCount": 3,
+    "wordCount": 9,
     "keys": [
       "20:5:4",
       "25:59:11",
-      "32:4:12"
+      "32:4:12",
+      "41:11:2",
+      "42:16:15",
+      "51:47:3",
+      "54:14:2",
+      "55:27:2",
+      "57:4:10"
     ],
     "translationResource": 213,
     "fullyDetailedAyahsAdded": 0,
-    "method": "Three contextual word-gloss clarifications from the exact full Zakaria translations; original provider fingerprints retained."
+    "method": "Nine contextual word-gloss clarifications from exact full Zakaria translations; original provider fingerprints retained. Six newly reviewed positions in 39:43–57:25."
   },
   "words": {
     "20:5:4": {
@@ -161,6 +167,276 @@
         {
           "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
           "url": "https://corpus.quran.com/wordmorphology.jsp?location=(32:4:12)"
+        }
+      ]
+    },
+    "41:11:2": {
+      "arabic": "ٱسْتَوَىٰٓ",
+      "meaning": "ইচ্ছে করলেন",
+      "sourceMeaning": "মনোযোগ দিলেন",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «মনোযোগ দিলেন» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «আসমানের প্রতি ইচ্ছে করলেন» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "ٱسْتَوَىٰٓ → যাকারিয়ার পূর্ণ আয়াতের «আসমানের প্রতি ইচ্ছে করলেন»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «আসমানের প্রতি ইচ্ছে করলেন» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: ٱسْتَوَىٰٓ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «আসমানের প্রতি ইচ্ছে করলেন» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «ইচ্ছে করলেন» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "ٱسْتَوَىٰٓ",
+          "meaning": "ইচ্ছে করলেন"
+        },
+        {
+          "arabic": "إِلَى",
+          "meaning": "দিকে"
+        },
+        {
+          "arabic": "ٱلسَّمَآءِ",
+          "meaning": "আকাশের"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/41/11?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/41:11?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(41:11:2)"
+        }
+      ]
+    },
+    "42:16:15": {
+      "arabic": "غَضَبٌۭ",
+      "meaning": "ক্ৰোধ",
+      "sourceMeaning": "অভিসম্পাত",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «অভিসম্পাত» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «তাদের উপর রয়েছে তাঁর ক্ৰোধ» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "غَضَبٌۭ → যাকারিয়ার পূর্ণ আয়াতের «তাদের উপর রয়েছে তাঁর ক্ৰোধ»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «তাদের উপর রয়েছে তাঁর ক্ৰোধ» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: غَضَبٌۭ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «তাদের উপর রয়েছে তাঁর ক্ৰোধ» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «ক্ৰোধ» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "وَعَلَيْهِمْ",
+          "meaning": "এবং তাদের উপর"
+        },
+        {
+          "arabic": "غَضَبٌۭ",
+          "meaning": "ক্ৰোধ"
+        },
+        {
+          "arabic": "وَلَهُمْ",
+          "meaning": "এবং তাদের জন্যে"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/42/16?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/42:16?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(42:16:15)"
+        }
+      ]
+    },
+    "51:47:3": {
+      "arabic": "بِأَيْي۟دٍۢ",
+      "meaning": "ক্ষমতা বলে",
+      "sourceMeaning": "(নিজের) হাত দিয়ে",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «(নিজের) হাত দিয়ে» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «আমাদের ক্ষমতা বলে» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "بِأَيْي۟دٍۢ → যাকারিয়ার পূর্ণ আয়াতের «আমাদের ক্ষমতা বলে»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «আমাদের ক্ষমতা বলে» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: بِأَيْي۟دٍۢ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «আমাদের ক্ষমতা বলে» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «ক্ষমতা বলে» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "وَٱلسَّمَآءَ",
+          "meaning": "এবং আকাশ"
+        },
+        {
+          "arabic": "بَنَيْنَـٰهَا",
+          "meaning": "তা আমরা সৃষ্টি করেছি"
+        },
+        {
+          "arabic": "بِأَيْي۟دٍۢ",
+          "meaning": "ক্ষমতা বলে"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/51/47?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/51:47?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(51:47:3)"
+        }
+      ]
+    },
+    "54:14:2": {
+      "arabic": "بِأَعْيُنِنَا",
+      "meaning": "আমাদের চোখের সামনে",
+      "sourceMeaning": "আমাদের পর্যবেক্ষণে",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «আমাদের পর্যবেক্ষণে» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «যা চলত আমাদের চোখের সামনে» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "بِأَعْيُنِنَا → যাকারিয়ার পূর্ণ আয়াতের «যা চলত আমাদের চোখের সামনে»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «যা চলত আমাদের চোখের সামনে» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: بِأَعْيُنِنَا।",
+        "যাকারিয়ার পূর্ণ আয়াতে «যা চলত আমাদের চোখের সামনে» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «আমাদের চোখের সামনে» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "تَجْرِى",
+          "meaning": "চলে"
+        },
+        {
+          "arabic": "بِأَعْيُنِنَا",
+          "meaning": "আমাদের চোখের সামনে"
+        },
+        {
+          "arabic": "جَزَآءًۭ",
+          "meaning": "পুরস্কার"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/54/14?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/54:14?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(54:14:2)"
+        }
+      ]
+    },
+    "55:27:2": {
+      "arabic": "وَجْهُ",
+      "meaning": "চেহারা",
+      "sourceMeaning": "সত্তা",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «সত্তা» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «আপনার রবের চেহারা» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "وَجْهُ → যাকারিয়ার পূর্ণ আয়াতের «আপনার রবের চেহারা»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «আপনার রবের চেহারা» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: وَجْهُ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «আপনার রবের চেহারা» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «চেহারা» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "وَيَبْقَىٰ",
+          "meaning": "এবং অবশিষ্ট থাকবেন"
+        },
+        {
+          "arabic": "وَجْهُ",
+          "meaning": "চেহারা"
+        },
+        {
+          "arabic": "رَبِّكَ",
+          "meaning": "তোমার রবের"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/55/27?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/55:27?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(55:27:2)"
+        }
+      ]
+    },
+    "57:4:10": {
+      "arabic": "ٱسْتَوَىٰ",
+      "meaning": "উঠেছেন",
+      "sourceMeaning": "সমাসীন হন",
+      "meaningNote": "Quran.com-এর পৃথক শব্দার্থে «সমাসীন হন» আছে। এখানে যাকারিয়ার পূর্ণ অনুবাদের «আরশের উপর উঠেছেন» বক্তব্য অনুসারে শব্দার্থ স্পষ্ট করা হয়েছে। মূল প্রদানকারীর শব্দার্থ সংরক্ষিত আছে।",
+      "kind": "meaning",
+      "anchor": "ٱسْتَوَىٰ → যাকারিয়ার পূর্ণ আয়াতের «আরশের উপর উঠেছেন»",
+      "connection": "এই শব্দের স্মরণসূত্র হলো পূর্ণ আয়াতের যাকারিয়া অনুবাদে থাকা «আরশের উপর উঠেছেন» বক্তব্যটি। আয়াতের প্রকৃত শব্দগুলোর সঙ্গে সেই বক্তব্য মিলিয়ে রাখুন।",
+      "steps": [
+        "আরবি রূপটি চিনুন: ٱسْتَوَىٰ।",
+        "যাকারিয়ার পূর্ণ আয়াতে «আরশের উপর উঠেছেন» বক্তব্যটি পড়ুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে এই আয়াতে «উঠেছেন» অর্থটি মনে রাখুন।"
+      ],
+      "parts": [],
+      "context": [
+        {
+          "arabic": "ٱسْتَوَىٰ",
+          "meaning": "উঠেছেন"
+        },
+        {
+          "arabic": "عَلَى",
+          "meaning": "উপর"
+        },
+        {
+          "arabic": "ٱلْعَرْشِ ۚ",
+          "meaning": "আরশের"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/57/4?translations=213"
+        },
+        {
+          "label": "আসল পৃথক শব্দার্থ ও আরবি: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/57:4?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "শব্দের অবস্থান ও রূপ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(57:4:10)"
         }
       ]
     }
