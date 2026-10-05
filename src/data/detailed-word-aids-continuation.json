@@ -1,0 +1,827 @@
+{
+  "review": {
+    "ayahCount": 1,
+    "wordCount": 15,
+    "verseKeys": [
+      "3:8"
+    ],
+    "nextVerseKey": "3:9",
+    "translationResource": 213,
+    "scope": "Complete authored word aids for 3:8 only; separate from imported coverage.",
+    "verifiedAt": "2026-10-05",
+    "sourceResponseSha256": "b780529f7243bd362598718505cd254e7605409586761c4a1ea4b30d8dba50ea",
+    "policy": "Lexical and grammar aids only; no independent tafsir, rulings, imagined forms or human analogies for Allah. Familiar terms verified through Rekhta; original source objects retained."
+  },
+  "words": {
+    "3:8:1": {
+      "arabic": "رَبَّنَا",
+      "meaning": "(তারা বলে) হে আমাদের রব",
+      "sourceMeaning": "(তারা বলে) হে আমাদের রব",
+      "meaningNote": null,
+      "kind": "phrase",
+      "anchor": "রব্বানা → হে আমাদের রব",
+      "connection": "পরিচিত দোয়ার রব্বানা শব্দটি ধরুন। رَبَّ অংশের সঙ্গে نَا যুক্ত হয়ে আমাদের রব বোঝায়; এখানে সম্বোধন হিসেবে হে আমাদের রব। এই শব্দের পৃথক প্রদানকারী-অর্থ: «(তারা বলে) হে আমাদের রব»।",
+      "steps": [
+        "رَبَّ অংশটি দেখুন, তারপর نَا-র আমাদের সম্পর্কটি ধরুন।",
+        "পুরো «رَبَّنَا» রূপটি দেখে «(তারা বলে) হে আমাদের রব» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "رَبَّ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        },
+        {
+          "arabic": "نَا",
+          "meaning": "যুক্ত সর্বনাম/ক্রিয়ার ব্যক্তিসূচক অংশ: আমরা/আমাদের—সম্পূর্ণ শব্দার্থে সম্পর্ক মিলিয়ে নিন",
+          "role": "suffix"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "رَبَّنَا",
+          "meaning": "(তারা বলে) হে আমাদের রব"
+        },
+        {
+          "arabic": "لَا",
+          "meaning": "না"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:1)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:2": {
+      "arabic": "لَا",
+      "meaning": "না",
+      "sourceMeaning": "না",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "لَا تُزِغْ → বিচ্যুত করবেন না",
+      "connection": "لَا একা না-বোধক; পরের تُزِغْ-এর সঙ্গে দোয়ার না-করার অনুরোধ গড়ে ওঠে। পূর্ণ অনুবাদে যাকারিয়া সত্য লঙ্ঘনপ্রবণ করবেন না বলেছেন। এই শব্দের পৃথক প্রদানকারী-অর্থ: «না»।",
+      "steps": [
+        "لَا এবং تُزِغْ একসঙ্গে দেখে না-করার অনুরোধটি মনে রাখুন।",
+        "পুরো «لَا» রূপটি দেখে «না» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "لَا",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "رَبَّنَا",
+          "meaning": "(তারা বলে) হে আমাদের রব"
+        },
+        {
+          "arabic": "لَا",
+          "meaning": "না"
+        },
+        {
+          "arabic": "تُزِغْ",
+          "meaning": "বাঁকা করো"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:2)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:3": {
+      "arabic": "تُزِغْ",
+      "meaning": "বাঁকা করো",
+      "sourceMeaning": "বাঁকা করো",
+      "meaningNote": null,
+      "kind": "meaning",
+      "anchor": "বাঁকা করো → এই দোয়ায় সত্য থেকে বিচ্যুতি",
+      "connection": "পৃথক প্রদানকারীর শব্দার্থ বাঁকা করো। এই দোয়ায় যাকারিয়ার অনুবাদের সত্য লঙ্ঘনপ্রবণ করবেন না অংশে لَا تُزِغْ বুঝুন; কোনো শারীরিক বাঁকানোর ছবি তৈরি করবেন না। এই শব্দের পৃথক প্রদানকারী-অর্থ: «বাঁকা করো»।",
+      "steps": [
+        "আগের لَا-কে বাদ দেবেন না: এটি বাঁকা করো নয়, না-করার দোয়া।",
+        "পুরো «تُزِغْ» রূপটি দেখে «বাঁকা করো» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "تُزِغْ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "لَا",
+          "meaning": "না"
+        },
+        {
+          "arabic": "تُزِغْ",
+          "meaning": "বাঁকা করো"
+        },
+        {
+          "arabic": "قُلُوبَنَا",
+          "meaning": "আমাদের অন্তরগুলো"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": "এটি শব্দ শেখার সহায়িকা; নিজস্ব তাফসীর বা শরয়ী রায় নয়।",
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:3)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:4": {
+      "arabic": "قُلُوبَنَا",
+      "meaning": "আমাদের অন্তরগুলো",
+      "sourceMeaning": "আমাদের অন্তরগুলো",
+      "meaningNote": null,
+      "kind": "phrase",
+      "anchor": "قُلُوبَنَا → আমাদের অন্তরগুলো",
+      "connection": "قُلُوبَ অন্তরসমূহ; نَا আমাদের। এই আয়াতেই رَبَّنَا এবং قُلُوبَنَا-তে একই আমাদের-সূচক অংশ আছে। এই শব্দের পৃথক প্রদানকারী-অর্থ: «আমাদের অন্তরগুলো»।",
+      "steps": [
+        "দুই শব্দের نَا মিলিয়ে দেখুন; মূল শব্দ বদলেছে, আমাদের সম্পর্কটি আছে।",
+        "পুরো «قُلُوبَنَا» রূপটি দেখে «আমাদের অন্তরগুলো» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "قُلُوبَ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        },
+        {
+          "arabic": "نَا",
+          "meaning": "যুক্ত সর্বনাম/ক্রিয়ার ব্যক্তিসূচক অংশ: আমরা/আমাদের—সম্পূর্ণ শব্দার্থে সম্পর্ক মিলিয়ে নিন",
+          "role": "suffix"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "تُزِغْ",
+          "meaning": "বাঁকা করো"
+        },
+        {
+          "arabic": "قُلُوبَنَا",
+          "meaning": "আমাদের অন্তরগুলো"
+        },
+        {
+          "arabic": "بَعْدَ",
+          "meaning": "এর পরে"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:4)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:5": {
+      "arabic": "بَعْدَ",
+      "meaning": "এর পরে",
+      "sourceMeaning": "এর পরে",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "بَعْدَ → এর পরে",
+      "connection": "পাশের إِذْ هَدَيْتَنَا-র সঙ্গে সময়ের সম্পর্ক ধরুন। যাকারিয়ার সরল পথ দেয়ার পর অংশটি এই জোড়া মনে রাখার সূত্র। এই শব্দের পৃথক প্রদানকারী-অর্থ: «এর পরে»।",
+      "steps": [
+        "بَعْدَ শুনে পরে মনে আনুন, এরপর কোন কাজের পরে তা পরের শব্দে দেখুন।",
+        "পুরো «بَعْدَ» রূপটি দেখে «এর পরে» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "بَعْدَ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "قُلُوبَنَا",
+          "meaning": "আমাদের অন্তরগুলো"
+        },
+        {
+          "arabic": "بَعْدَ",
+          "meaning": "এর পরে"
+        },
+        {
+          "arabic": "إِذْ",
+          "meaning": "যখন"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:5)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:6": {
+      "arabic": "إِذْ",
+      "meaning": "যখন",
+      "sourceMeaning": "যখন",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "إِذْ هَدَيْتَنَا → যখন পথ দেখিয়েছেন",
+      "connection": "إِذْ এখানে অতীত ঘটনার সময় বোঝায়। শব্দার্থ যখন হলেও পূর্ণ বাংলা বাক্যে যাকারিয়া সরল পথ দেয়ার পর বলে সময়ের সম্পর্ক প্রকাশ করেছেন। এই শব্দের পৃথক প্রদানকারী-অর্থ: «যখন»।",
+      "steps": [
+        "إِذْ-কে বَعْدَ এবং هَدَيْتَنَا থেকে বিচ্ছিন্ন করে পূর্ণ বাক্যের অর্থ বানাবেন না।",
+        "পুরো «إِذْ» রূপটি দেখে «যখন» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "إِذْ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "بَعْدَ",
+          "meaning": "এর পরে"
+        },
+        {
+          "arabic": "إِذْ",
+          "meaning": "যখন"
+        },
+        {
+          "arabic": "هَدَيْتَنَا",
+          "meaning": "আমাদের পথ প্রদর্শন করেছ তুমি"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:6)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:7": {
+      "arabic": "هَدَيْتَنَا",
+      "meaning": "আমাদের পথ প্রদর্শন করেছ তুমি",
+      "sourceMeaning": "আমাদের পথ প্রদর্শন করেছ তুমি",
+      "meaningNote": null,
+      "kind": "familiar",
+      "anchor": "هَدَيْتَنَا → হেদায়েত / ہدایت",
+      "connection": "বাংলার হেদায়েত এবং উর্দুর ہدایت পথনির্দেশের পরিচিত শব্দ। Corpus-এ هَدَيْتَنَا-র মূল h-d-y; এটি ক্রিয়ার সম্পন্ন রূপ, পথনির্দেশের নাম হেদায়েত শব্দটির হুবহু রূপ নয়। এখানে অর্থ আমাদের পথ প্রদর্শন করেছ তুমি। এই শব্দের পৃথক প্রদানকারী-অর্থ: «আমাদের পথ প্রদর্শন করেছ তুমি»।",
+      "steps": [
+        "হেদায়েত থেকে পথনির্দেশ মনে আনুন, তারপর نَا দিয়ে আমাদের এবং ক্রিয়ার রূপ দিয়ে আপনি পথ দেখিয়েছেন সম্পর্কটি ধরুন।",
+        "পুরো «هَدَيْتَنَا» রূপটি দেখে «আমাদের পথ প্রদর্শন করেছ তুমি» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "هَدَيْ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        },
+        {
+          "arabic": "تَ",
+          "meaning": "যুক্ত সর্বনাম/ক্রিয়ার ব্যক্তিসূচক অংশ: তুমি/তোমার—সম্পূর্ণ শব্দার্থে সম্পর্ক মিলিয়ে নিন",
+          "role": "suffix"
+        },
+        {
+          "arabic": "نَا",
+          "meaning": "যুক্ত সর্বনাম/ক্রিয়ার ব্যক্তিসূচক অংশ: আমরা/আমাদের—সম্পূর্ণ শব্দার্থে সম্পর্ক মিলিয়ে নিন",
+          "role": "suffix"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "إِذْ",
+          "meaning": "যখন"
+        },
+        {
+          "arabic": "هَدَيْتَنَا",
+          "meaning": "আমাদের পথ প্রদর্শন করেছ তুমি"
+        },
+        {
+          "arabic": "وَهَبْ",
+          "meaning": "এবং দাও"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:7)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "পরিচিত উর্দু শব্দের ব্যবহার: Rekhta Dictionary",
+          "url": "https://www.rekhtadictionary.com/meaning-of-hidaayat"
+        }
+      ]
+    },
+    "3:8:8": {
+      "arabic": "وَهَبْ",
+      "meaning": "এবং দাও",
+      "sourceMeaning": "এবং দাও",
+      "meaningNote": null,
+      "kind": "phrase",
+      "anchor": "وَهَبْ → এবং দাও",
+      "connection": "وَ সংযোগের এবং; هَبْ দান করার অনুরোধ। একই আয়াতে শেষের ٱلْوَهَّابُ-র Corpus মূলও w-h-b; রূপ ও অর্থ আলাদা—এখানে অনুরোধ এবং দাও, শেষে নাম মহাদাতা। এই শব্দের পৃথক প্রদানকারী-অর্থ: «এবং দাও»।",
+      "steps": [
+        "وَ এবং-কে ক্রিয়ার মূলের অংশ মনে করবেন না; হَبْ এবং وَهَّابُ-র রূপ আলাদা করে পড়ুন।",
+        "পুরো «وَهَبْ» রূপটি দেখে «এবং দাও» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "وَ",
+          "meaning": "এবং—সংযোগের অংশ",
+          "role": "prefix"
+        },
+        {
+          "arabic": "هَبْ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "هَدَيْتَنَا",
+          "meaning": "আমাদের পথ প্রদর্শন করেছ তুমি"
+        },
+        {
+          "arabic": "وَهَبْ",
+          "meaning": "এবং দাও"
+        },
+        {
+          "arabic": "لَنَا",
+          "meaning": "আমাদের জন্য"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:8)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:9": {
+      "arabic": "لَنَا",
+      "meaning": "আমাদের জন্য",
+      "sourceMeaning": "আমাদের জন্য",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "لَنَا → আমাদের জন্য",
+      "connection": "لَ জন্য/কে-র সম্পর্ক; نَا আমাদের। পূর্ণ অনুবাদে আমাদেরকে করুণা দান করুন অংশের সঙ্গে মিলিয়ে বুঝুন। এই শব্দের পৃথক প্রদানকারী-অর্থ: «আমাদের জন্য»।",
+      "steps": [
+        "رَبَّنَا-র نَا এবং لَنَا-র نَا দেখে একই আমাদের সম্পর্কটি ধরুন।",
+        "পুরো «لَنَا» রূপটি দেখে «আমাদের জন্য» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "لَ",
+          "meaning": "জন্য/কে/সম্পর্কে—প্রসঙ্গ অনুযায়ী",
+          "role": "prefix"
+        },
+        {
+          "arabic": "نَا",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "وَهَبْ",
+          "meaning": "এবং দাও"
+        },
+        {
+          "arabic": "لَنَا",
+          "meaning": "আমাদের জন্য"
+        },
+        {
+          "arabic": "مِن",
+          "meaning": "থেকে"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:9)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:10": {
+      "arabic": "مِن",
+      "meaning": "থেকে",
+      "sourceMeaning": "থেকে",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "مِن لَّدُنكَ → আপনার কাছ থেকে",
+      "connection": "مِن থেকে-র সম্পর্ক বোঝায়। পরের لَّدُنكَ-র সঙ্গে মিলিয়ে যাকারিয়ার আপনার কাছ থেকে অংশটি মনে রাখুন। এই শব্দের পৃথক প্রদানকারী-অর্থ: «থেকে»।",
+      "steps": [
+        "مِن শুনে থেকে মনে আনুন; কার কাছ থেকে, তা পরের শব্দে দেখুন।",
+        "পুরো «مِن» রূপটি দেখে «থেকে» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "مِن",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "لَنَا",
+          "meaning": "আমাদের জন্য"
+        },
+        {
+          "arabic": "مِن",
+          "meaning": "থেকে"
+        },
+        {
+          "arabic": "لَّدُنكَ",
+          "meaning": "তোমার নিকট"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:10)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:11": {
+      "arabic": "لَّدُنكَ",
+      "meaning": "তোমার নিকট",
+      "sourceMeaning": "তোমার নিকট",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "لَّدُنكَ → আপনার নিকট",
+      "connection": "لَدُن নিকট/কাছের সম্পর্ক এবং كَ সম্বোধিত ব্যক্তির সর্বনাম। এই দোয়ায় যাকারিয়ার আপনার কাছ থেকে কথাটি ধরুন; আল্লাহর জন্য কোনো কল্পিত স্থান বা আকৃতি আঁকবেন না। এই শব্দের পৃথক প্রদানকারী-অর্থ: «তোমার নিকট»।",
+      "steps": [
+        "আগের مِن এবং শেষের كَ-র সম্পর্ক মিলিয়ে আপনার কাছ থেকে কথাটি মনে রাখুন।",
+        "পুরো «لَّدُنكَ» রূপটি দেখে «তোমার নিকট» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "لَّدُن",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        },
+        {
+          "arabic": "كَ",
+          "meaning": "যুক্ত সর্বনাম/ক্রিয়ার ব্যক্তিসূচক অংশ: তুমি/তোমার—সম্পূর্ণ শব্দার্থে সম্পর্ক মিলিয়ে নিন",
+          "role": "suffix"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "مِن",
+          "meaning": "থেকে"
+        },
+        {
+          "arabic": "لَّدُنكَ",
+          "meaning": "তোমার নিকট"
+        },
+        {
+          "arabic": "رَحْمَةً ۚ",
+          "meaning": "দয়া"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": "এটি শব্দ শেখার সহায়িকা; নিজস্ব তাফসীর বা শরয়ী রায় নয়।",
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:11)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:12": {
+      "arabic": "رَحْمَةً ۚ",
+      "meaning": "দয়া",
+      "sourceMeaning": "দয়া",
+      "meaningNote": null,
+      "kind": "familiar",
+      "anchor": "رَحْمَةً → রহমত / رحمت",
+      "connection": "বাংলার রহমত এবং উর্দুর رحمت দয়া/করুণার পরিচিত শব্দ। Corpus-এ r-h-m মূল; এখানে শব্দার্থ দয়া, যাকারিয়ার পূর্ণ অনুবাদে করুণা। অভিধানের অন্য অর্থ এই আয়াতে বসাবেন না। এই শব্দের পৃথক প্রদানকারী-অর্থ: «দয়া»।",
+      "steps": [
+        "রহমত শুনে দয়া মনে আনুন; وَهَبْ لَنَا-র সঙ্গে আমাদেরকে করুণা দান করুন সম্পর্কটি ধরুন।",
+        "পুরো «رَحْمَةً ۚ» রূপটি দেখে «দয়া» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "رَحْمَةً",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "لَّدُنكَ",
+          "meaning": "তোমার নিকট"
+        },
+        {
+          "arabic": "رَحْمَةً ۚ",
+          "meaning": "দয়া"
+        },
+        {
+          "arabic": "إِنَّكَ",
+          "meaning": "তুমি নিশ্চয়ই"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:12)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        },
+        {
+          "label": "পরিচিত উর্দু শব্দের ব্যবহার: Rekhta Dictionary",
+          "url": "https://rekhtadictionary.com/meaning-of-rahmat"
+        }
+      ]
+    },
+    "3:8:13": {
+      "arabic": "إِنَّكَ",
+      "meaning": "তুমি নিশ্চয়ই",
+      "sourceMeaning": "তুমি নিশ্চয়ই",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "إِنَّكَ → নিশ্চয়ই আপনি",
+      "connection": "إِنَّ বক্তব্যে নিশ্চয়তা এবং كَ সম্বোধিত সর্বনাম। এই দোয়ায় যাকারিয়ার নিশ্চয়ই আপনি অংশটি মনে রাখুন। এই শব্দের পৃথক প্রদানকারী-অর্থ: «তুমি নিশ্চয়ই»।",
+      "steps": [
+        "إِنَّ-র নিশ্চয়তা ও كَ-র আপনি সম্পর্ক আলাদা দেখে পুরো শব্দ পড়ুন।",
+        "পুরো «إِنَّكَ» রূপটি দেখে «তুমি নিশ্চয়ই» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "إِنَّ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        },
+        {
+          "arabic": "كَ",
+          "meaning": "যুক্ত সর্বনাম/ক্রিয়ার ব্যক্তিসূচক অংশ: তুমি/তোমার—সম্পূর্ণ শব্দার্থে সম্পর্ক মিলিয়ে নিন",
+          "role": "suffix"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "رَحْمَةً ۚ",
+          "meaning": "দয়া"
+        },
+        {
+          "arabic": "إِنَّكَ",
+          "meaning": "তুমি নিশ্চয়ই"
+        },
+        {
+          "arabic": "أَنتَ",
+          "meaning": "তুমিই"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:13)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:14": {
+      "arabic": "أَنتَ",
+      "meaning": "তুমিই",
+      "sourceMeaning": "তুমিই",
+      "meaningNote": null,
+      "kind": "grammar",
+      "anchor": "أَنتَ → তুমিই / আপনি",
+      "connection": "এটি আলাদা দ্বিতীয় পুরুষের সর্বনাম। প্রদানকারীর শব্দার্থ তুমিই; পূর্ণ অনুবাদে সম্মানসূচক আপনি আছে। পাশের إِنَّكَ ও ٱلْوَهَّابُ মিলিয়ে বক্তব্য পড়ুন। এই শব্দের পৃথক প্রদানকারী-অর্থ: «তুমিই»।",
+      "steps": [
+        "أَنتَ-কে কোনো নাম ভাববেন না; এটি সম্বোধনের সর্বনাম।",
+        "পুরো «أَنتَ» রূপটি দেখে «তুমিই» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "أَنتَ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "إِنَّكَ",
+          "meaning": "তুমি নিশ্চয়ই"
+        },
+        {
+          "arabic": "أَنتَ",
+          "meaning": "তুমিই"
+        },
+        {
+          "arabic": "ٱلْوَهَّابُ",
+          "meaning": "মহাদাতা"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": null,
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:14)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    },
+    "3:8:15": {
+      "arabic": "ٱلْوَهَّابُ",
+      "meaning": "মহাদাতা",
+      "sourceMeaning": "মহাদাতা",
+      "meaningNote": null,
+      "kind": "meaning",
+      "anchor": "ٱلْوَهَّابُ → মহাদাতা",
+      "connection": "এই নামের অর্থ যাকারিয়ার অনুবাদে মহাদাতা। Corpus অনুযায়ী وَهَبْ এবং وَهَّابُ-র একই w-h-b মূল আছে; আগের শব্দ অনুরোধের ক্রিয়া, এই শব্দ নাম। সম্পর্কটি শুধু শব্দের রূপ ও অর্থ শেখার জন্য; মানুষের দান বা কল্পিত দৃশ্য দিয়ে তুলনা করবেন না। এই শব্দের পৃথক প্রদানকারী-অর্থ: «মহাদাতা»।",
+      "steps": [
+        "وَهَبْ এবং ٱلْوَهَّابُ পাশাপাশি লিখে অনুরোধ বনাম নামের পার্থক্য মনে রাখুন।",
+        "পুরো «ٱلْوَهَّابُ» রূপটি দেখে «মহাদাতা» অর্থটি বলুন।",
+        "পাশের আরবি শব্দগুলোর সঙ্গে সম্পর্ক মিলিয়ে যাকারিয়ার পূর্ণ ৩:৮ অনুবাদ পড়ুন।"
+      ],
+      "parts": [
+        {
+          "arabic": "ٱلْ",
+          "meaning": "নির্দিষ্ট পরিচয়ের অংশ",
+          "role": "prefix"
+        },
+        {
+          "arabic": "وَهَّابُ",
+          "meaning": "শব্দের প্রধান অংশ",
+          "role": "stem"
+        }
+      ],
+      "context": [
+        {
+          "arabic": "أَنتَ",
+          "meaning": "তুমিই"
+        },
+        {
+          "arabic": "ٱلْوَهَّابُ",
+          "meaning": "মহাদাতা"
+        }
+      ],
+      "urduMeaning": null,
+      "caution": "এটি শব্দ শেখার সহায়িকা; নিজস্ব তাফসীর বা শরয়ী রায় নয়।",
+      "sources": [
+        {
+          "label": "আরবি রূপ, মূল ও ব্যাকরণ: Quranic Arabic Corpus",
+          "url": "https://corpus.quran.com/wordmorphology.jsp?location=(3:8:15)"
+        },
+        {
+          "label": "পূর্ণ বাংলা অনুবাদ: ড. আবু বকর মুহাম্মাদ যাকারিয়া",
+          "url": "https://quran.com/3/8?translations=213"
+        },
+        {
+          "label": "মূল পৃথক বাংলা শব্দার্থ ও ট্রান্সলিটারেশন: Quran.com",
+          "url": "https://api.quran.com/api/v4/verses/by_key/3:8?language=bn&words=true&fields=text_uthmani&word_fields=text_uthmani&translations=213"
+        }
+      ]
+    }
+  }
+}

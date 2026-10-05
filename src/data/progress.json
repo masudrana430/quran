@@ -10676,7 +10676,7 @@
     }
   ],
   "detailedAidProgress": {
-    "completedCount": 300,
+    "completedCount": 301,
     "completedVerseKeys": [
       "1:1",
       "1:2",
@@ -10977,19 +10977,36 @@
       "3:4",
       "3:5",
       "3:6",
-      "3:7"
+      "3:7",
+      "3:8"
     ],
-    "wordCount": 6252,
-    "nextVerseKey": "3:8",
+    "wordCount": 6267,
+    "nextVerseKey": "3:9",
     "targetCanonicalAyahs": 1000,
     "targetLastVerseKey": "7:46",
     "sources": [
       "src/data/first-100-urdu-glosses.json",
       "src/data/first-100-segments.json",
       "src/data/next-200-urdu-glosses.json",
-      "src/data/next-200-segments.json"
+      "src/data/next-200-segments.json",
+      "src/data/detailed-word-aids-continuation.json",
+      "src/data/continuation-segments.json",
+      "src/data/continuation-source-3-8.json"
     ],
-    "scope": "Detailed authored word aids; separate from imported ayah coverage."
+    "scope": "Detailed authored word aids; separate from imported ayah coverage.",
+    "lastReview": {
+      "ayahCount": 1,
+      "wordCount": 15,
+      "verseKeys": [
+        "3:8"
+      ],
+      "nextVerseKey": "3:9",
+      "translationResource": 213,
+      "scope": "Complete authored word aids for 3:8 only; separate from imported coverage.",
+      "verifiedAt": "2026-10-05",
+      "sourceResponseSha256": "b780529f7243bd362598718505cd254e7605409586761c4a1ea4b30d8dba50ea",
+      "policy": "Lexical and grammar aids only; no independent tafsir, rulings, imagined forms or human analogies for Allah. Familiar terms verified through Rekhta; original source objects retained."
+    }
   },
   "updatedAt": "2026-10-04T18:26:37.109Z",
   "totalAyahs": 6236,
