@@ -39,8 +39,8 @@ test("Final 106 additions complete all 114 surahs and exactly 6,236 canonical ve
   assert.deepEqual(request.batches.flatMap((b: { added: string[] }) => b.added), request.addedVerseKeys);
   assert.equal(request.addedVerseKeys.reduce((n: number, key: string) => n + verse(key).words.length, 0), 482);
   assert.equal(request.fullyDetailedAyahsAdded, 0);
-  assert.equal(progress.detailedAidProgress.completedCount, 301);
-  assert.equal(progress.detailedAidProgress.nextVerseKey, "3:9");
+  assert.equal(progress.detailedAidProgress.completedCount, 801);
+  assert.equal(progress.detailedAidProgress.nextVerseKey, "6:13");
 });
 
 test("108:1 spelling alignment permits only the documented position and exact source fingerprints", () => {
@@ -77,7 +77,7 @@ test("Completed coverage displays the current status without claiming all detail
   const html = renderToStaticMarkup(React.createElement(AboutPage));
   assert.match(html, /৬,২৩৬/);
   assert.match(html, /সব ১১৪টি সূরার আয়াত যোগ হয়েছে/);
-  assert.match(html, /প্রথম ৩০১ আয়াতে/);
+  assert.match(html, /প্রথম ৮০১ আয়াতে/);
   assert.match(html, /শব্দের বিস্তারিত সহায়িকা ও উৎস পর্যালোচনার কাজ চলমান/);
   assert.doesNotMatch(html, /পরবর্তী ৩০০ আয়াত যোগ|মনে রাখার অনুশীলন/);
 });

@@ -25,11 +25,11 @@ test("Batch mnemonic generation preserves verified existing verses while generat
 });
 
 test("Detailed progress matches both source overlays and stays separate from imported coverage", () => {
-  const overlays = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation"].map((name) => JSON.parse(readFileSync(`src/data/${name}.json`, "utf8")));
+  const overlays = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation", "detailed-word-aids-500"].map((name) => JSON.parse(readFileSync(`src/data/${name}.json`, "utf8")));
   assert.deepEqual(progress.detailedAidProgress.completedVerseKeys, overlays.flatMap((o) => o.review.verseKeys));
-  assert.equal(progress.detailedAidProgress.completedCount, 301);
+  assert.equal(progress.detailedAidProgress.completedCount, 801);
   assert.equal(progress.detailedAidProgress.wordCount, overlays.reduce((n, o) => n + Object.keys(o.words).length, 0));
-  assert.equal(progress.detailedAidProgress.nextVerseKey, "3:9");
-  assert.equal(progress.detailedAidProgress.targetLastVerseKey, "7:46");
+  assert.equal(progress.detailedAidProgress.nextVerseKey, "6:13");
+  assert.equal(progress.detailedAidProgress.targetLastVerseKey, "114:6");
   assert.ok(progress.completedCount > progress.detailedAidProgress.completedCount);
 });

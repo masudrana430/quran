@@ -1,0 +1,42 @@
+name: Generate verified detailed 500-ayah batch
+
+on:
+  push:
+    branches: [feat/detailed-aids-3-8]
+    paths:
+      - scripts/build-detailed-aids-500.ts
+      - .github/workflows/generate-detailed-500.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feat/detailed-aids-3-8
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Fetch Quranic Arabic Corpus v0.4 mirror
+        run: curl --fail --location --retry 3 --output /tmp/quran-corpus-v04.txt https://raw.githubusercontent.com/taziksh/quran-frequencies/main/data/quranic-corpus-morphology-0.4.txt
+      - name: Generate source-verified detailed aids
+        run: npm run build:detailed-aids-500 -- --corpus=/tmp/quran-corpus-v04.txt
+      - run: npm run validate:data
+      - run: npm test
+      - run: npm run lint
+      - run: npm run build
+      - name: Commit verified generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/detailed-word-aids-500.json src/data/detailed-500-segments.json src/data/detailed-500-urdu-glosses.json src/data/detailed-500-source-verification.json src/data/progress.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Generate verified detailed aids for 3:9-6:12"
+          git push origin HEAD:feat/detailed-aids-3-8

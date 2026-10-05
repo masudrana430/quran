@@ -38,7 +38,7 @@ test("The 3,130–4,130 request records 1,000 unique canonical additions in four
   assert.equal(new Set(request.addedVerseKeys).size, 1000);
   assert.deepEqual(request.batches.map((b: { added: string[] }) => b.added.length), [250, 250, 250, 250]);
   assert.deepEqual(request.batches.flatMap((b: { added: string[] }) => b.added), request.addedVerseKeys);
-  assert.equal(progress.detailedAidProgress.completedCount, 301);
+  assert.equal(progress.detailedAidProgress.completedCount, 801);
 });
 
 test("Attribute passages and salawat keep textual meanings instead of prayer or human-image cues", () => {

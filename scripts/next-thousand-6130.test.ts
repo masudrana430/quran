@@ -22,7 +22,7 @@ test("The 5,130–6,130 request skips existing Al-Mulk and adds exactly 1,000 ay
   assert.deepEqual(r.batches.flatMap((b: { added: string[] }) => b.added), r.addedVerseKeys);
   assert.equal(r.wordCount, 6868);
   assert.equal(r.addedVerseKeys.reduce((n: number, k: string) => n + verse(k).words.length, 0), 6868);
-  assert.equal(progress.detailedAidProgress.completedCount, 301);
+  assert.equal(progress.detailedAidProgress.completedCount, 801);
   assert.equal(r.fullyDetailedAyahsAdded, 0);
   for (const s of library.surahs.filter((s) => s.surah.number <= 97)) assert.equal(s.ayahs.length, s.surah.versesCount);
 });
