@@ -6,7 +6,6 @@ import { nextProfile, nextMeaningPicture } from "../src/data/next-detailed-aid-p
 import type { Ayah, SurahData } from "../src/types/quran";
 import type { WordMorph } from "./sync-morphology";
 
-const START = "3:9";
 const LIMIT = 500;
 const API = "https://api.quran.com/api/v4";
 const POLICY = "Lexical and grammar learning aids only; contextual meaning anchored to Zakaria 213. No independent tafsir/rulings, forced etymology, human analogy or imagined form for Allah.";
@@ -29,10 +28,10 @@ function plain(value: string) {
   return value.replace(/<[^>]*>/g, "").replace(/^['"\s]+|['"\s]+$/g, "");
 }
 
-export function selectNextFiveHundred(surahs: SurahData[]) {
+export function selectNextFiveHundred(surahs: SurahData[], startKey = "3:9") {
   const all = surahs.flatMap((s) => s.ayahs);
-  const start = all.findIndex((a) => a.verseKey === START);
-  if (start < 0) throw new Error(`Missing detailed start ${START}`);
+  const start = all.findIndex((a) => a.verseKey === startKey);
+  if (start < 0) throw new Error(`Missing detailed start ${startKey}`);
   const selected = all.slice(start, start + LIMIT);
   if (selected.length !== LIMIT) throw new Error(`Expected ${LIMIT} ayahs`);
   return selected;
@@ -102,17 +101,24 @@ async function sourceInputs(selected: Ayah[]) {
   return { urduGlosses, sourceVerification: { checkedAt: "2026-10-06", translationResource: 213, verseCount: selected.length, responses, verses: verification } };
 }
 
-async function main() {
-  const library = readLibraryData(), selected = selectNextFiveHundred(library.surahs);
+type BatchConfig = {
+  startKey: string;
+  nextVerseKey: string;
+  scope: string;
+  fileSuffix: string;
+  verifiedAt: string;
+};
+
+export async function runDetailedBatch(config: BatchConfig) {
+  const library = readLibraryData(), selected = selectNextFiveHundred(library.surahs, config.startKey);
   const morphology = JSON.parse(await readFile("src/data/word-morphology.json", "utf8")) as Record<string, WordMorph>;
   const corpusPath = process.argv.find((a) => a.startsWith("--corpus="))?.slice(9);
   if (!corpusPath) throw new Error("Pass --corpus=<Quranic Arabic Corpus v0.4 text>");
   const corpus = await readFile(corpusPath, "utf8");
   const segments = segmentSnapshot(corpus, library.surahs, selected);
   const { urduGlosses, sourceVerification } = await sourceInputs(selected);
-  const nextVerseKey = "6:13";
   const details = buildDetailedAids(library.surahs, morphology, urduGlosses, segments, {
-    selected, profileForWord: nextProfile, nextVerseKey, fallbackPictures: false,
+    selected, profileForWord: nextProfile, nextVerseKey: config.nextVerseKey, fallbackPictures: false,
     expandedParts: true, fallbackPicture: nextMeaningPicture,
   });
   for (const [key, word] of Object.entries(details.words)) {
@@ -127,47 +133,54 @@ async function main() {
       word.caution = [word.caution, "এই আয়াতে আল্লাহর নাম, সিফাত বা কাজের প্রসঙ্গ থাকতে পারে; মানুষের সঙ্গে তুলনা বা কল্পিত আকৃতি ব্যবহার করবেন না। শব্দের সহায়িকা কোনো নিজস্ব তাফসীর যোগ করছে না।"].filter(Boolean).join(" ");
     }
   }
-  Object.assign(details.review, { scope: "3:9–6:12", translationResource: 213, sourceVerification: "src/data/detailed-500-source-verification.json", policy: POLICY });
+  const base = `detailed-${config.fileSuffix}`;
+  const aidFile = `src/data/detailed-word-aids-${config.fileSuffix}.json`;
+  const segmentFile = `src/data/${base}-segments.json`;
+  const urduFile = `src/data/${base}-urdu-glosses.json`;
+  const verificationFile = `src/data/${base}-source-verification.json`;
+  Object.assign(details.review, { scope: config.scope, translationResource: 213, sourceVerification: verificationFile, policy: POLICY });
   await Promise.all([
-    writeFile("src/data/detailed-word-aids-500.json", JSON.stringify(details) + "\n"),
-    writeFile("src/data/detailed-500-segments.json", JSON.stringify(segments) + "\n"),
-    writeFile("src/data/detailed-500-urdu-glosses.json", JSON.stringify(urduGlosses) + "\n"),
-    writeFile("src/data/detailed-500-source-verification.json", JSON.stringify(sourceVerification, null, 2) + "\n"),
+    writeFile(aidFile, JSON.stringify(details) + "\n"),
+    writeFile(segmentFile, JSON.stringify(segments) + "\n"),
+    writeFile(urduFile, JSON.stringify(urduGlosses) + "\n"),
+    writeFile(verificationFile, JSON.stringify({ ...sourceVerification, checkedAt: config.verifiedAt }, null, 2) + "\n"),
   ]);
   const progressPath = "src/data/progress.json";
   const progress = JSON.parse(await readFile(progressPath, "utf8"));
   const state = progress.detailedAidProgress;
   const verseKeys = selected.map((ayah) => ayah.verseKey);
-  if (state.nextVerseKey === START) {
+  if (state.nextVerseKey === config.startKey) {
     state.completedVerseKeys.push(...verseKeys);
     state.completedCount += selected.length;
     state.wordCount += Object.keys(details.words).length;
-    state.nextVerseKey = nextVerseKey;
+    state.nextVerseKey = config.nextVerseKey;
     state.targetCanonicalAyahs = 6236;
     state.targetLastVerseKey = "114:6";
     state.sources.push(
-      "src/data/detailed-word-aids-500.json",
-      "src/data/detailed-500-segments.json",
-      "src/data/detailed-500-urdu-glosses.json",
-      "src/data/detailed-500-source-verification.json",
+      aidFile,
+      segmentFile,
+      urduFile,
+      verificationFile,
     );
     state.lastReview = {
       ayahCount: selected.length,
       wordCount: Object.keys(details.words).length,
       verseKeys,
-      nextVerseKey,
+      nextVerseKey: config.nextVerseKey,
       translationResource: 213,
-      scope: "3:9–6:12",
-      verifiedAt: "2026-10-06",
-      sourceVerification: "src/data/detailed-500-source-verification.json",
+      scope: config.scope,
+      verifiedAt: config.verifiedAt,
+      sourceVerification: verificationFile,
       policy: POLICY,
     };
     await writeFile(progressPath, JSON.stringify(progress, null, 2) + "\n");
   } else if (
-    state.nextVerseKey !== nextVerseKey ||
+    state.nextVerseKey !== config.nextVerseKey ||
     !verseKeys.every((key: string) => state.completedVerseKeys.includes(key))
   ) throw new Error(`Unexpected detailed progress ${state.nextVerseKey}`);
   console.log({ ...details.review, verseKeys: undefined });
 }
 
-if (process.argv[1]?.endsWith("build-detailed-aids-500.ts")) main().catch((error) => { console.error(error); process.exitCode = 1; });
+if (process.argv[1]?.endsWith("build-detailed-aids-500.ts"))
+  runDetailedBatch({ startKey: "3:9", nextVerseKey: "6:13", scope: "3:9–6:12", fileSuffix: "500", verifiedAt: "2026-10-06" })
+    .catch((error) => { console.error(error); process.exitCode = 1; });
