@@ -6,21 +6,22 @@ import nextDetailed from "@/data/detailed-word-aids-next-200.json";
 import continuation from "@/data/detailed-word-aids-continuation.json";
 import detailedFiveHundred from "@/data/detailed-word-aids-500.json";
 import detailedFiveHundredSecond from "@/data/detailed-word-aids-500-second.json";
+import detailedFiveHundredThird from "@/data/detailed-word-aids-500-third.json";
 import clarifications from "@/data/source-word-clarifications.json";
 import { attachDetailedAids } from "./detailed-aids";
 import type { DetailedWordAid, SurahData, SurahInfo } from "@/types/quran";
 export const catalog = chapters as SurahInfo[];
 export const surahs = attachDetailedAids(
   library.surahs as SurahData[],
-  { ...detailed.words, ...nextDetailed.words, ...continuation.words, ...detailedFiveHundred.words, ...detailedFiveHundredSecond.words, ...clarifications.words } as Record<
+  { ...detailed.words, ...nextDetailed.words, ...continuation.words, ...detailedFiveHundred.words, ...detailedFiveHundredSecond.words, ...detailedFiveHundredThird.words, ...clarifications.words } as Record<
     string,
     DetailedWordAid
   >,
 );
 export const detailedProgress = {
-  ayahCount: detailed.review.ayahCount + nextDetailed.review.ayahCount + continuation.review.ayahCount + detailedFiveHundred.review.ayahCount + detailedFiveHundredSecond.review.ayahCount,
-  wordCount: detailed.review.wordCount + nextDetailed.review.wordCount + continuation.review.wordCount + detailedFiveHundred.review.wordCount + detailedFiveHundredSecond.review.wordCount,
-  nextVerseKey: detailedFiveHundredSecond.review.nextVerseKey,
+  ayahCount: detailed.review.ayahCount + nextDetailed.review.ayahCount + continuation.review.ayahCount + detailedFiveHundred.review.ayahCount + detailedFiveHundredSecond.review.ayahCount + detailedFiveHundredThird.review.ayahCount,
+  wordCount: detailed.review.wordCount + nextDetailed.review.wordCount + continuation.review.wordCount + detailedFiveHundred.review.wordCount + detailedFiveHundredSecond.review.wordCount + detailedFiveHundredThird.review.wordCount,
+  nextVerseKey: detailedFiveHundredThird.review.nextVerseKey,
 };
 export const contentProgress = progress;
 export function getSurahByNumber(value: string | number): SurahData | null {

@@ -73,9 +73,9 @@ test("Meaning comparisons never claim sound-based etymology and divine-context v
 
 test("Progress records imported and detailed coverage separately without overlapping earlier overlays", () => {
   const progress = read("progress").detailedAidProgress;
-  assert.equal(progress.completedCount, 1301);
-  assert.equal(progress.wordCount, 25019);
-  assert.equal(progress.nextVerseKey, "9:67");
+  assert.equal(progress.completedCount, 1801);
+  assert.equal(progress.wordCount, 33475);
+  assert.equal(progress.nextVerseKey, "14:52");
   assert.equal(progress.targetCanonicalAyahs, 6236);
   assert.equal(progress.targetLastVerseKey, "114:6");
   const earlier = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation"].flatMap((name) => Object.keys(read(name).words));

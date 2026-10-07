@@ -23,7 +23,7 @@ test("The 4,130–5,130 request records 1,000 distinct ayahs and 10,065 new word
   assert.deepEqual(r.batches.flatMap((b: { added: string[] }) => b.added), r.addedVerseKeys);
   assert.equal(r.wordCount, 10065);
   assert.equal(r.addedVerseKeys.reduce((n: number, k: string) => n + verse(k).words.length, 0), 10065);
-  assert.equal(progress.detailedAidProgress.completedCount, 1301);
+  assert.equal(progress.detailedAidProgress.completedCount, 1801);
 });
 
 test("Six contextual clarifications use exact Zakaria wording without changing provider word glosses", () => {
