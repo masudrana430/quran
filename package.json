@@ -15,7 +15,8 @@
     "build:next-detailed-aids": "node --import tsx scripts/build-next-detailed-aids.ts",
     "build:detailed-aids-500": "node --import tsx scripts/build-detailed-aids-500.ts",
     "build:detailed-aids-500-second": "node --import tsx scripts/build-detailed-aids-500-second.ts",
-    "build:detailed-aids-500-third": "node --import tsx scripts/build-detailed-aids-500-third.ts"
+    "build:detailed-aids-500-third": "node --import tsx scripts/build-detailed-aids-500-third.ts",
+    "build:detailed-aids-500-fourth": "node --import tsx scripts/build-detailed-aids-500-fourth.ts"
   },
   "dependencies": {
     "next": "16.2.6",

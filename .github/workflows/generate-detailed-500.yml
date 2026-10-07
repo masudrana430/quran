@@ -7,6 +7,7 @@ on:
       - scripts/build-detailed-aids-500.ts
       - scripts/build-detailed-aids-500-second.ts
       - scripts/build-detailed-aids-500-third.ts
+      - scripts/build-detailed-aids-500-fourth.ts
       - .github/workflows/generate-detailed-500.yml
   workflow_dispatch:
 
@@ -29,7 +30,7 @@ jobs:
       - name: Fetch Quranic Arabic Corpus v0.4 mirror
         run: curl --fail --location --retry 3 --output /tmp/quran-corpus-v04.txt https://raw.githubusercontent.com/taziksh/quran-frequencies/main/data/quranic-corpus-morphology-0.4.txt
       - name: Generate source-verified detailed aids
-        run: npm run build:detailed-aids-500-third -- --corpus=/tmp/quran-corpus-v04.txt
+        run: npm run build:detailed-aids-500-fourth -- --corpus=/tmp/quran-corpus-v04.txt
       - run: npm run validate:data
       - run: npm test
       - run: npm run lint
@@ -38,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add src/data/detailed-word-aids-500-third.json src/data/detailed-500-third-segments.json src/data/detailed-500-third-urdu-glosses.json src/data/detailed-500-third-source-verification.json src/data/progress.json
+          git add src/data/detailed-word-aids-500-fourth.json src/data/detailed-500-fourth-segments.json src/data/detailed-500-fourth-urdu-glosses.json src/data/detailed-500-fourth-source-verification.json src/data/progress.json
           git diff --cached --quiet && exit 0
-          git commit -m "Generate verified detailed aids for 9:67-14:51"
+          git commit -m "Generate verified detailed aids for 14:52-19:51"
           git push origin HEAD:feat/detailed-aids-3-8

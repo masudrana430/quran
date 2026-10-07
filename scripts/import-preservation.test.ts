@@ -25,11 +25,11 @@ test("Batch mnemonic generation preserves verified existing verses while generat
 });
 
 test("Detailed progress matches both source overlays and stays separate from imported coverage", () => {
-  const overlays = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation", "detailed-word-aids-500", "detailed-word-aids-500-second", "detailed-word-aids-500-third"].map((name) => JSON.parse(readFileSync(`src/data/${name}.json`, "utf8")));
+  const overlays = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation", "detailed-word-aids-500", "detailed-word-aids-500-second", "detailed-word-aids-500-third", "detailed-word-aids-500-fourth"].map((name) => JSON.parse(readFileSync(`src/data/${name}.json`, "utf8")));
   assert.deepEqual(progress.detailedAidProgress.completedVerseKeys, overlays.flatMap((o) => o.review.verseKeys));
-  assert.equal(progress.detailedAidProgress.completedCount, 1801);
+  assert.equal(progress.detailedAidProgress.completedCount, 2301);
   assert.equal(progress.detailedAidProgress.wordCount, overlays.reduce((n, o) => n + Object.keys(o.words).length, 0));
-  assert.equal(progress.detailedAidProgress.nextVerseKey, "14:52");
+  assert.equal(progress.detailedAidProgress.nextVerseKey, "19:52");
   assert.equal(progress.detailedAidProgress.targetLastVerseKey, "114:6");
   assert.ok(progress.completedCount > progress.detailedAidProgress.completedCount);
 });
