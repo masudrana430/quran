@@ -73,8 +73,8 @@ test("Second batch does not overlap earlier detailed overlays or force etymology
 
 test("Detailed progress includes the later continuation without changing this batch", () => {
   const progress = read("progress").detailedAidProgress;
-  assert.equal(progress.completedCount, 2301);
-  assert.equal(progress.wordCount, 39643);
-  assert.equal(progress.nextVerseKey, "19:52");
-  assert.equal(new Set(progress.completedVerseKeys).size, 2301);
+  assert.equal(progress.completedCount, 2801);
+  assert.equal(progress.wordCount, 45049);
+  assert.equal(progress.nextVerseKey, "24:11");
+  assert.equal(new Set(progress.completedVerseKeys).size, 2801);
 });

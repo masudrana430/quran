@@ -11,25 +11,25 @@ const read = (name: string) => JSON.parse(readFileSync(`src/data/${name}.json`, 
 const hash = (value: string) => createHash("sha256").update(value).digest("hex");
 const plain = (value: string) => value.replace(/<[^>]*>/g, "").replace(/^['"\s]+|['"\s]+$/g, "");
 const library = readLibraryData();
-const selected = selectNextFiveHundred(library.surahs, "9:67");
-const overlay = read("detailed-word-aids-500-third");
-const segments = read("detailed-500-third-segments");
-const urdu = read("detailed-500-third-urdu-glosses");
-const verification = read("detailed-500-third-source-verification");
+const selected = selectNextFiveHundred(library.surahs, "19:52");
+const overlay = read("detailed-word-aids-500-fifth");
+const segments = read("detailed-500-fifth-segments");
+const urdu = read("detailed-500-fifth-urdu-glosses");
+const verification = read("detailed-500-fifth-source-verification");
 const morphology = read("word-morphology");
 
-test("Third detailed batch is exactly 500 canonical ayahs from 9:67 through 14:51", () => {
+test("Fifth detailed batch is exactly 500 canonical ayahs from 19:52 through 24:10", () => {
   assert.equal(selected.length, 500);
-  assert.equal(selected[0].verseKey, "9:67");
-  assert.equal(selected.at(-1)?.verseKey, "14:51");
+  assert.equal(selected[0].verseKey, "19:52");
+  assert.equal(selected.at(-1)?.verseKey, "24:10");
   assert.deepEqual(overlay.review.verseKeys, selected.map((ayah) => ayah.verseKey));
   assert.equal(overlay.review.ayahCount, 500);
-  assert.equal(overlay.review.wordCount, 8456);
-  assert.equal(Object.keys(overlay.words).length, 8456);
-  assert.equal(overlay.review.nextVerseKey, "14:52");
+  assert.equal(overlay.review.wordCount, 5406);
+  assert.equal(Object.keys(overlay.words).length, 5406);
+  assert.equal(overlay.review.nextVerseKey, "24:11");
 });
 
-test("Every third-batch word is source-verified, Corpus-aligned and attached", () => {
+test("Every fifth-batch word is source-verified, Corpus-aligned and attached", () => {
   const renderedAyahs = attachDetailedAids(library.surahs, overlay.words as Record<string, DetailedWordAid>).flatMap((surah) => surah.ayahs);
   for (const ayah of selected) {
     const source = verification.verses[ayah.verseKey];
@@ -52,12 +52,11 @@ test("Every third-batch word is source-verified, Corpus-aligned and attached", (
   }
 });
 
-test("Third batch is distinct, avoids forced etymology and preserves prior overlays", () => {
-  const earlier = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation", "detailed-word-aids-500", "detailed-word-aids-500-second"];
+test("Fifth batch is distinct, avoids forced etymology and preserves prior overlays", () => {
+  const earlier = ["detailed-word-aids", "detailed-word-aids-next-200", "detailed-word-aids-continuation", "detailed-word-aids-500", "detailed-word-aids-500-second", "detailed-word-aids-500-third", "detailed-word-aids-500-fourth"];
   const current = new Set(Object.keys(overlay.words));
   for (const name of earlier) for (const key of Object.keys(read(name).words)) assert.ok(!current.has(key), key);
-  assert.equal(hash(readFileSync("src/data/detailed-word-aids-500.json", "utf8")), "5f587164ed09e87bcf753ddc1fe9b5a10ca18a8508034dbed3a4e3792a98e86f");
-  assert.equal(hash(readFileSync("src/data/detailed-word-aids-500-second.json", "utf8")), "f478d88fa14f38868d2cfef2a4a59a707b85f65db2231900df6fa4f1a4bb5ac8");
+  assert.equal(hash(readFileSync("src/data/detailed-word-aids-500-fourth.json", "utf8")), "29a13c732c983df2cc37d7d5a4fdf788a2c6ebd4c0f16806ca7f2457f23ad164");
   for (const ayah of selected) for (const word of ayah.words) {
     const aid = overlay.words[`${ayah.verseKey}:${word.position}`];
     if (aid.kind === "meaning" && aid.anchor.startsWith("বাংলা অর্থ ↔ উর্দু"))
@@ -67,10 +66,12 @@ test("Third batch is distinct, avoids forced etymology and preserves prior overl
   }
 });
 
-test("Detailed progress includes the fourth continuation without changing this batch", () => {
+test("Detailed progress advances to 2,801 ayahs and 45,049 words", () => {
   const progress = read("progress").detailedAidProgress;
   assert.equal(progress.completedCount, 2801);
   assert.equal(progress.wordCount, 45049);
   assert.equal(progress.nextVerseKey, "24:11");
   assert.equal(new Set(progress.completedVerseKeys).size, 2801);
+  assert.equal(progress.lastReview.scope, "19:52–24:10");
+  assert.equal(progress.lastReview.sourceVerification, "src/data/detailed-500-fifth-source-verification.json");
 });

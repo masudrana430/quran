@@ -66,12 +66,10 @@ test("Fourth batch is distinct, avoids forced etymology and preserves prior over
   }
 });
 
-test("Detailed progress advances to 2,301 ayahs and 39,643 words", () => {
+test("Detailed progress includes the fifth continuation without changing this batch", () => {
   const progress = read("progress").detailedAidProgress;
-  assert.equal(progress.completedCount, 2301);
-  assert.equal(progress.wordCount, 39643);
-  assert.equal(progress.nextVerseKey, "19:52");
-  assert.equal(new Set(progress.completedVerseKeys).size, 2301);
-  assert.equal(progress.lastReview.scope, "14:52–19:51");
-  assert.equal(progress.lastReview.sourceVerification, "src/data/detailed-500-fourth-source-verification.json");
+  assert.equal(progress.completedCount, 2801);
+  assert.equal(progress.wordCount, 45049);
+  assert.equal(progress.nextVerseKey, "24:11");
+  assert.equal(new Set(progress.completedVerseKeys).size, 2801);
 });
